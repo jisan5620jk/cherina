@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Manrope:wght@200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/*Common Tailwind CSS Start Here*/
+
+.Container {
+  @apply w-full sm:w-[540px] md:w-[720px] lg:w-[960px] xl:w-[1140px] 2xl:w-[1320px]  px-2 md:px-3 lg:px-4 xl:px-5 mx-auto;
+}
+
+.primary-btn{
+    @apply bg-PrimaryColor-0 rounded-full font-Manrope font-medium text-white py-[14px] px-9 flex gap-2 items-center overflow-hidden relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-0 before:bg-SecondaryColor-0 before:-z-10 before:transition-all before:duration-500 hover:before:h-1/2 after:absolute after:bottom-0 after:left-0 after:w-full after:h-0 after:bg-SecondaryColor-0 after:-z-10 after:transition-all after:duration-500 hover:after:h-1/2
+}
+
+
+.sub-title{
+    @apply font-Lobster text-lg text-PrimaryColor-0 inline-block relative before:absolute before:-bottom-1 before:left-0 before:w-9 before:h-[2px] before:bg-SecondaryColor-0 hover:before:w-full before:transition-all before:duration-500
+  }
