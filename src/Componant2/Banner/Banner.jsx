@@ -19,7 +19,7 @@ const Banner = () => {
   return (
     <Swiper {...settings}>
       <SwiperSlide>
-        <section className="bg-[url('../../../public/images/Componant2/banner/hero-bg3.png')] bg-center bg-cover h-[920px] w-full flex items-center justify-center">
+        <section className="bg-[url('/../../../public/images/Componant2/banner/hero-bg3.png')] bg-center bg-cover h-[920px] w-full flex items-center justify-center">
           <div className="Container flex flex-col items-center justify-center">
             <div>
               <img src={bannerShape} className="animate-zoomInOut" />
