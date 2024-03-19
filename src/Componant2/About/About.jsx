@@ -29,7 +29,7 @@ const About = () => {
               <h1 className="text-HeadingColor-0 xl:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold leading-[52px] mt-6">
                 Make your Goals Always to
                 <br /> Helps
-                <span className="text-PrimaryColor-0">Poor People</span>
+                <span className="text-PrimaryColor-0"> Poor People</span>
               </h1>
               <p className="text-TextColor-0 font-Manrope mt-6">
                 Phosfluorescently cultivate enabled relationships without sticky

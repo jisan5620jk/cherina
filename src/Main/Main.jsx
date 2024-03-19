@@ -1,7 +1,9 @@
 import About from "../Componant2/About/About";
 import Banner from "../Componant2/Banner/Banner";
 import Donate from "../Componant2/Donate/Donate";
+import Events from "../Componant2/Event/Events";
 import Feature from "../Componant2/Feature/Feature";
+import Mission from "../Componant2/Mission/Mission";
 import Project from "../Componant2/Project/Project";
 import Support from "../Componant2/Support/Support";
 import Volunteer from "../Componant2/Volunteer/Volunteer";
@@ -19,6 +21,8 @@ const Main = () => {
       <Donate />
       <Volunteer />
       <Support />
+      <Events />
+      <Mission/>
     </>
   );
 };

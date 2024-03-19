@@ -28,7 +28,11 @@ body {
   @apply font-Lobster text-lg text-PrimaryColor-0 inline-block relative before:absolute before:-bottom-1 before:left-0 before:w-9 before:h-[2px] before:bg-SecondaryColor-0 hover:before:w-full before:transition-all before:duration-500;
 }
 
-h2.rect-progress-bar-percent {
+.rect-progress-bar-percent {
   margin: 0 !important;
   line-height: 10px;
+}
+
+.react-tabs__tab--selected::before {
+  width: 20px !important;
 }

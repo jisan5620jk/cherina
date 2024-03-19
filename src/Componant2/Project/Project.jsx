@@ -12,7 +12,7 @@ const Project = () => {
         </h5>
         <h1 className="text-white xl:text-[42px] font-Manrope font-extrabold leading-[52px] mt-6">
           Our Ongoing
-          <span className="text-PrimaryColor-0">Projects</span>
+          <span className="text-PrimaryColor-0"> Projects</span>
         </h1>
         <div className="grid grid-cols-4 justify-between mt-[70px]">
           <div>

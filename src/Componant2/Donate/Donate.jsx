@@ -24,7 +24,7 @@ const Donate = () => {
         <h5 className="sub-title">Start Donating Theme</h5>
         <h1 className="text-HeadingColor-0 xl:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold leading-[52px] mt-6 -mb-12">
           Our Featured
-          <span className="text-PrimaryColor-0">Campaigns</span>
+          <span className="text-PrimaryColor-0"> Campaigns</span>
         </h1>
         <Swiper {...settings}>
           <SwiperSlide>
