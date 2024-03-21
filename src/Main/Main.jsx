@@ -4,6 +4,7 @@ import Blog from "../Componant2/Blog/Blog";
 import Donate from "../Componant2/Donate/Donate";
 import Events from "../Componant2/Event/Events";
 import Feature from "../Componant2/Feature/Feature";
+import Gallary from "../Componant2/Gallary/Gallary";
 import Mission from "../Componant2/Mission/Mission";
 import Project from "../Componant2/Project/Project";
 import Support from "../Componant2/Support/Support";
@@ -25,6 +26,7 @@ const Main = () => {
       <Events />
       <Mission/>
       <Blog />
+      <Gallary />
     </>
   );
 };
