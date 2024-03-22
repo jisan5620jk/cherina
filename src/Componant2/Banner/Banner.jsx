@@ -12,7 +12,7 @@ const Banner = () => {
     loop: true,
     modules: [Navigation],
     speed: 1000,
-    slidesPerVeiw: 1,
+    slidesPerView: 1,
     autoplay: true,
   };
 

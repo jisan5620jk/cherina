@@ -36,3 +36,12 @@ body {
 .react-tabs__tab--selected::before {
   width: 20px !important;
 }
+
+.gallary .swiper-slide-active .gallary-box::before {
+  height: 100%;
+}
+
+.gallary .swiper-slide-active .gallary-title {
+  opacity: 1;
+  bottom: 50%;
+}
