@@ -10,7 +10,6 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import DonateNavigation from "./DonateNavigation";
 
-
 const Donate = () => {
   const settings = {
     loop: true,
@@ -22,24 +21,21 @@ const Donate = () => {
     <section className="py-28">
       <div className="Container">
         <h5 className="sub-title">Start Donating Theme</h5>
-        <h1 className="text-HeadingColor-0 xl:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold leading-[52px] mt-6 -mb-12">
+        <h1 className="text-HeadingColor-0 text-[22px] sm:text-4xl leading-8 md:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold sm:leading-[52px] mt-6 mb-4 md:-mb-12">
           Our Featured
           <span className="text-PrimaryColor-0"> Campaigns</span>
         </h1>
         <Swiper {...settings}>
           <SwiperSlide>
-            <div className="flex items-center gap-16 bg-[#fff8f5] rounded-md mt-28">
+            <div className="flex flex-col lg:flex-row items-center gap-16 bg-[#fff8f5] rounded-md mt-28">
               <div className="flex-1">
                 <img src={donateimg} />
               </div>
-              <div className="flex-1 pr-10">
+              <div className="flex-1 pr-10 pl-5 sm:pl-7 lg:pl-0 lg:py-7 xl:py-0">
                 <h6 className="text-sm font-medium font-Manrope bg-SecondaryColor-0 text-white rounded-3xl py-2 px-6 inline-block">
                   Education
                 </h6>
-                <h1
-                  className="font-Manrope
-           text-[28px] font-extrabold leading-9 mt-6 mb-6"
-                >
+                <h1 className="font-Manrope text-[18px] sm:text-2xl leading-8 md:text-[28px] font-extrabold sm:leading-9 mt-6 mb-6">
                   Campaign for Buy Medicine <br />
                   for Street Childreen’s
                 </h1>

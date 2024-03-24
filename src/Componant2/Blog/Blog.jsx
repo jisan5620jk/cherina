@@ -13,7 +13,7 @@ const Blog = () => {
           <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">
             Read Latest Articles
           </h5>
-          <h1 className="text-HeadingColor-0 xl:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold leading-[52px] mt-6">
+          <h1 className="text-HeadingColor-0 text-[22px] sm:text-4xl leading-8 md:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold sm:leading-[52px] mt-6">
             Directly from the Latest
             <br /> News &<span className="text-PrimaryColor-0"> Articles</span>
           </h1>
@@ -21,7 +21,7 @@ const Blog = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-14">
           <div className="inline-block mb-7 bg-white">
             <div className="relative border-b-[5px] border-SecondaryColor-0 inline-block">
-              <img src={blogImg} />
+              <img src={blogImg} className="w-[600px]" />
               <h6 className="font-Manrope font-medium text-white bg-SecondaryColor-0 px-5 py-2 rounded-se-2xl inline-block absolute -bottom-1 left-0">
                 16 Jan, 2024
               </h6>
@@ -38,7 +38,7 @@ const Blog = () => {
                   </h6>
                 </div>
                 <Link to={"/"}>
-                  <button className="text-left font-Manrope font-bold text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-SecondaryColor-0">
+                  <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-SecondaryColor-0">
                     Help for Kids Education Donate Money
                   </button>
                 </Link>
@@ -56,7 +56,7 @@ const Blog = () => {
           </div>
           <div className="inline-block mb-7 bg-white">
             <div className="relative border-b-[5px] border-PrimaryColor-0 inline-block">
-              <img src={blogImg2} />
+              <img src={blogImg2} className="w-[600px]" />
               <h6 className="font-Manrope font-medium text-white bg-PrimaryColor-0 px-5 py-2 rounded-se-2xl inline-block absolute -bottom-1 left-0">
                 16 Jan, 2024
               </h6>
@@ -73,7 +73,7 @@ const Blog = () => {
                   </h6>
                 </div>
                 <Link to={"/"}>
-                  <button className="text-left font-Manrope font-bold text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0">
+                  <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0">
                     Organic Food Reserved for Childreens
                   </button>
                 </Link>
@@ -91,7 +91,7 @@ const Blog = () => {
           </div>
           <div className="inline-block mb-7 bg-white">
             <div className="relative border-b-[5px] border-[#1cc6e9] inline-block">
-              <img src={blogImg3} />
+              <img src={blogImg3} className="w-[600px]" />
               <h6 className="font-Manrope font-medium text-white bg-[#1cc6e9] px-5 py-2 rounded-se-2xl inline-block absolute -bottom-1 left-0">
                 16 Jan, 2024
               </h6>
@@ -108,7 +108,7 @@ const Blog = () => {
                   </h6>
                 </div>
                 <Link to={"/"}>
-                  <button className="text-left font-Manrope font-bold text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-[#1cc6e9]">
+                  <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-[#1cc6e9]">
                     How to Make good Health childreen Campaign
                   </button>
                 </Link>

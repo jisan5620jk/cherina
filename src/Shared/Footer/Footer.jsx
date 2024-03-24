@@ -16,11 +16,11 @@ const Footer = () => {
       <div className="bg-[url('/public/images/Componant2/footer/footer-bg.jpg')] bg-cover bg-bottom py-28 relative">
         <img
           src={footerShape}
-          className="absolute bottom-28 left-3 2xl:left-48 animate-swing"
+          className="absolute lg:bottom-20 xl:bottom-28 left-3 2xl:left-48 animate-swing hidden lg:block"
         />
         <div className="Container">
           <div className="grid grid-cols-12">
-            <div className="col-span-4">
+            <div className="col-span-12 md:col-span-6 lg:col-span-4">
               <img src={footerLogo} />
               <p className="font-Manrope text-white opacity-50 mt-8 w-11/12 2xl:w-10/12">
                 Distinctively foster optimal manufactured without real-time
@@ -33,7 +33,7 @@ const Footer = () => {
                 </button>
               </Link>
             </div>
-            <div className="col-span-2">
+            <div className="col-span-12 md:col-span-6 lg:col-span-2">
               <h4 className="font-Manrope font-bold text-[22px] text-white inline-block pb-5 mb-9 relative before:absolute before:bottom-0 before:left-0 before:w-10 before:h-[2px] before:bg-PrimaryColor-0 before:transition-all before:duration-500 hover:before:w-full">
                 Quick Links
               </h4>
@@ -95,7 +95,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-span-3">
+            <div className="col-span-12 md:col-span-6 lg:col-span-3">
               <h4 className="font-Manrope font-bold text-[22px] text-white inline-block pb-5 mb-9 relative before:absolute before:bottom-0 before:left-0 before:w-10 before:h-[2px] before:bg-PrimaryColor-0 before:transition-all before:duration-500 hover:before:w-full">
                 Contact Info
               </h4>
@@ -119,7 +119,7 @@ const Footer = () => {
                 602/B, Sandigo-USA
               </h6>
             </div>
-            <div className="col-span-3">
+            <div className="col-span-12 md:col-span-6 lg:col-span-3">
               <h4 className="font-Manrope font-bold text-[22px] text-white inline-block pb-5 mb-9 relative before:absolute before:bottom-0 before:left-0 before:w-10 before:h-[2px] before:bg-PrimaryColor-0 before:transition-all before:duration-500 hover:before:w-full">
                 Our Galary
               </h4>

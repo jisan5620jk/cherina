@@ -12,14 +12,14 @@ const Mission = () => (
   <section className="bg-[#fff8f5] relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-1/2 before:bg-[url('../../../public/images/Componant2/mission/mission-bg.png')] before:-z-10 before:bg-cover before:bg-bottom py-28">
     <img
       src={eventShape}
-      className="absolute top-32 left-40 animate-zoomInOut"
+      className="absolute top-10 left-10 md:top-32 md:left-40 animate-zoomInOut"
     />
     <div className="Container">
       <div className="text-center">
         <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">
           Our Mission
         </h5>
-        <h1 className="text-white xl:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold leading-[52px] mt-6">
+        <h1 className="text-white text-[22px] sm:text-4xl leading-8 md:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold sm:leading-[52px] mt-6">
           Our Mission Vission And
           <br /> Targated
           <span className="text-PrimaryColor-0"> Goals</span>
@@ -27,22 +27,22 @@ const Mission = () => (
       </div>
       <Tabs>
         <TabList className="text-center mt-[44px]">
-          <Tab className="font-Manrope py-3 px-10 rounded-full text-white bg-SecondaryColor-0 inline-block mx-[10px] relative z-10 before:absolute before:bottom-[-9px] before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-5 before:bg-SecondaryColor-0 before:rotate-45 before:rounded-sm outline-none">
+          <Tab className="mb-8 lg:mb-0 font-Manrope py-3 px-10 rounded-full text-white bg-SecondaryColor-0 inline-block mx-[10px] relative z-10 before:absolute before:bottom-[-9px] before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-5 before:bg-SecondaryColor-0 before:rotate-45 before:rounded-sm outline-none">
             Our Mission
           </Tab>
-          <Tab className="font-Manrope py-3 px-10 rounded-full text-white bg-PrimaryColor-0 inline-block mx-[10px] relative z-10 before:absolute before:bottom-[-9px] before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-5 before:bg-PrimaryColor-0 before:rotate-45 before:rounded-sm outline-none">
+          <Tab className="mb-8 lg:mb-0 font-Manrope py-3 px-10 rounded-full text-white bg-PrimaryColor-0 inline-block mx-[10px] relative z-10 before:absolute before:bottom-[-9px] before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-5 before:bg-PrimaryColor-0 before:rotate-45 before:rounded-sm outline-none">
             How We Work
           </Tab>
-          <Tab className="font-Manrope py-3 px-10 rounded-full text-white bg-[#1bc7ed] inline-block mx-[10px] relative z-10 before:absolute before:bottom-[-9px] before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-5 before:bg-[#1bc7ed] before:rotate-45 before:rounded-sm outline-none">
+          <Tab className="mb-8 lg:mb-0 font-Manrope py-3 px-10 rounded-full text-white bg-[#1bc7ed] inline-block mx-[10px] relative z-10 before:absolute before:bottom-[-9px] before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-5 before:bg-[#1bc7ed] before:rotate-45 before:rounded-sm outline-none">
             Our Vission
           </Tab>
-          <Tab className="font-Manrope py-3 px-10 rounded-full text-white bg-[#ffd016] inline-block mx-[10px] relative z-10 before:absolute before:bottom-[-9px] before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-5 before:bg-[#ffd016] before:rotate-45 before:rounded-sm outline-none">
+          <Tab className="mb-8 lg:mb-0 font-Manrope py-3 px-10 rounded-full text-white bg-[#ffd016] inline-block mx-[10px] relative z-10 before:absolute before:bottom-[-9px] before:left-1/2 before:-translate-x-1/2 before:w-0 before:h-5 before:bg-[#ffd016] before:rotate-45 before:rounded-sm outline-none">
             Goal Achive
           </Tab>
         </TabList>
 
         <TabPanel>
-          <div className="flex items-center gap-[62px] py-[88px] px-[56px] rounded-md bg-white mt-[42px] shadow-cases">
+          <div className="flex flex-col lg:flex-row items-center gap-[62px] py-10 px-10 md:py-[88px] md:px-[56px] rounded-md bg-white mt-[42px] shadow-cases">
             <div className="flex-1">
               <img src={tabImg} />
             </div>

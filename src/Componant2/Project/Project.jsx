@@ -10,11 +10,11 @@ const Project = () => {
         <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">
           Start Donating Theme
         </h5>
-        <h1 className="text-white xl:text-[42px] font-Manrope font-extrabold leading-[52px] mt-6">
+        <h1 className="text-white text-[22px] sm:text-4xl leading-8 md:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold sm:leading-[52px] mt-6">
           Our Ongoing
           <span className="text-PrimaryColor-0"> Projects</span>
         </h1>
-        <div className="grid grid-cols-4 justify-between mt-[70px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-between mt-[70px] gap-7">
           <div>
             <img src={projectImg} className="m-auto" />
             <h5 className="font-Manrope text-white text-2xl font-bold mt-6">
