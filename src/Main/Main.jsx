@@ -9,6 +9,7 @@ import Mission from "../Componant2/Mission/Mission";
 import Project from "../Componant2/Project/Project";
 import Support from "../Componant2/Support/Support";
 import Volunteer from "../Componant2/Volunteer/Volunteer";
+import Footer from "../Shared/Footer/Footer";
 import Navbar from "../Shared/Navbar/Navbar";
 
 
@@ -27,6 +28,7 @@ const Main = () => {
       <Mission/>
       <Blog />
       <Gallary />
+      <Footer />
     </>
   );
 };

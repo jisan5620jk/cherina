@@ -1,7 +1,7 @@
 import { RiArrowRightDoubleFill } from "react-icons/ri";
-import featureImg from "../../../public/images/Componant2/about/about2.png";
-import itemImg from "../../../public/images/Componant2/about/item1.png";
-import itemImg2 from "../../../public/images/Componant2/about/item2.png";
+import featureImg from "/public/images/Componant2/about/about2.png";
+import itemImg from "/public/images/Componant2/about/item1.png";
+import itemImg2 from "/public/images/Componant2/about/item2.png";
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
 
@@ -12,7 +12,7 @@ const About = () => {
           <div className="flex gap-20">
             <div className="flex-1 relative">
               <img src={featureImg} />
-              <div className="bg-[url('../../../public/images/Componant2/about/about-cuntr.png')] h-[176px] w-[176px] flex flex-col justify-center items-center text-center absolute top-9 left-9">
+              <div className="bg-[url('/public/images/Componant2/about/about-cuntr.png')] h-[176px] w-[176px] flex flex-col justify-center items-center text-center absolute top-9 left-9">
                 <CountUp
                   start={-9}
                   end={10}

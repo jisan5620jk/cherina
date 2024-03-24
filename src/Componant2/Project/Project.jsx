@@ -1,11 +1,11 @@
-import projectImg from "../../../public/images/Componant2/project/project1.png";
-import projectImg2 from "../../../public/images/Componant2/project/project2.png";
-import projectImg3 from "../../../public/images/Componant2/project/project3.png";
-import projectImg4 from "../../../public/images/Componant2/project/project4.png";
+import projectImg from "/public/images/Componant2/project/project1.png";
+import projectImg2 from "/public/images/Componant2/project/project2.png";
+import projectImg3 from "/public/images/Componant2/project/project3.png";
+import projectImg4 from "/public/images/Componant2/project/project4.png";
 
 const Project = () => {
   return (
-    <section className="bg-[url('../../../public/images/Componant2/project/project-bg.png')] bg-no-repeat bg-cover bg-center py-28 text-center">
+    <section className="bg-[url('/public/images/Componant2/project/project-bg.png')] bg-no-repeat bg-cover bg-center py-28 text-center">
       <div className="Container">
         <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">
           Start Donating Theme

@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa6";
 import { PiUserCircleFill } from "react-icons/pi";
 import { BiChevronDown, BiMenuAltLeft } from "react-icons/bi";
-import Logo from "../../../public/images/Componant2/logo/logo.png";
+import Logo from "/public/images/Componant2/logo/logo.png";
 import { useState, useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
 import { VscHeart } from "react-icons/vsc";

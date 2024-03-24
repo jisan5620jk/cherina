@@ -1,14 +1,19 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import tabImg from "../../../public/images/Componant2/mission/tab1.jpg";
-import tabImg2 from "../../../public/images/Componant2/mission/tab2.jpg";
-import tabImg3 from "../../../public/images/Componant2/mission/tab3.jpg";
-import tabImg4 from "../../../public/images/Componant2/mission/tab4.jpg";
+import tabImg from "/public/images/Componant2/mission/tab1.jpg";
+import tabImg2 from "/public/images/Componant2/mission/tab2.jpg";
+import tabImg3 from "/public/images/Componant2/mission/tab3.jpg";
+import tabImg4 from "/public/images/Componant2/mission/tab4.jpg";
+import eventShape from "/public/images/Componant2/mission/heart.png";
 import { RiArrowRightDoubleFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { FaCircleCheck } from "react-icons/fa6";
 
 const Mission = () => (
   <section className="bg-[#fff8f5] relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-1/2 before:bg-[url('../../../public/images/Componant2/mission/mission-bg.png')] before:-z-10 before:bg-cover before:bg-bottom py-28">
+    <img
+      src={eventShape}
+      className="absolute top-32 left-40 animate-zoomInOut"
+    />
     <div className="Container">
       <div className="text-center">
         <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">

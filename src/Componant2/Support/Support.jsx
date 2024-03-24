@@ -1,14 +1,14 @@
 import CountUp from "react-countup";
-import countIcon from "../../../public/images/Componant2/support/count1.png";
-import countIcon2 from "../../../public/images/Componant2/support/count2.png";
-import countIcon3 from "../../../public/images/Componant2/support/count3.png";
-import countIcon4 from "../../../public/images/Componant2/support/count4.png";
+import countIcon from "/public/images/Componant2/support/count1.png";
+import countIcon2 from "/public/images/Componant2/support/count2.png";
+import countIcon3 from "/public/images/Componant2/support/count3.png";
+import countIcon4 from "/public/images/Componant2/support/count4.png";
 import { Link } from "react-router-dom";
 import { RiArrowRightDoubleFill } from "react-icons/ri";
 
 const Support = () => {
   return (
-    <section className="py-28">
+    <section className="py-28 border-b">
       <div className="Container">
         <div className="flex gap-[72px] items-center">
           <div className="flex-1">

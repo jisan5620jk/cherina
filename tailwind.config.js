@@ -62,12 +62,17 @@ export default {
           "0%": { transform: "scale(0.5)" },
           "100%": { transform: "scale(1.2)" },
         },
+        swing: {
+          "0%": { transform: "rotate(25deg)" },
+          "100%": { transform: "rotate(0deg)" },
+        },
       },
       animation: {
         movebtn: "movebtn 3s ease-in-out infinite",
         wiggle: "wiggle 3s ease-in-out infinite",
         rotational: "rotational 20s linear infinite",
         zoomInOut: "zoomInOut 2s alternate infinite",
+        swing: "swing 1s ease-in-out 1s forwards infinite alternate",
       },
       boxShadow: {
         cases: "0px 10px 15px rgba(187, 187, 187, 0.2)",

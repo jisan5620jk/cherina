@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import { RiArrowRightDoubleFill } from "react-icons/ri";
-import shape from "../../../public/images/Componant2/volunteer/heart.png";
+import shape from "/public/images/Componant2/volunteer/heart.png";
 
 const Volunteer = () => {
     return (
-      <section className="bg-[url('../../../public/images/Componant2/volunteer/call-bg2.png')] bg-center bg-cover relative py-[150px]">
+      <section className="bg-[url('/public/images/Componant2/volunteer/call-bg2.png')] bg-center bg-cover relative py-[150px]">
         <div className="Container">
           <div className="flex items-center">
             <div className="flex-1">
