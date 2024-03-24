@@ -7,7 +7,7 @@ import { LuMoveRight } from "react-icons/lu";
 
 const Blog = () => {
   return (
-    <section className="relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-2/3git before:bg-[#fff8f5] before:-z-10">
+    <section className="relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-2/3 before:bg-[#fff8f5] before:-z-10">
       <div className="Container">
         <div className="text-center">
           <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">

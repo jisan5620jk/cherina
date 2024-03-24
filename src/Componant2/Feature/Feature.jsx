@@ -5,9 +5,9 @@ import FeatureMain from "./FeatureMain";
 
 const Feature = () => {
     return (
-      <section className="relative -mt">
+      <section className="relative -mt-14 z-10">
         <div className="Container">
-          <div className="grid grid-cols-3 gap-7">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
             <FeatureMain
               featureIcon={featureIcon}
               featureTitle={"Send Donations"}

@@ -19,18 +19,18 @@ const Banner = () => {
   return (
     <Swiper {...settings}>
       <SwiperSlide>
-        <section className="bg-[url('/public/images/Componant2/banner/hero-bg3.png')] bg-center bg-cover h-[920px] w-full flex items-center justify-center">
+        <section className="bg-[url('/public/images/Componant2/banner/hero-bg3.png')] bg-center bg-cover h-[700px] md:h-[920px] w-full flex items-center justify-center">
           <div className="Container flex flex-col items-center justify-center">
             <div>
               <img src={bannerShape} className="animate-zoomInOut" />
             </div>
-            <h1 className="text-white text-7xl text-center font-Manrope font-bold mt-10 mb-[58px]">
+            <h1 className="text-white text-[30px] sm:text-[44px] md:text-5xl lg:text-7xl text-center font-Manrope font-bold mt-10 mb-[58px]">
               Let’s Give Them Your <br /> Helping
               <span className="text-PrimaryColor-0 font-medium font-Lobster pl-8">
                 Hands
               </span>
             </h1>
-            <ul className="flex gap-6">
+            <ul className="flex gap-6 flex-col sm:flex-row">
               <li>
                 <Link to={"/"}>
                   <button className="primary-btn">
@@ -52,18 +52,18 @@ const Banner = () => {
         </section>
       </SwiperSlide>
       <SwiperSlide>
-        <section className="bg-[url('../../../public/images/Componant2/banner/hero-bg4.png')] bg-center bg-cover h-[920px] w-full flex items-center justify-center">
+        <section className="bg-[url('../../../public/images/Componant2/banner/hero-bg4.png')] bg-center bg-cover  h-[700px] md:h-[920px] w-full flex items-center justify-center">
           <div className="Container flex flex-col items-center justify-center">
             <div>
               <img src={bannerShape} className="animate-zoomInOut" />
             </div>
-            <h1 className="text-white text-7xl text-center font-Manrope font-bold mt-10 mb-[58px]">
+            <h1 className="text-white text-[30px] sm:text-[44px] md:text-5xl lg:text-7xl text-center font-Manrope font-bold mt-10 mb-[58px]">
               Giving a Helpline <br /> hand for
               <span className="text-PrimaryColor-0 font-medium font-Lobster pl-8">
                 Childrens
               </span>
             </h1>
-            <ul className="flex gap-6">
+            <ul className="flex gap-6 flex-col sm:flex-row">
               <li>
                 <Link to={"/"}>
                   <button className="primary-btn">

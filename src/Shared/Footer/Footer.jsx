@@ -16,13 +16,13 @@ const Footer = () => {
       <div className="bg-[url('/public/images/Componant2/footer/footer-bg.jpg')] bg-cover bg-bottom py-28 relative">
         <img
           src={footerShape}
-          className="absolute bottom-28 left-3 animate-swing"
+          className="absolute bottom-28 left-3 2xl:left-48 animate-swing"
         />
         <div className="Container">
           <div className="grid grid-cols-12">
             <div className="col-span-4">
               <img src={footerLogo} />
-              <p className="font-Manrope text-white opacity-50 mt-8 w-11/12">
+              <p className="font-Manrope text-white opacity-50 mt-8 w-11/12 2xl:w-10/12">
                 Distinctively foster optimal manufactured without real-time
                 e-markets. Energistically productize compelling
               </p>
@@ -103,12 +103,12 @@ const Footer = () => {
                 Phone Number
               </h6>
               <Link to={"/"}>
-                <button className="font-Manrope text-white text-[15px] opacity-50">
+                <button className="font-Manrope text-white text-[15px] opacity-50 block">
                   +880 392 (4560) 290
                 </button>
               </Link>
               <Link to={"/"}>
-                <button className="font-Manrope text-white text-[15px] opacity-50">
+                <button className="font-Manrope text-white text-[15px] opacity-50 block">
                   example@gmail.com
                 </button>
               </Link>
@@ -123,7 +123,7 @@ const Footer = () => {
               <h4 className="font-Manrope font-bold text-[22px] text-white inline-block pb-5 mb-9 relative before:absolute before:bottom-0 before:left-0 before:w-10 before:h-[2px] before:bg-PrimaryColor-0 before:transition-all before:duration-500 hover:before:w-full">
                 Our Galary
               </h4>
-              <ul className="grid grid-cols-3 gap-3">
+              <ul className="grid grid-cols-3 gap-3 2xl:w-[268px]">
                 <li>
                   <Link to={"/"}>
                     <button>

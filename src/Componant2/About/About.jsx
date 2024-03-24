@@ -9,7 +9,7 @@ const About = () => {
     return (
       <section className="pt-24 pb-28">
         <div className="Container">
-          <div className="flex gap-20">
+          <div className="flex gap-20 flex-col lg:flex-row">
             <div className="flex-1 relative">
               <img src={featureImg} />
               <div className="bg-[url('/public/images/Componant2/about/about-cuntr.png')] h-[176px] w-[176px] flex flex-col justify-center items-center text-center absolute top-9 left-9">
@@ -26,7 +26,7 @@ const About = () => {
             </div>
             <div className="flex-1">
               <h5 className="sub-title">Join Us and Start Donating</h5>
-              <h1 className="text-HeadingColor-0 xl:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold leading-[52px] mt-6">
+              <h1 className="text-HeadingColor-0 text-[22px] sm:text-4xl leading-8 md:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold sm:leading-[52px] mt-6">
                 Make your Goals Always to
                 <br /> Helps
                 <span className="text-PrimaryColor-0"> Poor People</span>

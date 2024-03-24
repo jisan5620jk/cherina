@@ -43,7 +43,7 @@ const Navbar = () => {
   };
   return (
     <nav
-      className={` w-full transition-all duration-300 bg-transparent absolute z-10 text-[#7d7f8c]`}
+      className={`w-full transition-all duration-300 bg-transparent absolute z-10 text-[#7d7f8c]`}
     >
       {/* top Navbar */}
       <header className="border-b border-BorderColor-0 overflow-hidden hidden py-[14px] md:block">
@@ -148,7 +148,7 @@ const Navbar = () => {
                       ? "pending"
                       : isActive
                       ? "active"
-                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 py-2 w-full block transition-all duration-300 group relative`}
+                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 py-2 w-full block transition-all duration-300 group relative`}
                   to="/"
                 >
                   <span className="flex items-center">
@@ -208,7 +208,7 @@ const Navbar = () => {
                       ? "pending"
                       : isActive
                       ? "active"
-                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 py-2 w-full block transition-all duration-300 group relative `}
+                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 py-2 w-full block transition-all duration-300 group relative `}
                   to="#"
                 >
                   <span className="flex items-center">
@@ -255,7 +255,7 @@ const Navbar = () => {
                       ? "pending"
                       : isActive
                       ? "active"
-                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 py-2 w-full block transition-all duration-300 group relative `}
+                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 py-2 w-full block transition-all duration-300 group relative `}
                   to="#"
                 >
                   <span className="flex items-center">
@@ -287,7 +287,7 @@ const Navbar = () => {
                       ? "pending"
                       : isActive
                       ? "active"
-                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 py-2 w-full block transition-all duration-300 group relative `}
+                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 py-2 w-full block transition-all duration-300 group relative `}
                   to="#"
                 >
                   <span className="flex items-center">
@@ -320,7 +320,7 @@ const Navbar = () => {
                       ? "pending"
                       : isActive
                       ? "active"
-                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 py-2 w-full block transition-all duration-300 group relative `}
+                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 py-2 w-full block transition-all duration-300 group relative `}
                   to="#"
                 >
                   <span className="flex items-center">
@@ -352,7 +352,7 @@ const Navbar = () => {
                       ? "pending"
                       : isActive
                       ? "active"
-                      : ""} lg:border-b-0 px-3 py-2 w-full block transition-all duration-300`}
+                      : ""} lg:border-b-0 px-3 lg:px-1 py-2 w-full block transition-all duration-300`}
                   to="/contact"
                 >
                   Contact

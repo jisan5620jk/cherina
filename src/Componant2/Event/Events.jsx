@@ -42,7 +42,7 @@ const Events = () => {
         <Swiper {...settings}>
           <SwiperSlide>
             <div className="bg-[url('/public/images/Componant2/event/events1.jpg')] rounded-md bg-center bg-cover mt-28 group relative z-10 before:absolute before:rounded-md before:w-full before:h-full before:bg-[#1cc5ee] before:opacity-80 before:-z-10">
-              <div className="xl:px-[20px] px-[42px] pt-[42px] pb-9">
+              <div className="lg:px-[20px] xl:px-10 px-[42px] pt-[42px] pb-9">
                 <div className="flex gap-5 items-center">
                   <h3 className="w-[66px] h-[66px] font-Lobster text-[38px] font-normal bg-white rounded-md flex justify-center items-center text-[#1cc5ee]">
                     01
@@ -52,10 +52,7 @@ const Events = () => {
                   </h5>
                 </div>
                 <Link to={"/"}>
-                  <button
-                    className="font-Manrope text-2xl 2xl:text-[26px] text-left mt-7 pb-8 text-white leading-9 font-bold border-b-2 border-[#ffffee4d] relative before:absolute before:bottom-[-2px] before:left-0 before:transition-all
-               before:duration-500 before:h-[2px] before:w-[70px] before:bg-white group-hover:before:w-full"
-                  >
+                  <button className="font-Manrope text-2xl 2xl:text-[26px] 2xl:w-2/3 text-left mt-7 pb-8 text-white leading-9 font-bold relative before:absolute before:bottom-0 before:left-0 before:transition-all before:duration-500 before:h-[2px] before:w-[70px] before:bg-white group-hover:before:w-full 2xl:group-hover:before:w-[510px] after:absolute after:bottom-0 after:left-0 after:w-full 2xl:after:w-[510px] after:h-[2px] after:bg-[#ffffee4d]">
                     Learn Exactly how we Arrange a Event
                   </button>
                 </Link>
@@ -74,7 +71,7 @@ const Events = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="bg-[url('/public/images/Componant2/event/events2.png')] rounded-md bg-center bg-cover mt-28 group relative z-10 before:absolute before:rounded-md before:w-full before:h-full before:bg-PrimaryColor-0 before:opacity-80 before:-z-10">
-              <div className="xl:px-[20px] px-[42px] pt-[42px] pb-9">
+              <div className="lg:px-[20px] xl:px-10 px-[42px] pt-[42px] pb-9">
                 <div className="flex gap-5 items-center">
                   <h3 className="w-[66px] h-[66px] font-Lobster text-[38px] font-normal bg-white rounded-md flex justify-center items-center text-PrimaryColor-0">
                     02
@@ -84,10 +81,7 @@ const Events = () => {
                   </h5>
                 </div>
                 <Link to={"/"}>
-                  <button
-                    className="font-Manrope text-2xl 2xl:text-[26px] text-left mt-7 pb-8 text-white leading-9 font-bold border-b-2 border-[#ffffee4d] relative before:absolute before:bottom-[-2px] before:left-0 before:transition-all
-               before:duration-500 before:h-[2px] before:w-[70px] before:bg-white group-hover:before:w-full"
-                  >
+                  <button className="font-Manrope text-2xl 2xl:text-[26px] 2xl:w-2/3 text-left mt-7 pb-8 text-white leading-9 font-bold relative before:absolute before:bottom-0 before:left-0 before:transition-all before:duration-500 before:h-[2px] before:w-[70px] before:bg-white group-hover:before:w-full 2xl:group-hover:before:w-[510px] after:absolute after:bottom-0 after:left-0 after:w-full 2xl:after:w-[510px] after:h-[2px] after:bg-[#ffffee4d]">
                     100+ Orphan Childreens Bootcampaigns
                   </button>
                 </Link>
@@ -106,7 +100,7 @@ const Events = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="bg-[url('/public/images/Componant2/event/events3.png')] rounded-md bg-center bg-cover mt-28 group relative z-10 before:absolute before:rounded-md before:w-full before:h-full before:bg-SecondaryColor-0 before:opacity-80 before:-z-10">
-              <div className="xl:px-[20px] px-[42px] pt-[42px] pb-9">
+              <div className="lg:px-[20px] xl:px-10 px-[42px] pt-[42px] pb-9">
                 <div className="flex gap-5 items-center">
                   <h3 className="w-[66px] h-[66px] font-Lobster text-[38px] font-normal bg-white rounded-md flex justify-center items-center text-SecondaryColor-0">
                     03
@@ -116,10 +110,7 @@ const Events = () => {
                   </h5>
                 </div>
                 <Link to={"/"}>
-                  <button
-                    className="font-Manrope text-2xl 2xl:text-[26px] text-left mt-7 pb-8 text-white leading-9 font-bold border-b-2 border-[#ffffee4d] relative before:absolute before:bottom-[-2px] before:left-0 before:transition-all
-               before:duration-500 before:h-[2px] before:w-[70px] before:bg-white group-hover:before:w-full"
-                  >
+                  <button className="font-Manrope text-2xl 2xl:text-[26px] 2xl:w-2/3 text-left mt-7 pb-8 text-white leading-9 font-bold relative before:absolute before:bottom-0 before:left-0 before:transition-all before:duration-500 before:h-[2px] before:w-[70px] before:bg-white group-hover:before:w-full 2xl:group-hover:before:w-[510px] after:absolute after:bottom-0 after:left-0 after:w-full 2xl:after:w-[510px] after:h-[2px] after:bg-[#ffffee4d]">
                     Learn Exactly how we Arrange a Event
                   </button>
                 </Link>
@@ -138,7 +129,7 @@ const Events = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="bg-[url('/public/images/Componant2/event/events1.jpg')] rounded-md bg-center bg-cover mt-28 group relative z-10 before:absolute before:rounded-md before:w-full before:h-full before:bg-[#1cc5ee] before:opacity-80 before:-z-10">
-              <div className="xl:px-[20px] px-[42px] pt-[42px] pb-9">
+              <div className="lg:px-[20px] xl:px-10 px-[42px] pt-[42px] pb-9">
                 <div className="flex gap-5 items-center">
                   <h3 className="w-[66px] h-[66px] font-Lobster text-[38px] font-normal bg-white rounded-md flex justify-center items-center text-[#1cc5ee]">
                     01
@@ -148,10 +139,7 @@ const Events = () => {
                   </h5>
                 </div>
                 <Link to={"/"}>
-                  <button
-                    className="font-Manrope text-2xl 2xl:text-[26px] text-left mt-7 pb-8 text-white leading-9 font-bold border-b-2 border-[#ffffee4d] relative before:absolute before:bottom-[-2px] before:left-0 before:transition-all
-               before:duration-500 before:h-[2px] before:w-[70px] before:bg-white group-hover:before:w-full"
-                  >
+                  <button className="font-Manrope text-2xl 2xl:text-[26px] 2xl:w-2/3 text-left mt-7 pb-8 text-white leading-9 font-bold relative before:absolute before:bottom-0 before:left-0 before:transition-all before:duration-500 before:h-[2px] before:w-[70px] before:bg-white group-hover:before:w-full 2xl:group-hover:before:w-[510px] after:absolute after:bottom-0 after:left-0 after:w-full 2xl:after:w-[510px] after:h-[2px] after:bg-[#ffffee4d]">
                     Learn Exactly how we Arrange a Event
                   </button>
                 </Link>
