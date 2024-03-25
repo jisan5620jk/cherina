@@ -1,33 +1,16 @@
-import About from "../Componant2/About/About";
-import Banner from "../Componant2/Banner/Banner";
-import Blog from "../Componant2/Blog/Blog";
-import Donate from "../Componant2/Donate/Donate";
-import Events from "../Componant2/Event/Events";
-import Feature from "../Componant2/Feature/Feature";
-import Gallary from "../Componant2/Gallary/Gallary";
-import Mission from "../Componant2/Mission/Mission";
-import Project from "../Componant2/Project/Project";
-import Support from "../Componant2/Support/Support";
-import Volunteer from "../Componant2/Volunteer/Volunteer";
+import { Outlet } from "react-router-dom";
 import Footer from "../Shared/Footer/Footer";
 import Navbar from "../Shared/Navbar/Navbar";
-
+import ScrollToTop from "../Shared/ScrollToTop/ScrollToTop";
 
 const Main = () => {
   return (
     <>
       <Navbar />
-      <Banner />
-      <Feature />
-      <About />
-      <Project />
-      <Donate />
-      <Volunteer />
-      <Support />
-      <Events />
-      <Mission/>
-      <Blog />
-      <Gallary />
+      <ScrollToTop />
+      <div>
+        <Outlet />
+      </div>
       <Footer />
     </>
   );

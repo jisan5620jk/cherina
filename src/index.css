@@ -28,6 +28,12 @@ body {
   @apply font-Lobster text-lg text-PrimaryColor-0 inline-block relative before:absolute before:-bottom-1 before:left-0 before:w-9 before:h-[2px] before:bg-SecondaryColor-0 hover:before:w-full before:transition-all before:duration-500;
 }
 
+.sticky {
+  @apply fixed top-0 left-0 w-full z-50 shadow-lg bg-black bg-opacity-30 backdrop-blur-md animate-headerSlideDown;
+}
+
+
+
 .rect-progress-bar-percent {
   margin: 0 !important;
   line-height: 10px;

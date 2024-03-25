@@ -73,6 +73,8 @@ export default {
         rotational: "rotational 20s linear infinite",
         zoomInOut: "zoomInOut 2s alternate infinite",
         swing: "swing 1s ease-in-out 1s forwards infinite alternate",
+        headerSlideDown:
+          " 500ms ease-in-out 0s normal none 1 running headerSlideDown",
       },
       boxShadow: {
         cases: "0px 10px 15px rgba(187, 187, 187, 0.2)",
