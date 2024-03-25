@@ -2,12 +2,14 @@ import { RiArrowRightDoubleFill } from "react-icons/ri";
 import featureImg from "/public/images/Componant2/about/about2.png";
 import itemImg from "/public/images/Componant2/about/item1.png";
 import itemImg2 from "/public/images/Componant2/about/item2.png";
+import aboutShape from "/public/images/Componant2/about/most.png";
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
 
 const About = () => {
     return (
-      <section className="pt-24 pb-28">
+      <section className="pt-24 pb-28 relative">
+        <img src={aboutShape} className="absolute top-24 right-24 animate-zoomInOut"/>
         <div className="Container">
           <div className="flex gap-20 flex-col lg:flex-row">
             <div className="flex-1 relative">
