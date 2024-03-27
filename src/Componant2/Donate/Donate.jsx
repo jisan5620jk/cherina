@@ -95,20 +95,17 @@ const Donate = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex items-center gap-16 bg-[#fff8f5] rounded-md mt-28">
+            <div className="flex flex-col lg:flex-row items-center gap-16 bg-[#fff8f5] rounded-md mt-28">
               <div className="flex-1">
                 <img src={donateimg2} />
               </div>
-              <div className="flex-1 pr-10">
+              <div className="flex-1 pr-10 pl-5 sm:pl-7 lg:pl-0 lg:py-7 xl:py-0">
                 <h6 className="text-sm font-medium font-Manrope bg-SecondaryColor-0 text-white rounded-3xl py-2 px-6 inline-block">
-                  Education
+                  Medical
                 </h6>
-                <h1
-                  className="font-Manrope
-           text-[28px] font-extrabold leading-9 mt-6 mb-6"
-                >
-                  Campaign for Buy Medicine <br />
-                  for Street Childreen’s
+                <h1 className="font-Manrope text-[18px] sm:text-2xl leading-8 md:text-[28px] font-extrabold sm:leading-9 mt-6 mb-6">
+                  Give a Good Education for <br />
+                  Orphan Childreens
                 </h1>
                 <p className="font-Manrope text-TextColor-0 pb-8">
                   Phosfluorescently cultivate enabled relationships without
@@ -123,10 +120,10 @@ const Donate = () => {
                       fontColor="#fff"
                       fontSize="17px"
                       leading="10px"
+                      margin="0px"
                       rectBorderRadius="10px"
                       fontWeight="600"
                       percentage="50"
-                      margin="0px"
                       defColor={{
                         excellent: "#ff5e14",
                         good: "white",
