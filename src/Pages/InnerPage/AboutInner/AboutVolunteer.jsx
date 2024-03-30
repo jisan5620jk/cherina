@@ -19,7 +19,7 @@ const AboutVolunteer = () => {
           </h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-between pt-12">
-          <div className="text-center inline-block group">
+          <div className="text-center inline-block group mb-7">
             <div className="relative">
               <img src={volunteerImg} className="m-auto" />
               <div className=" w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-16 -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
@@ -55,7 +55,7 @@ const AboutVolunteer = () => {
               Volunteer
             </p>
           </div>
-          <div className="text-center inline-block group">
+          <div className="text-center inline-block group mb-7">
             <div className="relative">
               <img src={volunteerImg2} className="m-auto" />
               <div className=" w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-16 -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
@@ -91,7 +91,7 @@ const AboutVolunteer = () => {
               Volunteer
             </p>
           </div>
-          <div className="text-center inline-block group">
+          <div className="text-center inline-block group mb-7">
             <div className="relative">
               <img src={volunteerImg3} className="m-auto" />
               <div className=" w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-16 -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
@@ -125,7 +125,7 @@ const AboutVolunteer = () => {
             </h5>
             <p className="font-Manrope text-[#42d1ef] font-medium">Volunteer</p>
           </div>
-          <div className="text-center inline-block group">
+          <div className="text-center inline-block group mb-7">
             <div className="relative">
               <img src={volunteerImg4} className="m-auto" />
               <div className=" w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-16 -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
