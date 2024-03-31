@@ -32,8 +32,13 @@ body {
   @apply fixed top-0 left-0 w-full z-50 shadow-lg bg-black bg-opacity-30 backdrop-blur-md animate-headerSlideDown;
 }
 
+.donate .progress-bar-rect-wrap-container {
+    position: relative;
+}
 
-
+.donate .rect-progress-bar-percent {
+  @apply !m-0 leading-[10px] absolute !text-[#1b3434] font-medium left-2/4 -translate-x-1/2 -top-[28px];
+}
 .rect-progress-bar-percent {
   margin: 0 !important;
   line-height: 10px;

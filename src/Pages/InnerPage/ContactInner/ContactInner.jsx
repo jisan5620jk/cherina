@@ -4,9 +4,9 @@ const ContactInner = () => {
   return (
     <>
       <Breadcamp
-        breadCampTitle={"Become Volunteer"}
-        breadCampLink={"Become Volunteer"}
-        url={"/volunteer2"}
+        breadCampTitle={"Contact Us"}
+        breadCampLink={"Contact Us"}
+        url={"/contact"}
       />
       <section className="bg-[#fff6f1] relative z-10 py-28">
         <div className="Container">
