@@ -4,6 +4,8 @@ import Home1 from "../Pages/Home1/Home1";
 import AboutInner from "../Pages/InnerPage/AboutInner/AboutInner";
 import VolunteerInner from "../Pages/InnerPage/VolunteerInner/VolunteerInner";
 import VolunteerInner2 from "../Pages/InnerPage/VolunteerInner2/VolunteerInner2";
+import GallaryInner from "../Pages/InnerPage/GallaryInner/GallaryInner";
+import ContactInner from "../Pages/InnerPage/ContactInner/ContactInner";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
       {
         path: "/volunteer2",
         element: <VolunteerInner2 />,
+      },
+      {
+        path: "/gallary",
+        element: <GallaryInner />,
+      },
+      {
+        path: "/contact",
+        element: <ContactInner />,
       },
     ],
   },
