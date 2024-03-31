@@ -1,5 +1,5 @@
-import donateimg from "../../../public/images/Componant2/donate/donate2.jpg";
-import donateimg2 from "../../../public/images/Componant2/donate/donate3.jpg";
+import donateimg from "/public/images/Componant2/donate/donate2.jpg";
+import donateimg2 from "/public/images/Componant2/donate/donate3.jpg";
 import ProgressBar from "react-animated-progress-bar";
 import { GoClockFill } from "react-icons/go";
 import { VscHeart } from "react-icons/vsc";

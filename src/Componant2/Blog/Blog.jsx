@@ -44,7 +44,7 @@ const Blog = () => {
                 </Link>
               </div>
               <div className="flex justify-between items-center pt-5 pb-7 border-t border-[#1b34341a] px-8 mt-6">
-                <Link>
+                <Link to={"/"}>
                   <button className="flex gap-1 items-center font-Manrope font-medium transition-all duration-500 hover:text-SecondaryColor-0">
                     Read More
                     <LuMoveRight />
@@ -79,7 +79,7 @@ const Blog = () => {
                 </Link>
               </div>
               <div className="flex justify-between items-center pt-5 pb-7 border-t border-[#1b34341a] px-8 mt-6">
-                <Link>
+                <Link to={"/"}>
                   <button className="flex gap-1 items-center font-Manrope font-medium transition-all duration-500 hover:text-PrimaryColor-0">
                     Read More
                     <LuMoveRight />
@@ -114,7 +114,7 @@ const Blog = () => {
                 </Link>
               </div>
               <div className="flex justify-between items-center pt-5 pb-7 border-t border-[#1b34341a] px-8 mt-6">
-                <Link>
+                <Link to={"/"}>
                   <button className="flex gap-1 items-center font-Manrope font-medium transition-all duration-500 hover:text-[#1cc6e9]">
                     Read More
                     <LuMoveRight />
