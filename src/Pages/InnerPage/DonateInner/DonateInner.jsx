@@ -1,7 +1,10 @@
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
 import donateImg from "/public/images/Componant2/donate/donations2.png";
 import donateProfile from "/public/images/Componant2/donate/organiz.png";
-import itemthumb from "/public/images/Componant2/donate/organiz.png";
+import itemthumb from "/public/images/Componant2/blog/post1.png";
+import itemthumb2 from "/public/images/Componant2/blog/post2.png";
+import itemthumb3 from "/public/images/Componant2/blog/post3.png";
+import logo from "/public/images/Componant2/logo/logo-icon.png";
 import ProgressBar from "react-animated-progress-bar";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { VscHeart } from "react-icons/vsc";
@@ -18,7 +21,7 @@ const DonateInner = () => {
       />
       <section className="p-28 donate">
         <div className="Container">
-          <div className="grid grid-cols-3">
+          <div className="grid grid-cols-3 gap-7">
             <div className="col-span-2">
               <div
                 className="border rounded-md
@@ -66,7 +69,6 @@ const DonateInner = () => {
                   </div>
                 </div>
               </div>
-
               <Tabs>
                 <div
                   className="bg-SecondaryColor-0 rounded-md
@@ -296,17 +298,71 @@ const DonateInner = () => {
                   </li>
                 </ul>
               </div>
-              <div className="">
-                <h4>Category</h4>
+              <div className="px-8 bg-[#fff4f1] rounded-md pt-7 pb-4 mb-7">
+                <h4 className="font-Manrope font-bold text-[22px] text-HeadingColor-0 mb-8">
+                  Category
+                </h4>
                 <Link to={"/"}>
-                  <button className="group flex gap-4">
+                  <button className="group flex gap-4 mb-6">
                     <div>
                       <img src={itemthumb} />
                     </div>
                     <div className="flex-1 text-left">
-                      <h6 className="font-Manrope font-bold text-HeadingColor-0 transition-all duration-500 group-hover:text-PrimaryColor-0">Raise fund for clean & healthy foods</h6>
-                      <p className="font-Manrope text-TextColor-0 text-[15px] mt-1">January 01, 2024</p>
+                      <h6 className="font-Manrope font-bold text-HeadingColor-0 transition-all duration-500 group-hover:text-PrimaryColor-0">
+                        Raise fund for clean & healthy foods
+                      </h6>
+                      <p className="font-Manrope text-TextColor-0 text-[15px] mt-1">
+                        January 01, 2024
+                      </p>
                     </div>
+                  </button>
+                </Link>
+                <hr />
+                <Link to={"/"}>
+                  <button className="group flex gap-4 my-6">
+                    <div>
+                      <img src={itemthumb2} />
+                    </div>
+                    <div className="flex-1 text-left">
+                      <h6 className="font-Manrope font-bold text-HeadingColor-0 transition-all duration-500 group-hover:text-PrimaryColor-0">
+                        Collect Funds for Kids Foods & Bevarage
+                      </h6>
+                      <p className="font-Manrope text-TextColor-0 text-[15px] mt-1">
+                        January 16, 2024
+                      </p>
+                    </div>
+                  </button>
+                </Link>
+                <hr />
+                <Link to={"/"}>
+                  <button className="group flex gap-4 my-6">
+                    <div>
+                      <img src={itemthumb3} />
+                    </div>
+                    <div className="flex-1 text-left">
+                      <h6 className="font-Manrope font-bold text-HeadingColor-0 transition-all duration-500 group-hover:text-PrimaryColor-0">
+                        Donate Money for Kids Educations
+                      </h6>
+                      <p className="font-Manrope text-TextColor-0 text-[15px] mt-1">
+                        January 27, 2024
+                      </p>
+                    </div>
+                  </button>
+                </Link>
+              </div>
+              <div className="bg-[url('/public/images/Componant2/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md">
+                <Link to={"/"}>
+                  <img src={logo} className="m-auto" />
+                </Link>
+                <h4 className="font-Manrope font-bold text-[30px] text-white mt-6 mb-6">
+                  Helping Orphan
+                  <br />
+                  People
+                </h4>
+                <Link to={"/"} className="flex justify-center">
+                  <button type="submit" className="primary-btn">
+                    Donate Now
+                    <VscHeart />
                   </button>
                 </Link>
               </div>
