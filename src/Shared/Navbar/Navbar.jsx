@@ -160,7 +160,7 @@ const Navbar = () => {
                     data-aos="zoom-in-left"
                     data-aos-duration="1000"
                   >
-                    <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[200px] text-left transition-all duration-500 text-sm sm:text-base py-4 bg-PrimaryColor-0 ">
+                    <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[220px] text-left transition-all duration-500 text-sm sm:text-base py-4 bg-PrimaryColor-0 ">
                       <div className=" px-5 group hover:bg-SecondaryColor-0 ">
                         <li className="hover:ml-3 duration-300">
                           <NavLink to="/" className="py-2 block">
@@ -216,7 +216,7 @@ const Navbar = () => {
                     <BiChevronDown className="ml-1" />
                   </span>
                   <div className="absolute pt-5 lg:pt-8 z-20">
-                    <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[200px] text-left transition-all duration-500 text-sm sm:text-base py-4 bg-[#171717] ">
+                    <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[220px] text-left transition-all duration-500 text-sm sm:text-base py-4 bg-[#171717] ">
                       <div className=" px-5 group hover:bg-SecondaryColor-0 ">
                         <li className="hover:ml-3 duration-300">
                           <NavLink to="/about" className="py-2 block">
@@ -234,8 +234,8 @@ const Navbar = () => {
 
                       <div className=" px-5 group hover:bg-SecondaryColor-0 ">
                         <li className="hover:ml-3 duration-300">
-                          <NavLink to="/pricinginner" className="py-2 block">
-                            Pricing Plans
+                          <NavLink to="/volunteer2" className="py-2 block">
+                            Become Volunteer
                           </NavLink>
                         </li>
                       </div>
@@ -263,7 +263,7 @@ const Navbar = () => {
                     <BiChevronDown className="ml-1" />
                   </span>
                   <div className="absolute pt-5 lg:pt-8 z-20">
-                    <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[200px] text-left transition-all duration-500 text-sm sm:text-base py-4 bg-[#171717] ">
+                    <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[220px] text-left transition-all duration-500 text-sm sm:text-base py-4 bg-[#171717] ">
                       <div className=" px-5 group hover:bg-SecondaryColor-0 ">
                         <li className="hover:ml-3 duration-300">
                           <NavLink to="/projectinner" className="py-2 block">
@@ -295,7 +295,7 @@ const Navbar = () => {
                     <BiChevronDown className="ml-1" />
                   </span>
                   <div className="absolute pt-5 lg:pt-8 z-20">
-                    <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[200px] text-left transition-all duration-500 text-sm sm:text-base py-4 bg-[#171717] ">
+                    <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[220px] text-left transition-all duration-500 text-sm sm:text-base py-4 bg-[#171717] ">
                       <div className=" px-5 group hover:bg-SecondaryColor-0 ">
                         <li className="hover:ml-3 duration-300">
                           <NavLink to="/projectinner" className="py-2 block">
@@ -328,7 +328,7 @@ const Navbar = () => {
                     <BiChevronDown className="ml-1" />
                   </span>
                   <div className="absolute pt-5 lg:pt-8 z-20">
-                    <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[200px] text-left transition-all duration-500 text-sm sm:text-base py-4 bg-[#171717] ">
+                    <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[220px] text-left transition-all duration-500 text-sm sm:text-base py-4 bg-[#171717] ">
                       <div className=" px-5 group hover:bg-SecondaryColor-0 ">
                         <li className="hover:ml-3 duration-300">
                           <NavLink to="/blog" className="py-2 block">

@@ -19,7 +19,7 @@ const Mission = () => (
         <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">
           Our Mission
         </h5>
-        <h1 className="text-HeadingColor-0 text-[22px] sm:text-4xl leading-8 md:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold sm:leading-[52px] mt-6">
+        <h1 className="text-white text-[22px] sm:text-4xl leading-8 md:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold sm:leading-[52px] mt-6">
           Our Mission Vission And
           <br /> Targated
           <span className="text-PrimaryColor-0"> Goals</span>
