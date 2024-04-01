@@ -78,7 +78,7 @@ const DonateInner = () => {
                     <h5 className="font-Manrope font-medium text-lg text-white">
                       Your Donations :
                     </h5>
-                    <h3 className="font-Manrope font-bold text-white text-[30px]">
+                    <h3 className="font-Manrope font-bold text-white text-3xl">
                       $10
                     </h3>
                   </TabPanel>
@@ -86,7 +86,7 @@ const DonateInner = () => {
                     <h5 className="font-Manrope font-medium text-lg text-white">
                       Your Donations :
                     </h5>
-                    <h3 className="font-Manrope font-bold text-white text-[30px]">
+                    <h3 className="font-Manrope font-bold text-white text-3xl">
                       $20
                     </h3>
                   </TabPanel>
@@ -94,7 +94,7 @@ const DonateInner = () => {
                     <h5 className="font-Manrope font-medium text-lg text-white">
                       Your Donations :
                     </h5>
-                    <h3 className="font-Manrope font-bold text-white text-[30px]">
+                    <h3 className="font-Manrope font-bold text-white text-3xl">
                       $30
                     </h3>
                   </TabPanel>
@@ -102,7 +102,7 @@ const DonateInner = () => {
                     <h5 className="font-Manrope font-medium text-lg text-white">
                       Your Donations :
                     </h5>
-                    <h3 className="font-Manrope font-bold text-white text-[30px]">
+                    <h3 className="font-Manrope font-bold text-white text-3xl">
                       $50
                     </h3>
                   </TabPanel>
@@ -110,7 +110,7 @@ const DonateInner = () => {
                     <h5 className="font-Manrope font-medium text-lg text-white">
                       Your Donations :
                     </h5>
-                    <h3 className="font-Manrope font-bold text-white text-[30px]">
+                    <h3 className="font-Manrope font-bold text-white text-3xl">
                       $70
                     </h3>
                   </TabPanel>
@@ -118,7 +118,7 @@ const DonateInner = () => {
                     <h5 className="font-Manrope font-medium text-lg text-white">
                       Your Donations :
                     </h5>
-                    <h3 className="font-Manrope font-bold text-white text-[30px]">
+                    <h3 className="font-Manrope font-bold text-white text-3xl">
                       $100
                     </h3>
                   </TabPanel>
@@ -354,7 +354,7 @@ const DonateInner = () => {
                 <Link to={"/"}>
                   <img src={logo} className="m-auto" />
                 </Link>
-                <h4 className="font-Manrope font-bold text-[30px] text-white mt-6 mb-6">
+                <h4 className="font-Manrope font-bold text-3xl text-white mt-6 mb-6">
                   Helping Orphan
                   <br />
                   People

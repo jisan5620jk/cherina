@@ -24,7 +24,7 @@ const Banner = () => {
             <div>
               <img src={bannerShape} className="animate-zoomInOut" />
             </div>
-            <h1 className="text-white text-[30px] sm:text-[44px] md:text-5xl lg:text-7xl text-center font-Manrope font-bold mt-10 mb-[58px]">
+            <h1 className="text-white text-3xl sm:text-[44px] md:text-5xl lg:text-7xl text-center font-Manrope font-bold mt-10 mb-[58px]">
               Let’s Give Them Your <br /> Helping
               <span className="text-PrimaryColor-0 font-medium font-Lobster pl-8">
                 Hands
@@ -57,7 +57,7 @@ const Banner = () => {
             <div>
               <img src={bannerShape} className="animate-zoomInOut" />
             </div>
-            <h1 className="text-white text-[30px] sm:text-[44px] md:text-5xl lg:text-7xl text-center font-Manrope font-bold mt-10 mb-[58px]">
+            <h1 className="text-white text-3xl sm:text-[44px] md:text-5xl lg:text-7xl text-center font-Manrope font-bold mt-10 mb-[58px]">
               Giving a Helpline <br /> hand for
               <span className="text-PrimaryColor-0 font-medium font-Lobster pl-8">
                 Childrens

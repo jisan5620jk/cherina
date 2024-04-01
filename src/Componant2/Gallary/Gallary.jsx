@@ -33,7 +33,7 @@ const Gallary = () => {
 
   return (
     <section className="py-28 relative gallary">
-      <h3 className="bg-SecondaryColor-0 py-9 text-[30px] text-white text-center font-Manrope font-bold relative before:absolute before:left-1/2 before:-translate-x-1/2 before:bg-SecondaryColor-0 before:w-10 before:h-10 before:rounded-sm before:-bottom-3 before:rotate-45">
+      <h3 className="bg-SecondaryColor-0 py-9 text-3xl text-white text-center font-Manrope font-bold relative before:absolute before:left-1/2 before:-translate-x-1/2 before:bg-SecondaryColor-0 before:w-10 before:h-10 before:rounded-sm before:-bottom-3 before:rotate-45">
         Our Galary
       </h3>
       <div className="pt-10 px-7">

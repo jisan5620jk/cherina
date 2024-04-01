@@ -89,7 +89,7 @@ const VolunteerInner2 = () => {
           </div>
           <div className="flex bg-PrimaryColor-0 rounded-md mt-[60px]">
             <div className="flex-1 pt-12 2xl:pt-16 px-12">
-              <h2 className="font-Manrope font-extrabold text-[30px] text-white mb-7">
+              <h2 className="font-Manrope font-extrabold text-3xl text-white mb-7">
                 Write Your Information
               </h2>
               <form action="#" method="post" className="flex flex-col gap-4">

@@ -17,7 +17,7 @@ const DonationGrid = () => {
         breadCampTitle={"Donation Grid"}
         url={"/donategrid"}
       />
-      <section>
+      <section className="py-28">
         <div className="Container donate">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
             <div className="inline-block bg-white">
@@ -96,7 +96,7 @@ const DonationGrid = () => {
                   <BsAlarmFill className="text-SecondaryColor-0 text-lg" />
                   150 Days Remaining
                 </h6>
-                <div className="bg-[#edfaf5] rounded-md px-5 pt-9 pb-4">
+                <div className="bg-[#fff2ed] rounded-md px-5 pt-9 pb-4">
                   <div className="px-[6px] py-1 rounded-2xl">
                     <ProgressBar
                       rect
@@ -110,7 +110,7 @@ const DonationGrid = () => {
                       fontWeight="600"
                       percentage="70.1"
                       defColor={{
-                        excellent: "#ff5e14",
+                        excellent: "#53c99f",
                         good: "#53c99f",
                         fair: "green",
                         poor: "red",
@@ -152,10 +152,10 @@ const DonationGrid = () => {
                   </button>
                 </Link>
                 <h6 className="flex gap-2 items-center mt-5 mb-7">
-                  <BsAlarmFill className="text-SecondaryColor-0 text-lg" />
+                  <BsAlarmFill className="text-[#1cc6e9] text-lg" />
                   150 Days Remaining
                 </h6>
-                <div className="bg-[#edfaf5] rounded-md px-5 pt-9 pb-4">
+                <div className="bg-[#e7f9fd] rounded-md px-5 pt-9 pb-4">
                   <div className="px-[6px] py-1 rounded-2xl">
                     <ProgressBar
                       rect
@@ -167,9 +167,9 @@ const DonationGrid = () => {
                       margin="0px"
                       rectBorderRadius="10px"
                       fontWeight="600"
-                      percentage="60.1"
+                      percentage="80.5"
                       defColor={{
-                        excellent: "#ff5e14",
+                        excellent: "#1cc6e9",
                         good: "#fe7f4c",
                         fair: "green",
                         poor: "red",
@@ -273,7 +273,7 @@ const DonationGrid = () => {
                   <BsAlarmFill className="text-SecondaryColor-0 text-lg" />
                   150 Days Remaining
                 </h6>
-                <div className="bg-[#edfaf5] rounded-md px-5 pt-9 pb-4">
+                <div className="bg-[#fff2ed] rounded-md px-5 pt-9 pb-4">
                   <div className="px-[6px] py-1 rounded-2xl">
                     <ProgressBar
                       rect
@@ -287,7 +287,7 @@ const DonationGrid = () => {
                       fontWeight="600"
                       percentage="70.1"
                       defColor={{
-                        excellent: "#ff5e14",
+                        excellent: "#53c99f",
                         good: "#53c99f",
                         fair: "green",
                         poor: "red",
@@ -329,10 +329,10 @@ const DonationGrid = () => {
                   </button>
                 </Link>
                 <h6 className="flex gap-2 items-center mt-5 mb-7">
-                  <BsAlarmFill className="text-SecondaryColor-0 text-lg" />
+                  <BsAlarmFill className="text-[#1cc6e9] text-lg" />
                   150 Days Remaining
                 </h6>
-                <div className="bg-[#edfaf5] rounded-md px-5 pt-9 pb-4">
+                <div className="bg-[#e7f9fd] rounded-md px-5 pt-9 pb-4">
                   <div className="px-[6px] py-1 rounded-2xl">
                     <ProgressBar
                       rect
@@ -344,9 +344,9 @@ const DonationGrid = () => {
                       margin="0px"
                       rectBorderRadius="10px"
                       fontWeight="600"
-                      percentage="60.1"
+                      percentage="80.5"
                       defColor={{
-                        excellent: "#ff5e14",
+                        excellent: "#1cc6e9",
                         good: "#fe7f4c",
                         fair: "green",
                         poor: "red",

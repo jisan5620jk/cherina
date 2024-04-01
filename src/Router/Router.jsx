@@ -8,6 +8,7 @@ import GallaryInner from "../Pages/InnerPage/GallaryInner/GallaryInner";
 import ContactInner from "../Pages/InnerPage/ContactInner/ContactInner";
 import DonateInner from "../Pages/InnerPage/DonateInner/DonateInner";
 import DonationGrid from "../Pages/InnerPage/DonationGrid/DonationGrid";
+import DonattionDetails from "../Pages/InnerPage/DonationDetails/DonationDetails";
 
 const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: "/donategrid",
         element: <DonationGrid />,
+      },
+      {
+        path: "/donationDetails",
+        element: <DonattionDetails />,
       },
     ],
   },
