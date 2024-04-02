@@ -78,6 +78,7 @@ export default {
       },
       boxShadow: {
         cases: "0px 10px 15px rgba(187, 187, 187, 0.2)",
+        shade: "0px 0px 20px rgba(187, 187, 187, 0.2)",
       },
       lineHeight: {},
     },

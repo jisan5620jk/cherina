@@ -319,8 +319,8 @@ const Navbar = () => {
                       </div>
                       <div className=" px-5 group hover:bg-SecondaryColor-0 ">
                         <li className="hover:ml-3 duration-300">
-                          <NavLink to="/teaminner" className="py-2 block">
-                            team
+                          <NavLink to="/eventdetails" className="py-2 block">
+                            Event Details
                           </NavLink>
                         </li>
                       </div>
@@ -345,8 +345,8 @@ const Navbar = () => {
                     <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[220px] text-left transition-all duration-500 text-sm sm:text-base py-4 bg-[#171717] ">
                       <div className=" px-5 group hover:bg-SecondaryColor-0 ">
                         <li className="hover:ml-3 duration-300">
-                          <NavLink to="/blog" className="py-2 block">
-                            Blog
+                          <NavLink to="/blogList" className="py-2 block">
+                            Blog List
                           </NavLink>
                         </li>
                       </div>

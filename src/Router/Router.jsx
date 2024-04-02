@@ -10,6 +10,8 @@ import DonateInner from "../Pages/InnerPage/DonateInner/DonateInner";
 import DonationGrid from "../Pages/InnerPage/DonationGrid/DonationGrid";
 import DonattionDetails from "../Pages/InnerPage/DonationDetails/DonationDetails";
 import EventInner from "../Pages/InnerPage/EventInner/EventInner";
+import EventDetails from "../Pages/InnerPage/EventsDetails/EventDetails";
+import BlogList from "../Pages/InnerPage/BlogList/BlogList";
 
 const router = createBrowserRouter([
   {
@@ -55,6 +57,14 @@ const router = createBrowserRouter([
       {
         path: "/events",
         element: <EventInner />,
+      },
+      {
+        path: "/eventdetails",
+        element: <EventDetails />,
+      },
+      {
+        path: "/blogList",
+        element: <BlogList />,
       },
     ],
   },
