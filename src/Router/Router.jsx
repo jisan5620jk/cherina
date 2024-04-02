@@ -12,6 +12,7 @@ import DonattionDetails from "../Pages/InnerPage/DonationDetails/DonationDetails
 import EventInner from "../Pages/InnerPage/EventInner/EventInner";
 import EventDetails from "../Pages/InnerPage/EventsDetails/EventDetails";
 import BlogList from "../Pages/InnerPage/BlogList/BlogList";
+import BlogDetails from "../Pages/InnerPage/BlogDetails/BlogDetails";
 
 const router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
       {
         path: "/blogList",
         element: <BlogList />,
+      },
+      {
+        path: "/blogDetails",
+        element: <BlogDetails />,
       },
     ],
   },

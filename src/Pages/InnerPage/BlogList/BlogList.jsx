@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
 import blogListImg from "/public/images/Componant2/blog/blog-1.jpg";
+import blogListImg2 from "/public/images/Componant2/blog/blog-2.jpg";
+import blogListImg3 from "/public/images/Componant2/blog/blog-3.jpg";
+import blogListImg4 from "/public/images/Componant2/blog/blog-4.jpg";
+import blogListImg5 from "/public/images/Componant2/blog/blog-5.jpg";
 import itemthumb from "/public/images/Componant2/blog/post4.jpg";
 import itemthumb2 from "/public/images/Componant2/blog/post5.jpg";
 import itemthumb3 from "/public/images/Componant2/blog/post6.jpg";
@@ -10,6 +14,7 @@ import { IoSearch } from "react-icons/io5";
 import { FaUserCircle } from "react-icons/fa";
 import { FaCommentsDollar, FaRegCalendarCheck } from "react-icons/fa6";
 import { HiChevronDoubleRight } from "react-icons/hi2";
+import { RiArrowRightDoubleFill } from "react-icons/ri";
 
 const BlogList = () => {
   return (
@@ -23,35 +28,237 @@ const BlogList = () => {
         <div className="Container">
           <div className="grid grid-cols-3 gap-7">
             <div className="col-span-2">
-              <div
-                className="border rounded-md
-               pb-8"
-              >
-                <img src={blogListImg} />
-                <div>
-                  <h2></h2>
-                  <div>
-                    <h6>
-                      <FaUserCircle />
+              <div className="border rounded-md pb-8 mb-7">
+                <div className="relative">
+                  <img src={blogListImg} />
+                  <h6 className="font-Manrope text-sm text-white px-5 py-2 rounded-se-2xl absolute bottom-0 left-0 bg-PrimaryColor-0">
+                    Healthy Foods
+                  </h6>
+                </div>
+                <div className="px-10">
+                  <Link to={"/"}>
+                    <button className="font-Manrope font-black text-2xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
+                      Organic Fods Reserved for Childreen
+                    </button>
+                  </Link>
+                  <div className="flex items-center gap-5 mb-7">
+                    <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
+                      <FaUserCircle className="text-4xl text-[#dedede]" />
                       Jhon Alexon
                     </h6>
-                    <h6>
-                      <FaRegCalendarCheck />
-                      Jan 10, 2024gi
+                    <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
+                      <FaRegCalendarCheck className="text-base text-PrimaryColor-0" />
+                      Jan 10, 2024
                     </h6>
-                    <h6>
-                      <FaCommentsDollar />
+                    <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
+                      <FaCommentsDollar className="text-base text-PrimaryColor-0" />
                       02 Comments
                     </h6>
                   </div>
+                  <p className="font-Manrope text-TextColor-0 border-t pt-5">
+                    Completely create leveraged best practices and B2B
+                    interfaces events productivate it’s a cutting-edge solutions
+                    with go forward supply chains has depended.
+                  </p>
+                  <Link to={"/"}>
+                    <button className="flex items-center gap-2 font-Manrope text-HeadingColor-0 font-medium mt-8 mb-2">
+                      Continue Reading
+                      <HiChevronDoubleRight className="text-PrimaryColor-0" />
+                    </button>
+                  </Link>
                 </div>
-                <p></p>
-                <Link to={"/"}>
-                  <button>
-                    Continue Reading
-                    <HiChevronDoubleRight />
-                  </button>
-                </Link>
+              </div>
+              <div className="border rounded-md pb-8 mb-7">
+                <div className="relative">
+                  <img src={blogListImg2} />
+                  <h6 className="font-Manrope text-sm text-white px-5 py-2 rounded-se-2xl absolute bottom-0 left-0 bg-PrimaryColor-0">
+                    Healthy Foods
+                  </h6>
+                </div>
+                <div className="px-10">
+                  <Link to={"/"}>
+                    <button className="font-Manrope font-black text-2xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
+                      Help for Kids Education Donate Money
+                    </button>
+                  </Link>
+                  <div className="flex items-center gap-5 mb-7">
+                    <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
+                      <FaUserCircle className="text-4xl text-[#dedede]" />
+                      Jhon Alexon
+                    </h6>
+                    <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
+                      <FaRegCalendarCheck className="text-base text-PrimaryColor-0" />
+                      Jan 10, 2024
+                    </h6>
+                    <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
+                      <FaCommentsDollar className="text-base text-PrimaryColor-0" />
+                      02 Comments
+                    </h6>
+                  </div>
+                  <p className="font-Manrope text-TextColor-0 border-t pt-5">
+                    Completely create leveraged best practices and B2B
+                    interfaces events productivate it’s a cutting-edge solutions
+                    with go forward supply chains has depended.
+                  </p>
+                  <Link to={"/"}>
+                    <button className="flex items-center gap-2 font-Manrope text-HeadingColor-0 font-medium mt-8 mb-2">
+                      Continue Reading
+                      <HiChevronDoubleRight className="text-PrimaryColor-0" />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              <div className="border rounded-md pb-8 mb-7">
+                <div className="relative">
+                  <img src={blogListImg3} />
+                  <h6 className="font-Manrope text-sm text-white px-5 py-2 rounded-se-2xl absolute bottom-0 left-0 bg-PrimaryColor-0">
+                    Healthy Foods
+                  </h6>
+                </div>
+                <div className="px-10">
+                  <Link to={"/"}>
+                    <button className="font-Manrope font-black text-2xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
+                      Education helps for Street Childreen’s
+                    </button>
+                  </Link>
+                  <div className="flex items-center gap-5 mb-7">
+                    <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
+                      <FaUserCircle className="text-4xl text-[#dedede]" />
+                      Jhon Alexon
+                    </h6>
+                    <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
+                      <FaRegCalendarCheck className="text-base text-PrimaryColor-0" />
+                      Jan 10, 2024
+                    </h6>
+                    <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
+                      <FaCommentsDollar className="text-base text-PrimaryColor-0" />
+                      02 Comments
+                    </h6>
+                  </div>
+                  <p className="font-Manrope text-TextColor-0 border-t pt-5">
+                    Completely create leveraged best practices and B2B
+                    interfaces events productivate it’s a cutting-edge solutions
+                    with go forward supply chains has depended.
+                  </p>
+                  <Link to={"/"}>
+                    <button className="flex items-center gap-2 font-Manrope text-HeadingColor-0 font-medium mt-8 mb-2">
+                      Continue Reading
+                      <HiChevronDoubleRight className="text-PrimaryColor-0" />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              <div className="border rounded-md pb-8 mb-7">
+                <div className="relative">
+                  <img src={blogListImg4} />
+                  <h6 className="font-Manrope text-sm text-white px-5 py-2 rounded-se-2xl absolute bottom-0 left-0 bg-PrimaryColor-0">
+                    Healthy Foods
+                  </h6>
+                </div>
+                <div className="px-10">
+                  <Link to={"/"}>
+                    <button className="font-Manrope font-black text-2xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
+                      How to Make Good Health orphan Kids
+                    </button>
+                  </Link>
+                  <div className="flex items-center gap-5 mb-7">
+                    <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
+                      <FaUserCircle className="text-4xl text-[#dedede]" />
+                      Jhon Alexon
+                    </h6>
+                    <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
+                      <FaRegCalendarCheck className="text-base text-PrimaryColor-0" />
+                      Jan 10, 2024
+                    </h6>
+                    <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
+                      <FaCommentsDollar className="text-base text-PrimaryColor-0" />
+                      02 Comments
+                    </h6>
+                  </div>
+                  <p className="font-Manrope text-TextColor-0 border-t pt-5">
+                    Completely create leveraged best practices and B2B
+                    interfaces events productivate it’s a cutting-edge solutions
+                    with go forward supply chains has depended.
+                  </p>
+                  <Link to={"/"}>
+                    <button className="flex items-center gap-2 font-Manrope text-HeadingColor-0 font-medium mt-8 mb-2">
+                      Continue Reading
+                      <HiChevronDoubleRight className="text-PrimaryColor-0" />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              <div className="border rounded-md pb-8 mb-7">
+                <div className="relative">
+                  <img src={blogListImg5} />
+                  <h6 className="font-Manrope text-sm text-white px-5 py-2 rounded-se-2xl absolute bottom-0 left-0 bg-PrimaryColor-0">
+                    Healthy Foods
+                  </h6>
+                </div>
+                <div className="px-10">
+                  <Link to={"/"}>
+                    <button className="font-Manrope font-black text-2xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
+                      Help for Kids Education Donate Money
+                    </button>
+                  </Link>
+                  <div className="flex items-center gap-5 mb-7">
+                    <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
+                      <FaUserCircle className="text-4xl text-[#dedede]" />
+                      Jhon Alexon
+                    </h6>
+                    <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
+                      <FaRegCalendarCheck className="text-base text-PrimaryColor-0" />
+                      Jan 10, 2024
+                    </h6>
+                    <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
+                      <FaCommentsDollar className="text-base text-PrimaryColor-0" />
+                      02 Comments
+                    </h6>
+                  </div>
+                  <p className="font-Manrope text-TextColor-0 border-t pt-5">
+                    Completely create leveraged best practices and B2B
+                    interfaces events productivate it’s a cutting-edge solutions
+                    with go forward supply chains has depended.
+                  </p>
+                  <Link to={"/"}>
+                    <button className="flex items-center gap-2 font-Manrope text-HeadingColor-0 font-medium mt-8 mb-2">
+                      Continue Reading
+                      <HiChevronDoubleRight className="text-PrimaryColor-0" />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              <div className="flex justify-center mt-14">
+                <ul className="flex gap-3">
+                  <li>
+                    <Link to={"/"}>
+                      <button className="text-[17px] font-Manrope h-12 w-12 flex justify-center items-center rounded-full border transition-all duration-500 z-10 relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:rounded-full before:scale-0 before:transition-all before:duration-500 hover:before:scale-100 hover:text-white">
+                        01
+                      </button>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/"}>
+                      <button className="text-[17px] font-Manrope h-12 w-12 flex justify-center items-center rounded-full border transition-all duration-500 z-10 relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:rounded-full before:scale-0 before:transition-all before:duration-500 hover:before:scale-100 hover:text-white">
+                        02
+                      </button>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/"}>
+                      <button className="text-[17px] font-Manrope h-12 w-12 flex justify-center items-center rounded-full border transition-all duration-500 z-10 relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:rounded-full before:scale-0 before:transition-all before:duration-500 hover:before:scale-100 hover:text-white">
+                        03
+                      </button>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/"}>
+                      <button className="text-lg font-Manrope h-12 w-12 flex justify-center items-center rounded-full border transition-all duration-500 z-10 relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:rounded-full before:scale-0 before:transition-all before:duration-500 hover:before:scale-100 hover:text-white">
+                        <RiArrowRightDoubleFill />
+                      </button>
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="col-span-1">
