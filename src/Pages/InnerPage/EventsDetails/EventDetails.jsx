@@ -25,15 +25,15 @@ const EventDetails = () => {
         breadCampTitle={"Event Details"}
         url={"/eventdetails"}
       />
-      <section className="p-28 donate">
+      <section className="py-28 donate">
         <div className="Container">
-          <div className="grid grid-cols-3 gap-7">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-7">
             <div className="col-span-2">
               <div>
-                <img src={donateImg} />
+                <img src={donateImg} className="w-full" />
               </div>
               <Link to={"/"}>
-                <h2 className="font-Manrope font-bold text-3xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-4">
+                <h2 className="font-Manrope font-bold text-2xl sm:text-3xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-4">
                   Give a good education orphan childreen
                 </h2>
               </Link>
@@ -57,7 +57,7 @@ const EventDetails = () => {
                 e-tailers. Uniquely syndicate new event to available in new
                 yourk. But Suddently It’s Clossed.
               </p>
-              <div className="grid grid-cols-2 gap-7 mt-14">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-14">
                 <div>
                   <img src={eventImg} />
                 </div>
@@ -66,7 +66,7 @@ const EventDetails = () => {
                 </div>
               </div>
               <Link to={"/"}>
-                <h2 className="font-Manrope font-bold text-3xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-10 mb-4">
+                <h2 className="font-Manrope font-bold text-2xl sm:text-3xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-10 mb-4">
                   Donation’s Summary
                 </h2>
               </Link>
@@ -101,7 +101,7 @@ const EventDetails = () => {
                 </button>
               </Link>
             </div>
-            <div className="col-span-1">
+            <div className="col-span-2 lg:col-span-1">
               <div className="bg-[url('/public/images/Componant2/event/event_bg.png')] bg-center bg-cover bg-no-repeat px-9 border-t-[5px] border-PrimaryColor-0 rounded-md pt-11 pb-12 mb-7">
                 <h4 className="font-Manrope font-bold text-[22px] text-white ml-12 relative before:absolute before:top-1/2 before:-translate-y-1/2 before:-left-12 before:h-[2px] before:w-10 before:bg-PrimaryColor-0 mb-10">
                   Event Info
@@ -232,7 +232,7 @@ const EventDetails = () => {
                 <Link to={"/"}>
                   <img src={logo} className="m-auto" />
                 </Link>
-                <h4 className="font-Manrope font-bold text-3xl text-white mt-6 mb-6">
+                <h4 className="font-Manrope font-bold text-2xl sm:text-3xl text-white mt-6 mb-6">
                   Helping Orphan
                   <br />
                   People

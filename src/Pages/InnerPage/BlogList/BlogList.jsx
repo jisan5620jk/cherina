@@ -26,22 +26,22 @@ const BlogList = () => {
       />
       <section className="py-28">
         <div className="Container">
-          <div className="grid grid-cols-3 gap-7">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-7">
             <div className="col-span-2">
               <div className="border rounded-md pb-8 mb-7">
                 <div className="relative">
-                  <img src={blogListImg} />
+                  <img src={blogListImg} className="w-full" />
                   <h6 className="font-Manrope text-sm text-white px-5 py-2 rounded-se-2xl absolute bottom-0 left-0 bg-PrimaryColor-0">
                     Healthy Foods
                   </h6>
                 </div>
-                <div className="px-10">
+                <div className="px-5 sm:px-10">
                   <Link to={"/"}>
-                    <button className="font-Manrope font-black text-2xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
+                    <button className="font-Manrope font-black text-xl sm:text-2xl text-left text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
                       Organic Fods Reserved for Childreen
                     </button>
                   </Link>
-                  <div className="flex items-center gap-5 mb-7">
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-7">
                     <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
                       <FaUserCircle className="text-4xl text-[#dedede]" />
                       Jhon Alexon
@@ -70,18 +70,18 @@ const BlogList = () => {
               </div>
               <div className="border rounded-md pb-8 mb-7">
                 <div className="relative">
-                  <img src={blogListImg2} />
+                  <img src={blogListImg2} className="w-full" />
                   <h6 className="font-Manrope text-sm text-white px-5 py-2 rounded-se-2xl absolute bottom-0 left-0 bg-PrimaryColor-0">
                     Healthy Foods
                   </h6>
                 </div>
-                <div className="px-10">
+                <div className="px-5 sm:px-10">
                   <Link to={"/"}>
-                    <button className="font-Manrope font-black text-2xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
+                    <button className="font-Manrope font-black text-xl sm:text-2xl text-left text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
                       Help for Kids Education Donate Money
                     </button>
                   </Link>
-                  <div className="flex items-center gap-5 mb-7">
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-7">
                     <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
                       <FaUserCircle className="text-4xl text-[#dedede]" />
                       Jhon Alexon
@@ -110,18 +110,18 @@ const BlogList = () => {
               </div>
               <div className="border rounded-md pb-8 mb-7">
                 <div className="relative">
-                  <img src={blogListImg3} />
+                  <img src={blogListImg3} className="w-full" />
                   <h6 className="font-Manrope text-sm text-white px-5 py-2 rounded-se-2xl absolute bottom-0 left-0 bg-PrimaryColor-0">
                     Healthy Foods
                   </h6>
                 </div>
-                <div className="px-10">
+                <div className="px-5 sm:px-10">
                   <Link to={"/"}>
-                    <button className="font-Manrope font-black text-2xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
+                    <button className="font-Manrope font-black text-xl sm:text-2xl text-left text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
                       Education helps for Street Childreen’s
                     </button>
                   </Link>
-                  <div className="flex items-center gap-5 mb-7">
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-7">
                     <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
                       <FaUserCircle className="text-4xl text-[#dedede]" />
                       Jhon Alexon
@@ -150,18 +150,18 @@ const BlogList = () => {
               </div>
               <div className="border rounded-md pb-8 mb-7">
                 <div className="relative">
-                  <img src={blogListImg4} />
+                  <img src={blogListImg4} className="w-full" />
                   <h6 className="font-Manrope text-sm text-white px-5 py-2 rounded-se-2xl absolute bottom-0 left-0 bg-PrimaryColor-0">
                     Healthy Foods
                   </h6>
                 </div>
-                <div className="px-10">
+                <div className="px-5 sm:px-10">
                   <Link to={"/"}>
-                    <button className="font-Manrope font-black text-2xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
+                    <button className="font-Manrope font-black text-xl sm:text-2xl text-left text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
                       How to Make Good Health orphan Kids
                     </button>
                   </Link>
-                  <div className="flex items-center gap-5 mb-7">
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-7">
                     <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
                       <FaUserCircle className="text-4xl text-[#dedede]" />
                       Jhon Alexon
@@ -190,18 +190,18 @@ const BlogList = () => {
               </div>
               <div className="border rounded-md pb-8 mb-7">
                 <div className="relative">
-                  <img src={blogListImg5} />
+                  <img src={blogListImg5} className="w-full" />
                   <h6 className="font-Manrope text-sm text-white px-5 py-2 rounded-se-2xl absolute bottom-0 left-0 bg-PrimaryColor-0">
                     Healthy Foods
                   </h6>
                 </div>
-                <div className="px-10">
+                <div className="px-5 sm:px-10">
                   <Link to={"/"}>
-                    <button className="font-Manrope font-black text-2xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
+                    <button className="font-Manrope font-black text-xl sm:text-2xl text-left text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
                       Help for Kids Education Donate Money
                     </button>
                   </Link>
-                  <div className="flex items-center gap-5 mb-7">
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-7">
                     <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
                       <FaUserCircle className="text-4xl text-[#dedede]" />
                       Jhon Alexon
@@ -261,7 +261,7 @@ const BlogList = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-span-1">
+            <div className="col-span-2 lg:col-span-1">
               <div className="relative inline-block w-full mb-7 p-7 rounded-md bg-PrimaryColor-0">
                 <input
                   type="text"
@@ -379,7 +379,7 @@ const BlogList = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-[#fff4f1] rounded-md px-8 pt-7 pb-10 mb-7">
+              <div className="bg-[#fff4f1] rounded-md px-4 sm:px-8 lg:px-4 xl:px-8 pt-7 pb-10 mb-7">
                 <h4 className="font-Manrope font-bold text-[22px] text-HeadingColor-0">
                   Tag Cloud
                 </h4>
@@ -391,7 +391,7 @@ const BlogList = () => {
                       </button>
                     </Link>
                   </li>
-                  <li className="inline-block mb-[10px]">
+                  <li className="inline-block mr-[10px] mb-[10px]">
                     <Link to={"/"}>
                       <button className="bg-white rounded-full flex items-center justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
                         Educations
@@ -419,14 +419,14 @@ const BlogList = () => {
                       </button>
                     </Link>
                   </li>
-                  <li className="inline-block mr-[10px]">
+                  <li className="inline-block mr-[10px] mb-[10px]">
                     <Link to={"/"}>
                       <button className="bg-white rounded-full flex items-center justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
                         Donations
                       </button>
                     </Link>
                   </li>
-                  <li className="inline-block">
+                  <li className="inline-block mr-[10px] mb-[10px]">
                     <Link to={"/"}>
                       <button className="bg-white rounded-full flex items-center justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
                         Healths

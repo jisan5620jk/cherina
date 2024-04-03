@@ -32,21 +32,21 @@ const BlogDetails = () => {
       />
       <section className="py-28">
         <div className="Container">
-          <div className="grid grid-cols-3 gap-7">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-7">
             <div className="col-span-2">
               <div className="pb-8 mb-4">
                 <div className="relative">
-                  <img src={blogListImg} />
+                  <img src={blogListImg} className="w-full" />
                   <h6 className="font-Manrope text-sm text-white px-5 py-2 rounded-se-2xl absolute bottom-0 left-0 bg-PrimaryColor-0">
                     Cherity
                   </h6>
                 </div>
                 <Link to={"/"}>
-                  <button className="font-Manrope font-black text-2xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
+                  <button className="font-Manrope font-black text-xl text-left sm:text-2xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-9 mb-6">
                     Help for Kids Education Donate Money
                   </button>
                 </Link>
-                <div className="flex items-center gap-5 mb-7">
+                <div className="flex flex-col sm:flex-row sm:items-center gap-5 mb-7">
                   <h6 className="flex items-center gap-2 font-Manrope text-TextColor-0 text-sm">
                     <FaUserCircle className="text-4xl text-[#dedede]" />
                     Jhon Alexon
@@ -85,7 +85,7 @@ const BlogDetails = () => {
                   efficient results rather than
                 </p>
               </div>
-              <div className="flex items-center gap-5">
+              <div className="flex flex-col sm:flex-row sm:items-center gap-5">
                 <div className="h-[78px] w-[76px] rounded bg-SecondaryColor-0 text-5xl text-white flex justify-center items-center">
                   <BiDonateHeart />
                 </div>
@@ -100,7 +100,7 @@ const BlogDetails = () => {
                   </h6>
                 </div>
               </div>
-              <div className="grid grid-cols-2 gap-7 mt-16">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-16">
                 <div>
                   <img src={blogDetailsImg} />
                 </div>
@@ -109,9 +109,9 @@ const BlogDetails = () => {
                 </div>
               </div>
               <Link to={"/"}>
-                <h2 className="font-Manrope font-bold text-3xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-10 mb-4">
+                <button className="font-Manrope font-black text-left text-2xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-10 mb-4">
                   Why You should Donate them?
-                </h2>
+                </button>
               </Link>
               <p className="font-Manrope text-TextColor-0">
                 Dramatically matrix cross-media vortals wireless deliverables.
@@ -134,7 +134,7 @@ const BlogDetails = () => {
                   You should be a honest & powerful
                 </li>
               </ul>
-              <div className="flex justify-between items-center border-t mt-9 pt-7">
+              <div className="flex flex-col sm:flex-row gap-5 sm:items-center justify-between border-t mt-9 pt-7">
                 <div>
                   <h6 className="font-Manrope text-lg font-medium">
                     Tags :{" "}
@@ -199,7 +199,7 @@ const BlogDetails = () => {
               <h3 className="font-Manrope font-bold text-[28px] mt-[72px] mb-10">
                 Comments (2)
               </h3>
-              <div className="flex gap-6 border-b pb-8">
+              <div className="flex flex-col sm:flex-row gap-6 border-b pb-8">
                 <div>
                   <FaUserCircle className="text-[#e0e0e0] text-7xl" />
                 </div>
@@ -225,7 +225,7 @@ const BlogDetails = () => {
                   </Link>
                 </div>
               </div>
-              <div className="flex gap-6 pt-8">
+              <div className="flex flex-col sm:flex-row gap-6 pt-8">
                 <div>
                   <FaUserCircle className="text-[#e0e0e0] text-7xl" />
                 </div>
@@ -255,7 +255,7 @@ const BlogDetails = () => {
                 Add New Comments
               </h3>
               <form action="#" method="post">
-                <div className="grid grid-cols-2 gap-7 mb-5">
+                <div className="grid sm:grid-cols-2 gap-4 sm:gap-7 mb-5">
                   <input
                     type="text"
                     name="name"
@@ -286,7 +286,7 @@ const BlogDetails = () => {
                 </button>
               </form>
             </div>
-            <div className="col-span-1">
+            <div className="col-span-2 lg:col-span-1">
               <div className="relative inline-block w-full mb-7 p-7 rounded-md bg-PrimaryColor-0">
                 <input
                   type="text"
@@ -404,56 +404,56 @@ const BlogDetails = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-[#fff4f1] rounded-md px-8 pt-7 pb-10 mb-7">
+              <div className="bg-[#fff4f1] rounded-md px-4 sm:px-8 lg:px-4 xl:px-8 pt-7 pb-10 mb-7">
                 <h4 className="font-Manrope font-bold text-[22px] text-HeadingColor-0">
                   Tag Cloud
                 </h4>
                 <ul className="mt-8 inline-block">
                   <li className="inline-block mr-[10px] mb-[10px]">
                     <Link to={"/"}>
-                      <button className="bg-white rounded-full flex items-center text-sm justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
+                      <button className="bg-white rounded-full flex items-center justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
                         Charity
                       </button>
                     </Link>
                   </li>
-                  <li className="inline-block mb-[10px]">
+                  <li className="inline-block mr-[10px] mb-[10px]">
                     <Link to={"/"}>
-                      <button className="bg-white rounded-full flex items-center text-sm justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
+                      <button className="bg-white rounded-full flex items-center justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
                         Educations
                       </button>
                     </Link>
                   </li>
                   <li className="inline-block mr-[10px] mb-[10px]">
                     <Link to={"/"}>
-                      <button className="bg-white rounded-full flex items-center text-sm justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
+                      <button className="bg-white rounded-full flex items-center justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
                         Water
                       </button>
                     </Link>
                   </li>
                   <li className="inline-block mr-[10px] mb-[10px]">
                     <Link to={"/"}>
-                      <button className="bg-white rounded-full flex items-center text-sm justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
+                      <button className="bg-white rounded-full flex items-center justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
                         Foods
                       </button>
                     </Link>
                   </li>
                   <li className="inline-block mr-[10px] mb-[10px]">
                     <Link to={"/"}>
-                      <button className="bg-white rounded-full flex items-center text-sm justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
+                      <button className="bg-white rounded-full flex items-center justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
                         Orphans
                       </button>
                     </Link>
                   </li>
-                  <li className="inline-block mr-[10px]">
+                  <li className="inline-block mr-[10px] mb-[10px]">
                     <Link to={"/"}>
-                      <button className="bg-white rounded-full flex items-center text-sm justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
+                      <button className="bg-white rounded-full flex items-center justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
                         Donations
                       </button>
                     </Link>
                   </li>
-                  <li className="inline-block">
+                  <li className="inline-block mr-[10px] mb-[10px]">
                     <Link to={"/"}>
-                      <button className="bg-white rounded-full flex items-center text-sm justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
+                      <button className="bg-white rounded-full flex items-center justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
                         Healths
                       </button>
                     </Link>

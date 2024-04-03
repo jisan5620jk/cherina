@@ -14,7 +14,7 @@ const EventInnerMain = ({
   eventButton,
 }) => {
   return (
-    <div className="shadow-shade rounded-2xl bg-white p-5 flex gap-7 items-center relative mb-7">
+    <div className="shadow-shade rounded-2xl bg-white p-5 flex flex-col lg:flex-row gap-7 items-center relative mb-7">
       <div className="relative">
         <img src={eventImg} />
         <h6 className="bg-PrimaryColor-0 w-[58px] h-[58px] px-2 text-center leading-5 rounded text-white font-Manrope flex items-center justify-center absolute top-5 left-5">
@@ -23,7 +23,7 @@ const EventInnerMain = ({
       </div>
       <div className="flex-1">
         <Link to={"/"}>
-          <h2 className="font-Manrope text-[28px] font-bold text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0">
+          <h2 className="font-Manrope text-2xl sm:text-[28px] font-bold text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0">
             {eventTitle}
           </h2>
         </Link>
@@ -38,7 +38,7 @@ const EventInnerMain = ({
         </h6>
       </div>
       <Link to={url}>
-        <button className="h-[38px] w-[116px] font-Manrope bg-PrimaryColor-0 text-sm flex justify-center items-center text-white rounded-full -rotate-90 absolute top-1/2 -right-[59px] -translate-y-1/2">
+        <button className="h-[38px] w-[116px] font-Manrope bg-PrimaryColor-0 text-sm flex justify-center items-center text-white rounded-full lg:-rotate-90 absolute bottom-5 left-6 lg:bottom-[inherit] lg:left-[inherit] lg:top-1/2 lg:-right-[59px] lg:-translate-y-1/2">
           {eventButton}
         </button>
       </Link>
