@@ -32,7 +32,7 @@ const VolunteerInner2 = () => {
             </div>
             <div className="flex-1">
               <h5 className="sub-title">Become a Volunteers</h5>
-              <h1 className="text-HeadingColor-0 text-[22px] sm:text-4xl leading-8 md:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold sm:leading-[52px] mt-6">
+              <h1 className="text-HeadingColor-0 text-[22px] sm:text-4xl leading-8 md:text-[32px] 2xl:text-[42px] font-Manrope font-extrabold sm:leading-[52px] mt-6">
                 Let’s Join our Community
                 <br /> Become a
                 <span className="text-PrimaryColor-0"> Volunteers</span>
@@ -80,16 +80,16 @@ const VolunteerInner2 = () => {
             <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">
               Join Community
             </h5>
-            <h1 className="text-white text-[22px] sm:text-4xl leading-8 md:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold sm:leading-[52px] mt-6">
+            <h1 className="text-white text-[20px] sm:text-4xl leading-8 md:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold sm:leading-[52px] mt-6">
               Fill Up the Form and Join our
               <br />
               Biggest
               <span className="text-PrimaryColor-0"> Community</span>
             </h1>
           </div>
-          <div className="flex bg-PrimaryColor-0 rounded-md mt-[60px]">
-            <div className="flex-1 pt-12 2xl:pt-16 px-12">
-              <h2 className="font-Manrope font-extrabold text-3xl text-white mb-7">
+          <div className="flex flex-col gap-7 lg:flex-row bg-PrimaryColor-0 rounded-md mt-[60px]">
+            <div className="flex-1 py-6 xl:pt-12 2xl:pt-16 px-8 sm:px-12">
+              <h2 className="font-Manrope font-extrabold text-xl sm:text-3xl text-white mb-7">
                 Write Your Information
               </h2>
               <form action="#" method="post" className="flex flex-col gap-4">
@@ -101,7 +101,7 @@ const VolunteerInner2 = () => {
                   required
                   className="w-full h-[52px] px-6 py-2 rounded-md outline-none"
                 />
-                <div className="flex gap-4">
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-7">
                   <input
                     type="email"
                     name="email"
@@ -150,7 +150,7 @@ const VolunteerInner2 = () => {
                 </button>
               </form>
             </div>
-            <div className="flex-1">
+            <div className="flex-1 justify-end flex ">
               <img src={contactImg} />
             </div>
           </div>

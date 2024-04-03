@@ -30,17 +30,17 @@ const DonationDetails = () => {
         breadCampTitle={"Donations Details"}
         url={"/donationDetails"}
       />
-      <section className="p-28 donate">
+      <section className="py-28 donate">
         <div className="Container">
-          <div className="grid grid-cols-3 gap-7">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-7">
             <div className="col-span-2">
               <div
                 className="border rounded-md
                pb-8"
               >
-                <img src={donateImg} />
-                <div className="grid grid-cols-3 items-center mt-8">
-                  <div className="mt-8 px-9 col-span-2">
+                <img src={donateImg} className="w-full"/>
+                <div className="grid grid-cols-2 md:grid-cols-3 items-center mt-8">
+                  <div className="mt-8 p-5 sm:px-9 col-span-2">
                     <div className="px-[6px] py-1 rounded-2xl">
                       <ProgressBar
                         rect
@@ -80,7 +80,10 @@ const DonationDetails = () => {
                       </h6>
                     </div>
                   </div>
-                  <Link to={"/"} className="col-span-1">
+                  <Link
+                    to={"/"}
+                    className="col-span-2 md:col-span-1 p-5 sm:px-9 md:px-0"
+                  >
                     <button className="primary-btn">
                       Donate Now
                       <VscHeart />
@@ -89,7 +92,7 @@ const DonationDetails = () => {
                 </div>
               </div>
               <Link to={"/"}>
-                <h2 className="font-Manrope font-bold text-3xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-10 mb-4">
+                <h2 className="font-Manrope font-bold text-2xl sm:text-3xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-10 mb-4">
                   Give a good education orphan childreen
                 </h2>
               </Link>
@@ -102,7 +105,7 @@ const DonationDetails = () => {
                 installed base web services whereas enabled
               </p>
               <Link to={"/"}>
-                <h2 className="font-Manrope font-bold text-3xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-10 mb-4">
+                <h2 className="font-Manrope font-bold  text-2xl sm:text-3xl text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0 mt-10 mb-4">
                   Give a good education orphan childreen
                 </h2>
               </Link>
@@ -128,7 +131,7 @@ const DonationDetails = () => {
               <h5 className="font-Manrope font-bold text-HeadingColor-0 text-2xl mb-8 mt-14">
                 Recent Donars
               </h5>
-              <div className="bg-[#1b2b2b] py-7 flex justify-around rounded-md">
+              <div className="bg-[#1b2b2b] py-7 grid grid-cols-2 gap-5 sm:flex justify-around rounded-md">
                 <div className="text-center">
                   <img src={donarImg} className="m-auto" />
                   <h6 className="font-Manrope font-semibold text-white mt-3">
@@ -178,7 +181,7 @@ const DonationDetails = () => {
               <h3 className="font-Manrope font-bold text-[28px] mt-[72px] mb-10">
                 Comments (2)
               </h3>
-              <div className="flex gap-6 border-b pb-8">
+              <div className="flex flex-col sm:flex-row gap-6 border-b pb-8">
                 <div>
                   <FaUserCircle className="text-[#e0e0e0] text-7xl" />
                 </div>
@@ -204,7 +207,7 @@ const DonationDetails = () => {
                   </Link>
                 </div>
               </div>
-              <div className="flex gap-6 pt-8">
+              <div className="flex flex-col sm:flex-row gap-6 pt-8">
                 <div>
                   <FaUserCircle className="text-[#e0e0e0] text-7xl" />
                 </div>
@@ -234,7 +237,7 @@ const DonationDetails = () => {
                 Add New Comments
               </h3>
               <form action="#" method="post">
-                <div className="grid grid-cols-2 gap-7 mb-5">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-7 mb-5">
                   <input
                     type="text"
                     name="name"
@@ -265,7 +268,7 @@ const DonationDetails = () => {
                 </button>
               </form>
             </div>
-            <div className="col-span-1">
+            <div className="col-span-2 lg:col-span-1">
               <div className="bg-PrimaryColor-0 rounded-md text-center py-10 mb-7">
                 <img src={donateProfile} className="m-auto" />
                 <h5 className="font-Manrope font-bold text-2xl text-white mt-5 mb-3">
@@ -376,7 +379,7 @@ const DonationDetails = () => {
                   </button>
                 </Link>
               </div>
-              <div className="bg-[#fff4f1] rounded-md px-8 pt-7 pb-10">
+              <div className="bg-[#fff4f1] rounded-md px-4 sm:px-8 lg:px-4 xl:px-8 pt-7 pb-10">
                 <h4 className="font-Manrope font-bold text-[22px] text-HeadingColor-0">
                   Tag Cloud
                 </h4>
@@ -388,7 +391,7 @@ const DonationDetails = () => {
                       </button>
                     </Link>
                   </li>
-                  <li className="inline-block mb-[10px]">
+                  <li className="inline-block mr-[10px] mb-[10px]">
                     <Link to={"/"}>
                       <button className="bg-white rounded-full flex items-center justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
                         Educations
@@ -416,14 +419,14 @@ const DonationDetails = () => {
                       </button>
                     </Link>
                   </li>
-                  <li className="inline-block mr-[10px]">
+                  <li className="inline-block mr-[10px] mb-[10px]">
                     <Link to={"/"}>
                       <button className="bg-white rounded-full flex items-center justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
                         Donations
                       </button>
                     </Link>
                   </li>
-                  <li className="inline-block">
+                  <li className="inline-block mr-[10px] mb-[10px]">
                     <Link to={"/"}>
                       <button className="bg-white rounded-full flex items-center justify-center text-HeadingColor-0 transition-all duration-500 font-medium px-5 py-2 font-Manrope relative z-10 before:absolute before:top-0 before:left-0 before:rounded-full before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 hover:before:scale-100 hover:text-white">
                         Healths

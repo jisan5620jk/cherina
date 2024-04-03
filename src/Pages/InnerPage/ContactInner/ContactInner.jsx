@@ -14,7 +14,7 @@ const ContactInner = () => {
             <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">
               Contact with Us
             </h5>
-            <h1 className="text-HeadingColor-0 text-[22px] sm:text-4xl leading-8 md:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold sm:leading-[52px] mt-6">
+            <h1 className="text-HeadingColor-0 text-[20px] sm:text-4xl leading-8 md:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold sm:leading-[52px] mt-6">
               Feel free to write us Anytime
               <br />
               Your
@@ -23,7 +23,7 @@ const ContactInner = () => {
           </div>
           <div className="rounded-md mt-[60px]">
             <form action="#" method="post" className="flex flex-col gap-4">
-              <div className="flex gap-7">
+              <div className="flex flex-col sm:flex-row gap-4 sm:gap-7">
                 <input
                   type="text"
                   name="name"
@@ -41,7 +41,7 @@ const ContactInner = () => {
                   className="w-full h-[62px] px-6 py-2 rounded-md outline-none"
                 />{" "}
               </div>
-              <div className="flex gap-7">
+              <div className="flex flex-col sm:flex-row gap-4 sm:gap-7">
                 <input
                   type="text"
                   name="number"

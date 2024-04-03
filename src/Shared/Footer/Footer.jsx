@@ -172,7 +172,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-[#172526]">
-        <div className="Container flex flex-col justify-between items-center py-7 md:flex-row">
+        <div className="Container flex flex-col justify-between lg:items-center py-7 lg:flex-row">
           <div>
             <p className="text-[15px] text-[#ffffff86] font-Manrope mb-5 lg:mb-0">
               &copy; 2024, Cherina. All Rights Reserved. Developed By
@@ -183,7 +183,7 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <ul className="flex gap-12">
+            <ul className="flex gap-4 sm:gap-12">
               <li>
                 <Link to={"/"}>
                   <button className="font-Manrope text-[17px] text-[#ffffff86] transition-all duration-500 hover:text-white">

@@ -16,7 +16,7 @@ const EventInnerMain = ({
   return (
     <div className="shadow-shade rounded-2xl bg-white p-5 flex gap-7 items-center relative mb-7">
       <div className="relative">
-        <img src={eventImg} />{" "}
+        <img src={eventImg} />
         <h6 className="bg-PrimaryColor-0 w-[58px] h-[58px] px-2 text-center leading-5 rounded text-white font-Manrope flex items-center justify-center absolute top-5 left-5">
           {eventDate}
         </h6>

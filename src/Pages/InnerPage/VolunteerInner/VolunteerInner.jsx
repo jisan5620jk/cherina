@@ -31,11 +31,11 @@ const VolunteerInner = () => {
               <span className="text-PrimaryColor-0"> Volunteers</span>
             </h1>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-between pt-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-7 items-center justify-between pt-12">
             <div className="text-center inline-block group mb-7">
               <div className="relative">
                 <img src={volunteerImg} className="m-auto" />
-                <div className=" w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-16 -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
+                <div className="w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-[4.3rem] sm:left-[11.7rem] md:left-[6.2rem] lg:left-[1.9rem] xl:left-[3.2rem] 2xl:left-[4.6rem] -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
                   <ul className="flex items-center gap-2 ">
                     <li>
                       <Link to={"/"}>
@@ -71,7 +71,7 @@ const VolunteerInner = () => {
             <div className="text-center inline-block group mb-7">
               <div className="relative">
                 <img src={volunteerImg2} className="m-auto" />
-                <div className=" w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-16 -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
+                <div className="w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-[4.3rem] sm:left-[11.7rem] md:left-[6.2rem] lg:left-[1.9rem] xl:left-[3.2rem] 2xl:left-[4.6rem] -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
                   <ul className="flex items-center gap-2 ">
                     <li>
                       <Link to={"/"}>
@@ -107,7 +107,7 @@ const VolunteerInner = () => {
             <div className="text-center inline-block group mb-7">
               <div className="relative">
                 <img src={volunteerImg3} className="m-auto" />
-                <div className=" w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-16 -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
+                <div className="w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-[4.3rem] sm:left-[11.7rem] md:left-[6.2rem] lg:left-[1.9rem] xl:left-[3.2rem] 2xl:left-[4.6rem] -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
                   <ul className="flex items-center gap-2 ">
                     <li>
                       <Link to={"/"}>
@@ -143,7 +143,7 @@ const VolunteerInner = () => {
             <div className="text-center inline-block group mb-7">
               <div className="relative">
                 <img src={volunteerImg4} className="m-auto" />
-                <div className=" w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-16 -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
+                <div className="w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-[4.3rem] sm:left-[11.7rem] md:left-[6.2rem] lg:left-[1.9rem] xl:left-[3.2rem] 2xl:left-[4.6rem] -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
                   <ul className="flex items-center gap-2 ">
                     <li>
                       <Link to={"/"}>
@@ -179,7 +179,7 @@ const VolunteerInner = () => {
             <div className="text-center inline-block group mb-7">
               <div className="relative">
                 <img src={volunteerImg5} className="m-auto" />
-                <div className=" w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-16 -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
+                <div className="w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-[4.3rem] sm:left-[11.7rem] md:left-[6.2rem] lg:left-[1.9rem] xl:left-[3.2rem] 2xl:left-[4.6rem] -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
                   <ul className="flex items-center gap-2 ">
                     <li>
                       <Link to={"/"}>
@@ -215,7 +215,7 @@ const VolunteerInner = () => {
             <div className="text-center inline-block group mb-7">
               <div className="relative">
                 <img src={volunteerImg6} className="m-auto" />
-                <div className=" w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-16 -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
+                <div className="w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-[4.3rem] sm:left-[11.7rem] md:left-[6.2rem] lg:left-[1.9rem] xl:left-[3.2rem] 2xl:left-[4.6rem] -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
                   <ul className="flex items-center gap-2 ">
                     <li>
                       <Link to={"/"}>
@@ -251,7 +251,7 @@ const VolunteerInner = () => {
             <div className="text-center inline-block group mb-7">
               <div className="relative">
                 <img src={volunteerImg7} className="m-auto" />
-                <div className=" w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-16 -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
+                <div className="w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-[4.3rem] sm:left-[11.7rem] md:left-[6.2rem] lg:left-[1.9rem] xl:left-[3.2rem] 2xl:left-[4.6rem] -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
                   <ul className="flex items-center gap-2 ">
                     <li>
                       <Link to={"/"}>
@@ -287,7 +287,7 @@ const VolunteerInner = () => {
             <div className="text-center inline-block group mb-7">
               <div className="relative">
                 <img src={volunteerImg8} className="m-auto" />
-                <div className=" w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-16 -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
+                <div className="w-[165px] h-[165px] bg-[#1b3434b4] rounded-full flex items-center justify-center absolute top-1/2 left-[4.3rem] sm:left-[11.7rem] md:left-[6.2rem] lg:left-[1.9rem] xl:left-[3.2rem] 2xl:left-[4.6rem] -translate-y-1/2 transition-all duration-500 scale-0 group-hover:scale-100">
                   <ul className="flex items-center gap-2 ">
                     <li>
                       <Link to={"/"}>
@@ -345,7 +345,7 @@ const VolunteerInner = () => {
         </div>
         <img
           src={shape}
-          className="animate-zoomInOut absolute left-2/3 top-1/4"
+          className="animate-zoomInOut absolute left-2/3 top-[10%] md:top-1/4"
         />
       </section>
     </>

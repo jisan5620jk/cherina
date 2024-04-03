@@ -12,7 +12,7 @@ const Mission = () => (
   <section className="bg-[#fff8f5] relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-1/2 before:bg-[url('../../../public/images/Componant2/mission/mission-bg.png')] before:-z-10 before:bg-cover before:bg-bottom py-28">
     <img
       src={eventShape}
-      className="absolute top-10 left-10 md:top-32 md:left-40 animate-zoomInOut"
+      className="absolute top-[5%] left-[10%] lg:top-32 lg:left-40 animate-zoomInOut"
     />
     <div className="Container">
       <div className="text-center">
@@ -42,8 +42,8 @@ const Mission = () => (
         </TabList>
 
         <TabPanel>
-          <div className="flex flex-col lg:flex-row items-center gap-[62px] py-10 px-10 md:py-[88px] md:px-[56px] rounded-md bg-white mt-[42px] shadow-cases">
-            <div className="flex-1">
+          <div className="flex flex-col lg:flex-row items-center lg:gap-[62px] py-10 px-10 md:py-[88px] md:px-[56px] rounded-md bg-white mt-[42px] shadow-cases">
+            <div className="flex-1 mb-7 lg:mb-0">
               <img src={tabImg} />
             </div>
             <div className="flex-1">

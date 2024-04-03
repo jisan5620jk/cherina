@@ -19,15 +19,15 @@ const DonateInner = () => {
         breadCampLink={"Donations"}
         url={"/donate"}
       />
-      <section className="p-28 donate">
+      <section className="py-28 donate">
         <div className="Container">
-          <div className="grid grid-cols-3 gap-7">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-7">
             <div className="col-span-2">
               <div
                 className="border rounded-md
                pb-8"
               >
-                <img src={donateImg} />
+                <img src={donateImg} className="w-full" />
                 <div className="mt-16 px-9">
                   <div className="px-[6px] py-1 rounded-2xl">
                     <ProgressBar
@@ -149,7 +149,7 @@ const DonateInner = () => {
                   Details of You
                 </h4>
                 <form action="#" method="post">
-                  <div className="grid grid-cols-2 gap-7 mb-6">
+                  <div className="grid sm:grid-cols-2 gap-7 mb-6">
                     <label htmlFor="name" className="font-Manrope ">
                       First Name*
                       <input
@@ -173,7 +173,7 @@ const DonateInner = () => {
                       />
                     </label>
                   </div>
-                  <div className="grid grid-cols-2 gap-7 mb-6">
+                  <div className="grid sm:grid-cols-2 gap-7 mb-6">
                     <label htmlFor="email" className="font-Manrope ">
                       E-Mail*
                       <input
@@ -197,7 +197,7 @@ const DonateInner = () => {
                       />
                     </label>
                   </div>
-                  <div className="grid grid-cols-2 gap-7 mb-6">
+                  <div className="grid sm:grid-cols-2 gap-7 mb-6">
                     <label htmlFor="address1" className="font-Manrope ">
                       Address One*
                       <input
@@ -221,7 +221,7 @@ const DonateInner = () => {
                       />
                     </label>
                   </div>
-                  <div className="grid grid-cols-2 gap-7 mb-6">
+                  <div className="grid sm:grid-cols-2 gap-7 mb-6">
                     <label htmlFor="city" className="font-Manrope ">
                       City*
                       <input
@@ -255,7 +255,7 @@ const DonateInner = () => {
                 </form>
               </div>
             </div>
-            <div className="col-span-1">
+            <div className="col-span-2 lg:col-span-1">
               <div className="bg-PrimaryColor-0 rounded-md text-center py-10 mb-7">
                 <img src={donateProfile} className="m-auto" />
                 <h5 className="font-Manrope font-bold text-2xl text-white mt-5 mb-3">
