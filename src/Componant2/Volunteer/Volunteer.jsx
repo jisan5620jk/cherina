@@ -15,7 +15,7 @@ const Volunteer = () => {
               </h1>
             </div>
             <div className="flex-1 flex lg:justify-end">
-              <Link to={"/"}>
+              <Link to={"/volunteer2"}>
                 <button className="primary-btn">
                   Become A Volunteer
                   <RiArrowRightDoubleFill />

@@ -51,7 +51,7 @@ const Events = () => {
                     October
                   </h5>
                 </div>
-                <Link to={"/"}>
+                <Link to={"/eventdetails"}>
                   <button className="font-Manrope text-2xl lg:text-[23px] 2xl:text-[26px] 2xl:w-2/3 text-left mt-7 pb-8 text-white leading-9 font-bold relative before:absolute before:bottom-0 before:left-0 before:transition-all before:duration-500 before:h-[2px] before:w-[70px] before:bg-white group-hover:before:w-full 2xl:group-hover:before:w-[510px] after:absolute after:bottom-0 after:left-0 after:w-full 2xl:after:w-[510px] after:h-[2px] after:bg-[#ffffee4d]">
                     Learn Exactly how we Arrange a Event
                   </button>
@@ -80,7 +80,7 @@ const Events = () => {
                     November
                   </h5>
                 </div>
-                <Link to={"/"}>
+                <Link to={"/eventdetails"}>
                   <button className="font-Manrope text-2xl lg:text-[23px] 2xl:text-[26px] 2xl:w-2/3 text-left mt-7 pb-8 text-white leading-9 font-bold relative before:absolute before:bottom-0 before:left-0 before:transition-all before:duration-500 before:h-[2px] before:w-[70px] before:bg-white group-hover:before:w-full 2xl:group-hover:before:w-[510px] after:absolute after:bottom-0 after:left-0 after:w-full 2xl:after:w-[510px] after:h-[2px] after:bg-[#ffffee4d]">
                     100+ Orphan Childreens Bootcampaigns
                   </button>
@@ -109,7 +109,7 @@ const Events = () => {
                     December
                   </h5>
                 </div>
-                <Link to={"/"}>
+                <Link to={"/eventdetails"}>
                   <button className="font-Manrope text-2xl lg:text-[23px] 2xl:text-[26px] 2xl:w-2/3 text-left mt-7 pb-8 text-white leading-9 font-bold relative before:absolute before:bottom-0 before:left-0 before:transition-all before:duration-500 before:h-[2px] before:w-[70px] before:bg-white group-hover:before:w-full 2xl:group-hover:before:w-[510px] after:absolute after:bottom-0 after:left-0 after:w-full 2xl:after:w-[510px] after:h-[2px] after:bg-[#ffffee4d]">
                     Learn Exactly how we Arrange a Event
                   </button>
@@ -138,7 +138,7 @@ const Events = () => {
                     October
                   </h5>
                 </div>
-                <Link to={"/"}>
+                <Link to={"/eventdetails"}>
                   <button className="font-Manrope text-2xl lg:text-[23px] 2xl:text-[26px] 2xl:w-2/3 text-left mt-7 pb-8 text-white leading-9 font-bold relative before:absolute before:bottom-0 before:left-0 before:transition-all before:duration-500 before:h-[2px] before:w-[70px] before:bg-white group-hover:before:w-full 2xl:group-hover:before:w-[510px] after:absolute after:bottom-0 after:left-0 after:w-full 2xl:after:w-[510px] after:h-[2px] after:bg-[#ffffee4d]">
                     Learn Exactly how we Arrange a Event
                   </button>

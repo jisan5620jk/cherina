@@ -26,7 +26,7 @@ const Footer = () => {
                 Distinctively foster optimal manufactured without real-time
                 e-markets. Energistically productize compelling
               </p>
-              <Link to={"/"}>
+              <Link to={"/donate"}>
                 <button className="primary-btn mt-11">
                   Donate Now
                   <VscHeart />
@@ -39,7 +39,7 @@ const Footer = () => {
               </h4>
               <ul>
                 <li>
-                  <Link to={"/"}>
+                  <Link to={"/about"}>
                     <button
                       className="flex items-center gap-2 text-white opacity-50 font-Manrope
                   text-[15px] font-medium transition-all duration-500 hover:text-PrimaryColor-0 py-2"
@@ -50,7 +50,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/"}>
+                  <Link to={"/contact"}>
                     <button
                       className="flex items-center gap-2 text-white opacity-50 font-Manrope
                   text-[15px] font-medium transition-all duration-500 hover:text-PrimaryColor-0 py-2"
@@ -61,7 +61,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/"}>
+                  <Link to={"/events"}>
                     <button
                       className="flex items-center gap-2 text-white opacity-50 font-Manrope
                   text-[15px] font-medium transition-all duration-500 hover:text-PrimaryColor-0 py-2"
@@ -72,7 +72,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/"}>
+                  <Link to={"/blogList"}>
                     <button
                       className="flex items-center gap-2 text-white opacity-50 font-Manrope
                   text-[15px] font-medium transition-all duration-500 hover:text-PrimaryColor-0 py-2"
@@ -83,7 +83,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to={"/"}>
+                  <Link to={"/donate"}>
                     <button
                       className="flex items-center gap-2 text-white opacity-50 font-Manrope
                   text-[15px] font-medium transition-all duration-500 hover:text-PrimaryColor-0 py-2"
@@ -125,7 +125,7 @@ const Footer = () => {
               </h4>
               <ul className="grid grid-cols-3 gap-3 2xl:w-[268px]">
                 <li>
-                  <Link to={"/"}>
+                  <Link to={"/gallary"}>
                     <button>
                       <img src={gallaryImg1} />
                     </button>

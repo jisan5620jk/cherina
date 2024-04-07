@@ -87,7 +87,7 @@ const Support = () => {
               human capital tha Appropriately target market positioning Discover
               More
             </p>
-            <Link to={"/"}>
+            <Link to={"/about"}>
               <button className="primary-btn">
                 Discover More
                 <RiArrowRightDoubleFill />

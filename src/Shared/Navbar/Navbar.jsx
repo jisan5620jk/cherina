@@ -372,7 +372,7 @@ const Navbar = () => {
                 </NavLink>
               </ul>
               <div className="hidden lg:flex items-center">
-                <Link to={"/"} className="primary-btn">
+                <Link to={"/donate"} className="primary-btn">
                   <button className="flex gap-2 items-center">
                     Donate Now
                     <VscHeart />

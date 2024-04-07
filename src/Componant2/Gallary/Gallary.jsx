@@ -42,7 +42,7 @@ const Gallary = () => {
             <div className="relative gallary-box group overflow-hidden z-10 rounded-md before:absolute before:top-0 before:left-0 before:w-full before:h-0 before:rounded-md before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:opacity-85 hover:before:h-full">
               <img src={gallaryImg} />
               <div className="gallary-title absolute left-1/2 bottom-0 -translate-x-1/2 opacity-0 translate-y-1/2 group-hover:bottom-1/2 transition-all duration-500 group-hover:opacity-100">
-                <Link to={"/"}>
+                <Link to={"/gallary"}>
                   <button className="font-Manrope w-[240px] md:w-[272px] inline-block font-bold bg-white rounded-md py-[22px] z-10 relative before:absolute before:left-1/2 before:-translate-x-1/2 before:bg-white before:w-10 before:h-10 before:rounded-sm before:-top-3 before:rotate-45 before:-z-10">
                     Education For Childreen
                   </button>
@@ -54,7 +54,7 @@ const Gallary = () => {
             <div className="relative gallary-box group overflow-hidden z-10 rounded-md before:absolute before:top-0 before:left-0 before:w-full before:h-0 before:rounded-md before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:opacity-85 hover:before:h-full">
               <img src={gallaryImg2} />
               <div className="gallary-title absolute left-1/2 bottom-0 -translate-x-1/2 opacity-0 translate-y-1/2 group-hover:bottom-1/2 transition-all duration-500 group-hover:opacity-100">
-                <Link to={"/"}>
+                <Link to={"/gallary"}>
                   <button className="font-Manrope w-[240px] md:w-[272px] inline-block font-bold bg-white rounded-md py-[22px] z-10 relative before:absolute before:left-1/2 before:-translate-x-1/2 before:bg-white before:w-10 before:h-10 before:rounded-sm before:-top-3 before:rotate-45 before:-z-10">
                     Education For Childreen
                   </button>
@@ -66,7 +66,7 @@ const Gallary = () => {
             <div className="relative gallary-box group overflow-hidden z-10 rounded-md before:absolute before:top-0 before:left-0 before:w-full before:h-0 before:rounded-md before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:opacity-85 hover:before:h-full">
               <img src={gallaryImg3} />
               <div className="gallary-title absolute left-1/2 bottom-0 -translate-x-1/2 opacity-0 translate-y-1/2 group-hover:bottom-1/2 transition-all duration-500 group-hover:opacity-100">
-                <Link to={"/"}>
+                <Link to={"/gallary"}>
                   <button className="font-Manrope w-[240px] md:w-[272px] inline-block font-bold bg-white rounded-md py-[22px] z-10 relative before:absolute before:left-1/2 before:-translate-x-1/2 before:bg-white before:w-10 before:h-10 before:rounded-sm before:-top-3 before:rotate-45 before:-z-10">
                     Education For Childreen
                   </button>
@@ -78,7 +78,7 @@ const Gallary = () => {
             <div className="relative gallary-box group overflow-hidden z-10 rounded-md before:absolute before:top-0 before:left-0 before:w-full before:h-0 before:rounded-md before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:opacity-85 hover:before:h-full">
               <img src={gallaryImg4} />
               <div className="gallary-title absolute left-1/2 bottom-0 -translate-x-1/2 opacity-0 translate-y-1/2 group-hover:bottom-1/2 transition-all duration-500 group-hover:opacity-100">
-                <Link to={"/"}>
+                <Link to={"/gallary"}>
                   <button className="font-Manrope w-[240px] md:w-[272px] inline-block font-bold bg-white rounded-md py-[22px] z-10 relative before:absolute before:left-1/2 before:-translate-x-1/2 before:bg-white before:w-10 before:h-10 before:rounded-sm before:-top-3 before:rotate-45 before:-z-10">
                     Education For Childreen
                   </button>
@@ -90,7 +90,7 @@ const Gallary = () => {
             <div className="relative gallary-box group overflow-hidden z-10 rounded-md before:absolute before:top-0 before:left-0 before:w-full before:h-0 before:rounded-md before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:opacity-85 hover:before:h-full">
               <img src={gallaryImg5} />
               <div className="gallary-title absolute left-1/2 bottom-0 -translate-x-1/2 opacity-0 translate-y-1/2 group-hover:bottom-1/2 transition-all duration-500 group-hover:opacity-100">
-                <Link to={"/"}>
+                <Link to={"/gallary"}>
                   <button className="font-Manrope w-[240px] md:w-[272px] inline-block font-bold bg-white rounded-md py-[22px] z-10 relative before:absolute before:left-1/2 before:-translate-x-1/2 before:bg-white before:w-10 before:h-10 before:rounded-sm before:-top-3 before:rotate-45 before:-z-10">
                     Education For Childreen
                   </button>
@@ -102,7 +102,7 @@ const Gallary = () => {
             <div className="relative gallary-box group overflow-hidden z-10 rounded-md before:absolute before:top-0 before:left-0 before:w-full before:h-0 before:rounded-md before:bg-PrimaryColor-0 before:transition-all before:duration-500 before:opacity-85 hover:before:h-full">
               <img src={gallaryImg5} />
               <div className="gallary-title absolute left-1/2 bottom-0 -translate-x-1/2 opacity-0 translate-y-1/2 group-hover:bottom-1/2 transition-all duration-500 group-hover:opacity-100">
-                <Link to={"/"}>
+                <Link to={"/gallary"}>
                   <button className="font-Manrope w-[240px] md:w-[272px] inline-block font-bold bg-white rounded-md py-[22px] z-10 relative before:absolute before:left-1/2 before:-translate-x-1/2 before:bg-white before:w-10 before:h-10 before:rounded-sm before:-top-3 before:rotate-45 before:-z-10">
                     Education For Childreen
                   </button>

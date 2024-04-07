@@ -37,14 +37,14 @@ const Blog = () => {
                     <FaComments className="text-SecondaryColor-0" />2 Comments
                   </h6>
                 </div>
-                <Link to={"/"}>
+                <Link to={"/blogDetails"}>
                   <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-SecondaryColor-0">
                     Help for Kids Education Donate Money
                   </button>
                 </Link>
               </div>
               <div className="flex justify-between items-center pt-5 pb-7 border-t border-[#1b34341a] px-8 mt-6">
-                <Link to={"/"}>
+                <Link to={"/blogDetails"}>
                   <button className="flex gap-1 items-center font-Manrope font-medium transition-all duration-500 hover:text-SecondaryColor-0">
                     Read More
                     <LuMoveRight />
@@ -72,14 +72,14 @@ const Blog = () => {
                     <FaComments className="text-PrimaryColor-0" />2 Comments
                   </h6>
                 </div>
-                <Link to={"/"}>
+                <Link to={"/blogDetails"}>
                   <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0">
                     Organic Food Reserved for Childreens
                   </button>
                 </Link>
               </div>
               <div className="flex justify-between items-center pt-5 pb-7 border-t border-[#1b34341a] px-8 mt-6">
-                <Link to={"/"}>
+                <Link to={"/blogDetails"}>
                   <button className="flex gap-1 items-center font-Manrope font-medium transition-all duration-500 hover:text-PrimaryColor-0">
                     Read More
                     <LuMoveRight />
@@ -107,14 +107,14 @@ const Blog = () => {
                     <FaComments className="text-[#1cc6e9]" />2 Comments
                   </h6>
                 </div>
-                <Link to={"/"}>
+                <Link to={"/blogDetails"}>
                   <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-[#1cc6e9]">
                     How to Make good Health childreen Campaign
                   </button>
                 </Link>
               </div>
               <div className="flex justify-between items-center pt-5 pb-7 border-t border-[#1b34341a] px-8 mt-6">
-                <Link to={"/"}>
+                <Link to={"/blogDetails"}>
                   <button className="flex gap-1 items-center font-Manrope font-medium transition-all duration-500 hover:text-[#1cc6e9]">
                     Read More
                     <LuMoveRight />

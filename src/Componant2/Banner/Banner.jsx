@@ -32,7 +32,7 @@ const Banner = () => {
             </h1>
             <ul className="flex gap-6 flex-col sm:flex-row">
               <li>
-                <Link to={"/"}>
+                <Link to={"/about"}>
                   <button className="primary-btn">
                     Discover More
                     <RiArrowRightDoubleFill />
@@ -40,7 +40,7 @@ const Banner = () => {
                 </Link>
               </li>
               <li>
-                <Link to={"/"}>
+                <Link to={"/volunteer"}>
                   <button className="primary-btn">
                     Join Volunteer
                     <RiArrowRightDoubleFill />
@@ -65,7 +65,7 @@ const Banner = () => {
             </h1>
             <ul className="flex gap-6 flex-col sm:flex-row">
               <li>
-                <Link to={"/"}>
+                <Link to={"/about"}>
                   <button className="primary-btn">
                     Discover More
                     <RiArrowRightDoubleFill />
@@ -73,7 +73,7 @@ const Banner = () => {
                 </Link>
               </li>
               <li>
-                <Link to={"/"}>
+                <Link to={"/volunteer"}>
                   <button className="primary-btn">
                     Join Volunteer
                     <RiArrowRightDoubleFill />

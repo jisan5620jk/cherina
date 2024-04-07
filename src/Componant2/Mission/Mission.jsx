@@ -69,7 +69,7 @@ const Mission = () => (
                   Help for Orphan Kids Healthy foods
                 </li>
               </ul>
-              <Link to={"/"}>
+              <Link to={"/about"}>
                 <button className="primary-btn mt-10">
                   Discover More
                   <RiArrowRightDoubleFill />
@@ -106,7 +106,7 @@ const Mission = () => (
                   Help for Orphan Kids Healthy foods
                 </li>
               </ul>
-              <Link to={"/"}>
+              <Link to={"/about"}>
                 <button className="primary-btn mt-10">
                   Discover More
                   <RiArrowRightDoubleFill />
@@ -143,7 +143,7 @@ const Mission = () => (
                   Help for Orphan Kids Healthy foods
                 </li>
               </ul>
-              <Link to={"/"}>
+              <Link to={"/about"}>
                 <button className="primary-btn mt-10">
                   Discover More
                   <RiArrowRightDoubleFill />
@@ -180,7 +180,7 @@ const Mission = () => (
                   Help for Orphan Kids Healthy foods
                 </li>
               </ul>
-              <Link to={"/"}>
+              <Link to={"/about"}>
                 <button className="primary-btn mt-10">
                   Discover More
                   <RiArrowRightDoubleFill />

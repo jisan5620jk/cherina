@@ -15,7 +15,7 @@ const FeatureMain = ({
         {featureTitle}
       </h4>
       <p className="font-Manrope text-TextColor-0 sm:w-2/3 lg:w-3/4 2xl:w-full m-auto">{featureDesc}</p>
-      <Link to={"/"} className="m-auto">
+      <Link to={"/about"} className="m-auto">
         <button className="flex items-center gap-2 mt-6 text-HeadingColor-0 font-medium transition-all duration-500 group-hover:text-SecondaryColor-0">
           {featureBtn}
           <FaArrowRightLong className="text-SecondaryColor-0" />

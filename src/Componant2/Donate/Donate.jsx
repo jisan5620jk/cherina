@@ -85,7 +85,7 @@ const Donate = () => {
                   <GoClockFill className="text-SecondaryColor-0 text-lg" /> 150
                   Days Ramaining
                 </h6>
-                <Link to={"/"}>
+                <Link to={"/donate"}>
                   <button className="primary-btn">
                     Donate Now
                     <VscHeart />
@@ -153,7 +153,7 @@ const Donate = () => {
                   <GoClockFill className="text-SecondaryColor-0 text-lg" /> 150
                   Days Ramaining
                 </h6>
-                <Link to={"/"}>
+                <Link to={"/donate"}>
                   <button className="primary-btn">
                     Donate Now
                     <VscHeart />

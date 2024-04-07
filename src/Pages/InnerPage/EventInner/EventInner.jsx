@@ -16,7 +16,6 @@ const EventInner = () => {
         breadCampTitle={"Our Events"}
         url={"/events"}
       />
-
       <section className="py-28">
         <div className="Container">
           <EventInnerMain
@@ -26,7 +25,7 @@ const EventInner = () => {
             eventDesc="Completely create leveraged best practices and B2B interfaces events productivate cutting-edge solutions with go forward supply chains has supply."
             eventTime="December 10 , 12.00 PM"
             eventLocation="102/B New Road, Sandigo, USA"
-            url="/events"
+            url="/eventdetails"
             eventButton="Join Events"
           />
           <EventInnerMain
@@ -36,7 +35,7 @@ const EventInner = () => {
             eventDesc="Completely create leveraged best practices and B2B interfaces events productivate cutting-edge solutions with go forward supply chains has supply."
             eventTime="December 10 , 12.00 PM"
             eventLocation="102/B New Road, Sandigo, USA"
-            url="/events"
+            url="/eventdetails"
             eventButton="Join Events"
           />
           <EventInnerMain
@@ -46,7 +45,7 @@ const EventInner = () => {
             eventDesc="Completely create leveraged best practices and B2B interfaces events productivate cutting-edge solutions with go forward supply chains has supply."
             eventTime="December 10 , 12.00 PM"
             eventLocation="102/B New Road, Sandigo, USA"
-            url="/events"
+            url="/eventdetails"
             eventButton="Join Events"
           />
           <EventInnerMain
@@ -56,7 +55,7 @@ const EventInner = () => {
             eventDesc="Completely create leveraged best practices and B2B interfaces events productivate cutting-edge solutions with go forward supply chains has supply."
             eventTime="December 10 , 12.00 PM"
             eventLocation="102/B New Road, Sandigo, USA"
-            url="/events"
+            url="/eventdetails"
             eventButton="Join Events"
           />
           <EventInnerMain
@@ -66,7 +65,7 @@ const EventInner = () => {
             eventDesc="Completely create leveraged best practices and B2B interfaces events productivate cutting-edge solutions with go forward supply chains has supply."
             eventTime="December 10 , 12.00 PM"
             eventLocation="102/B New Road, Sandigo, USA"
-            url="/events"
+            url="/eventdetails"
             eventButton="Join Events"
           />
           <div className="flex justify-center mt-14">

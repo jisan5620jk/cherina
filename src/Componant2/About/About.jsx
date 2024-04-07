@@ -66,7 +66,7 @@ const About = () => {
                   </p>
                 </div>
               </div>
-              <Link to={"/"}>
+              <Link to={"/about"}>
                 <button className="primary-btn mt-9">
                   Discover More
                   <RiArrowRightDoubleFill />

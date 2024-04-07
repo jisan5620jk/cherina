@@ -80,10 +80,7 @@ const DonationDetails = () => {
                       </h6>
                     </div>
                   </div>
-                  <Link
-                    to={"/"}
-                    className="col-span-2 md:col-span-1 p-5 sm:px-9 md:px-0"
-                  >
+                  <Link to={"/"} className="col-span-2 md:col-span-1 p-5 sm:px-9 md:px-0">
                     <button className="primary-btn">
                       Donate Now
                       <VscHeart />
@@ -372,7 +369,7 @@ const DonationDetails = () => {
                   <br />
                   People
                 </h4>
-                <Link to={"/"} className="flex justify-center">
+                <Link to={"/donate"} className="flex justify-center">
                   <button type="submit" className="primary-btn">
                     Donate Now
                     <VscHeart />

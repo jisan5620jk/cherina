@@ -282,7 +282,7 @@ const BlogList = () => {
                 <h4 className="font-Manrope font-bold text-[22px] text-HeadingColor-0 mb-8">
                   Upcomming Events
                 </h4>
-                <Link to={"/"}>
+                <Link to={"/blogDetails"}>
                   <button className="group flex gap-4 mb-6">
                     <div>
                       <img src={itemthumb} />
@@ -298,7 +298,7 @@ const BlogList = () => {
                   </button>
                 </Link>
                 <hr />
-                <Link to={"/"}>
+                <Link to={"/blogDetails"}>
                   <button className="group flex gap-4 my-6">
                     <div>
                       <img src={itemthumb2} />
@@ -314,7 +314,7 @@ const BlogList = () => {
                   </button>
                 </Link>
                 <hr />
-                <Link to={"/"}>
+                <Link to={"/blogDetails"}>
                   <button className="group flex gap-4 my-6">
                     <div>
                       <img src={itemthumb3} />
@@ -444,7 +444,7 @@ const BlogList = () => {
                   <br />
                   People
                 </h4>
-                <Link to={"/"} className="flex justify-center">
+                <Link to={"/donate"} className="flex justify-center">
                   <button type="submit" className="primary-btn">
                     Donate Now
                     <VscHeart />

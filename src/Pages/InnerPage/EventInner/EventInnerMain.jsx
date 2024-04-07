@@ -22,7 +22,7 @@ const EventInnerMain = ({
         </h6>
       </div>
       <div className="flex-1">
-        <Link to={"/"}>
+        <Link to={"/eventdetails"}>
           <h2 className="font-Manrope text-2xl sm:text-[28px] font-bold text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0">
             {eventTitle}
           </h2>

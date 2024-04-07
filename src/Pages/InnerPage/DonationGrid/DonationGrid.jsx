@@ -28,7 +28,7 @@ const DonationGrid = () => {
                 </h6>
               </div>
               <div className="shadow-cases px-8 pb-9 pt-4">
-                <Link to={"/"}>
+                <Link to={"/blogDetails"} >
                   <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0">
                     Raise fund for clean & healthy foods
                   </button>
@@ -87,7 +87,7 @@ const DonationGrid = () => {
                 </h6>
               </div>
               <div className="shadow-cases px-8 pb-9 pt-4">
-                <Link to={"/"}>
+                <Link to={"/blogDetails"} >
                   <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-SecondaryColor-0">
                     Give a good education orphan childreen
                   </button>
@@ -146,7 +146,7 @@ const DonationGrid = () => {
                 </h6>
               </div>
               <div className="shadow-cases px-8 pb-9 pt-4">
-                <Link to={"/"}>
+                <Link to={"/blogDetails"} >
                   <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-[#1cc6e9]">
                     Build home for African poor womens
                   </button>
@@ -205,7 +205,7 @@ const DonationGrid = () => {
                 </h6>
               </div>
               <div className="shadow-cases px-8 pb-9 pt-4">
-                <Link to={"/"}>
+                <Link to={"/blogDetails"} >
                   <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0">
                     Raise fund for clean & healthy foods
                   </button>
@@ -264,7 +264,7 @@ const DonationGrid = () => {
                 </h6>
               </div>
               <div className="shadow-cases px-8 pb-9 pt-4">
-                <Link to={"/"}>
+                <Link to={"/blogDetails"} >
                   <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-SecondaryColor-0">
                     Give a good education orphan childreen
                   </button>
@@ -323,7 +323,7 @@ const DonationGrid = () => {
                 </h6>
               </div>
               <div className="shadow-cases px-8 pb-9 pt-4">
-                <Link to={"/"}>
+                <Link to={"/blogDetails"} >
                   <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-[#1cc6e9]">
                     Build home for African poor womens
                   </button>
