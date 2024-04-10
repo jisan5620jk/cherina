@@ -38,7 +38,7 @@ const HelpTheme = () => {
         <div className="">
           <SectionHeading title="Change Everything" />
           <h1 className="heading-main lg:text-[38px] 2xl:text-[42px] text-white mt-5">
-            We’re here to Help <span className="text-coral">Theme</span>
+            We’re here to Help <span className="text-Manrope">Theme</span>
           </h1>
         </div>
         {themeInfo.map(

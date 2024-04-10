@@ -13,6 +13,15 @@ export default {
         HeadingColor: ["#1b3434"],
         TextColor: ["#6f7775"],
         BorderColor: ["#ffffff34"],
+        floralWhite: "#fff7f4",
+        coral: "#fe7f4c",
+        aquamarine: "#53c99f",
+        deepSkyBlue: "#1ac7ec",
+        gold: "#ffd015",
+        dimGray: "#6f7775",
+        gray: "#6e7a7a",
+        darkSlate: "#1b3434",
+        darkSlateGray: "#1b2b2b",
       },
       screens: {
         sm: "576px",
@@ -65,6 +74,14 @@ export default {
         swing: {
           "0%": { transform: "rotate(25deg)" },
           "100%": { transform: "rotate(0deg)" },
+        },
+        wiggle: {
+          "0%, 100%": { transform: "translateY(-50px)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
+        rotational: {
+          from: { transform: "rotate(0deg)" },
+          to: { transform: "rotate(360deg)" },
         },
       },
       animation: {

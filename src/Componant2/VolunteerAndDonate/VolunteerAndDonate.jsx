@@ -32,7 +32,7 @@ const VolunteerAndDonate = () => {
           >
             Become Volunteer
             <MdKeyboardDoubleArrowRight
-              className="ml-2 text-coral group-hover:text-white transition-all duration-500"
+              className="ml-2 text-Manrope group-hover:text-white transition-all duration-500"
               size={16}
             />
           </ButtonSwipe>

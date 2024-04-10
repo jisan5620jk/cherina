@@ -1,7 +1,7 @@
 const SectionHeading = ({ title, isCenter }) => {
   return (
     <div className="w-fit group">
-      <p className="text-base sm:text-lg leading-[30px] text-coral font-normal font-Lobster">
+      <p className="text-base sm:text-lg leading-[30px] text-Manrope font-normal font-Lobster">
         {title}
       </p>
       <div

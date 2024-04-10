@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ThemeCard = ({ cardIcon, title, description, url, hoverTextColor }) => {
   const hoverTextClasses = {
-    coral: "text-coral",
+    coral: "text-Manrope",
     deepSkyBlue: "text-deepSkyBlue",
     aquamarine: "text-aquamarine",
   };
