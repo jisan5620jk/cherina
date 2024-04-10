@@ -1,7 +1,8 @@
+/* eslint-disable react/prop-types */
 const SectionHeading = ({ title, isCenter }) => {
   return (
     <div className="w-fit group">
-      <p className="text-base sm:text-lg leading-[30px] text-Manrope font-normal font-Lobster">
+      <p className="text-base sm:text-lg leading-[30px] text-PrimaryColor-0 font-normal font-Lobster">
         {title}
       </p>
       <div

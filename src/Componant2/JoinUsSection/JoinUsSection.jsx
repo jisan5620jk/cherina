@@ -17,7 +17,7 @@ const JoinUsSection = () => {
           <div className="mt-5 w-fit max-w-[580px] font-Manrope ">
             <h1 className="heading-main text-darkSlate">
               Make your Goals Always to Helps{" "}
-              <span className="text-Manrope">Poor People</span>
+              <span className="text-PrimaryColor-0">Poor People</span>
             </h1>
             <p className="text-sm sm:text-base leading-7 text-dimGray mt-6">
               Phosfluorescently cultivate enabled relationships without sticky
@@ -25,9 +25,9 @@ const JoinUsSection = () => {
             </p>
             <div className="bg-[#fff2ed] px-[30px] py-[25px] rounded-md border-l-[5px] border-coral my-7">
               <p className="text-base sm:text-lg leading-7 text-darkSlate font-medium">
-                Helped Fund <span className="text-Manrope">24,347</span>{" "}
+                Helped Fund <span className="text-PrimaryColor-0">24,347</span>{" "}
                 Projects in 250 Countries worldwide donated{" "}
-                <span className="text-Manrope">5 Milion </span>Peoples
+                <span className="text-PrimaryColor-0">5 Milion </span>Peoples
               </p>
             </div>
           </div>
@@ -41,7 +41,7 @@ const JoinUsSection = () => {
                 Join Our Charity Team and Helps the People
               </p>
               <p className="text-sm sm:text-base leading-7 text-dimGray flex items-center">
-                <FaCheckCircle size={20} className="text-Manrope mr-[10px]" />
+                <FaCheckCircle size={20} className="text-PrimaryColor-0 mr-[10px]" />
                 Donate Money for Poor Childreens help Educations
               </p>
             </div>

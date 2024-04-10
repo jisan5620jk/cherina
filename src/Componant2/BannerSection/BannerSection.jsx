@@ -32,12 +32,14 @@ const BannerSection = () => {
           <div className="keen-slider__slide number-slide1 h-[800px] bg-[url('/public/images/Componant2/slider-1.jpg')] bg-no-repeat bg-cover bg-right-top md:bg-center">
             <div className="Container flex items-center justify-start h-full">
               <div className="w-[500px]  ">
-                <p className="font-Lobster text-Manrope text-base md:text-lg lg:text-xl leading-8 mb-5">
+                <p className="font-Lobster text-PrimaryColor-0 text-base md:text-lg lg:text-xl leading-8 mb-5">
                   Helping Today, Helping Tomorrow
                 </p>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-Manrope leading-8 sm:leading-10 md:leading-[50px] lg:leading-[60px] 2xl:leading-[75px] text-white font-extrabold">
                   Giving a Helpline hand for{" "}
-                  <span className="text-Manrope font-Lobster">Childrens</span>{" "}
+                  <span className="text-PrimaryColor-0 font-Lobster">
+                    Childrens
+                  </span>{" "}
                   In Needs.
                 </h1>
                 <div className="flex items-center gap-x-10 mt-9">
@@ -74,12 +76,14 @@ const BannerSection = () => {
           <div className="keen-slider__slide number-slide1 h-[800px] bg-[url('/public/images/Componant2/slider-2.jpg')] bg-no-repeat bg-cover bg-right-top md:bg-center">
             <div className="Container flex items-center justify-start h-full">
               <div className="w-[500px]  ">
-                <p className="font-Lobster text-Manrope text-base md:text-lg lg:text-xl leading-8 mb-5">
+                <p className="font-Lobster text-PrimaryColor-0 text-base md:text-lg lg:text-xl leading-8 mb-5">
                   Helping Today, Helping Tomorrow
                 </p>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-Manrope leading-8 sm:leading-10 md:leading-[50px] lg:leading-[60px] 2xl:leading-[75px] text-white font-extrabold">
                   Giving a Helpline hand for{" "}
-                  <span className="text-Manrope font-Lobster">Childrens</span>{" "}
+                  <span className="text-PrimaryColor-0 font-Lobster">
+                    Childrens
+                  </span>{" "}
                   In Needs.
                 </h1>
                 <div className="flex items-center gap-x-10 mt-9">

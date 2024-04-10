@@ -92,7 +92,8 @@ const PopularCases = () => {
           <div>
             <SectionHeading title="Start Donating Theme" />
             <h1 className="heading-main text-darkSlate mt-5">
-              Find the Popular <span className="text-Manrope">Cases</span>
+              Find the Popular{" "}
+              <span className="text-PrimaryColor-0">Cases</span>
             </h1>
           </div>
           <div className="relative">
