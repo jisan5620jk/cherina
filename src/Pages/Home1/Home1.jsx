@@ -1,14 +1,14 @@
-import About from "../../Componant2/About/About";
-import Banner from "../../Componant2/Banner/Banner";
-import Blog from "../../Componant2/Blog/Blog";
-import Donate from "../../Componant2/Donate/Donate";
-import Events from "../../Componant2/Event/Events";
-import Feature from "../../Componant2/Feature/Feature";
-import Gallary from "../../Componant2/Gallary/Gallary";
-import Mission from "../../Componant2/Mission/Mission";
-import Project from "../../Componant2/Project/Project";
-import Support from "../../Componant2/Support/Support";
-import Volunteer from "../../Componant2/Volunteer/Volunteer";
+import About from "../../Componant1/About/About";
+import Banner from "../../Componant1/Banner/Banner";
+import Blog from "../../Componant1/Blog/Blog";
+import Donate from "../../Componant1/Donate/Donate";
+import Events from "../../Componant1/Event/Events";
+import Feature from "../../Componant1/Feature/Feature";
+import Gallary from "../../Componant1/Gallary/Gallary";
+import Mission from "../../Componant1/Mission/Mission";
+import Project from "../../Componant1/Project/Project";
+import Support from "../../Componant1/Support/Support";
+import Volunteer from "../../Componant1/Volunteer/Volunteer";
 
 const Home1 = () => {
   return (

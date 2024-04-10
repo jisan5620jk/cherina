@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
-import blogListImg from "/public/images/Componant2/blog/blog-1.jpg";
-import blogDetailsImg from "/public/images/Componant2/blog/1-blog.jpg";
-import blogDetailsImg2 from "/public/images/Componant2/blog/2-blog.jpg";
-import itemthumb from "/public/images/Componant2/blog/post4.jpg";
-import itemthumb2 from "/public/images/Componant2/blog/post5.jpg";
-import itemthumb3 from "/public/images/Componant2/blog/post6.jpg";
-import logo from "/public/images/Componant2/logo/logo-icon.png";
+import blogListImg from "/public/images/Componant1/blog/blog-1.jpg";
+import blogDetailsImg from "/public/images/Componant1/blog/1-blog.jpg";
+import blogDetailsImg2 from "/public/images/Componant1/blog/2-blog.jpg";
+import itemthumb from "/public/images/Componant1/blog/post4.jpg";
+import itemthumb2 from "/public/images/Componant1/blog/post5.jpg";
+import itemthumb3 from "/public/images/Componant1/blog/post6.jpg";
+import logo from "/public/images/Componant1/logo/logo-icon.png";
 import { VscHeart } from "react-icons/vsc";
 import { IoSearch } from "react-icons/io5";
 import { IoIosSend } from "react-icons/io";
@@ -460,7 +460,7 @@ const BlogDetails = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-[url('/public/images/Componant2/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md mb-7">
+              <div className="bg-[url('/public/images/Componant1/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md mb-7">
                 <Link to={"/"}>
                   <img src={logo} className="m-auto" />
                 </Link>

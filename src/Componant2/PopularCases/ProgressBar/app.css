@@ -1,0 +1,12 @@
+.progress-bar-rect-wrap-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.rect-progress-bar-percent {
+  font-size: 14px !important;
+  line-height: 26px !important;
+  font-weight: 600 !important;
+  margin: 2px !important;
+  font-family: "Manrope" !important;
+}

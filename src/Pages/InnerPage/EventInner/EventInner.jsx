@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
 import EventInnerMain from "./EventInnerMain";
-import eventImg from "/public/images/Componant2/event/events-1.jpg";
-import eventImg2 from "/public/images/Componant2/event/events-2.jpg";
-import eventImg3 from "/public/images/Componant2/event/events-3.jpg";
-import eventImg4 from "/public/images/Componant2/event/events-4.jpg";
-import eventImg5 from "/public/images/Componant2/event/events-5.jpg";
+import eventImg from "/public/images/Componant1/event/events-1.jpg";
+import eventImg2 from "/public/images/Componant1/event/events-2.jpg";
+import eventImg3 from "/public/images/Componant1/event/events-3.jpg";
+import eventImg4 from "/public/images/Componant1/event/events-4.jpg";
+import eventImg5 from "/public/images/Componant1/event/events-5.jpg";
 import { RiArrowRightDoubleFill } from "react-icons/ri";
 
 const EventInner = () => {

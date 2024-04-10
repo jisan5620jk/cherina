@@ -1,7 +1,7 @@
 import { FaCircleCheck } from "react-icons/fa6";
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
-import volunteerImg from "/public/images/Componant2/about/about3.png";
-import contactImg from "/public/images/Componant2/contact/contact.png";
+import volunteerImg from "/public/images/Componant1/about/about3.png";
+import contactImg from "/public/images/Componant1/contact/contact.png";
 import CountUp from "react-countup";
 import { HiOutlinePhone } from "react-icons/hi2";
 
@@ -18,7 +18,7 @@ const VolunteerInner2 = () => {
           <div className="flex gap-20 flex-col lg:flex-row">
             <div className="flex-1 relative">
               <img src={volunteerImg} />
-              <div className="bg-[url('/public/images/Componant2/about/about-cuntr.png')] h-[176px] w-[176px] flex flex-col justify-center items-center text-center absolute top-9 left-9">
+              <div className="bg-[url('/public/images/Componant1/about/about-cuntr.png')] h-[176px] w-[176px] flex flex-col justify-center items-center text-center absolute top-9 left-9">
                 <CountUp
                   start={-9}
                   end={10}
@@ -74,7 +74,7 @@ const VolunteerInner2 = () => {
           </div>
         </div>
       </section>
-      <section className="bg-white relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-1/2 before:bg-[url('../../../public/images/Componant2/contact/contact-inf.jpg')] before:-z-10 before:bg-cover before:bg-bottom py-28">
+      <section className="bg-white relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-1/2 before:bg-[url('../../../public/images/Componant1/contact/contact-inf.jpg')] before:-z-10 before:bg-cover before:bg-bottom py-28">
         <div className="Container">
           <div className="text-center">
             <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">

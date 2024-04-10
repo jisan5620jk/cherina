@@ -1,10 +1,10 @@
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
-import donateImg from "/public/images/Componant2/donate/donations2.png";
-import donateProfile from "/public/images/Componant2/donate/organiz.png";
-import itemthumb from "/public/images/Componant2/blog/post1.png";
-import itemthumb2 from "/public/images/Componant2/blog/post2.png";
-import itemthumb3 from "/public/images/Componant2/blog/post3.png";
-import logo from "/public/images/Componant2/logo/logo-icon.png";
+import donateImg from "/public/images/Componant1/donate/donations2.png";
+import donateProfile from "/public/images/Componant1/donate/organiz.png";
+import itemthumb from "/public/images/Componant1/blog/post1.png";
+import itemthumb2 from "/public/images/Componant1/blog/post2.png";
+import itemthumb3 from "/public/images/Componant1/blog/post3.png";
+import logo from "/public/images/Componant1/logo/logo-icon.png";
 import ProgressBar from "react-animated-progress-bar";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { VscHeart } from "react-icons/vsc";
@@ -350,7 +350,7 @@ const DonateInner = () => {
                   </button>
                 </Link>
               </div>
-              <div className="bg-[url('/public/images/Componant2/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md">
+              <div className="bg-[url('/public/images/Componant1/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md">
                 <Link to={"/"}>
                   <img src={logo} className="m-auto" />
                 </Link>

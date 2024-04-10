@@ -1,0 +1,33 @@
+.arrownew {
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  bottom: 0%;
+  transform: translateY(50%);
+  fill: #000000;
+  stroke: aqua;
+  cursor: pointer;
+  background: #fff1ed;
+  font-size: 16px;
+  border-radius: 50%;
+  padding: 19px;
+  transition: 0.2s ease-in-out;
+}
+.arrownew:hover {
+  background-color: #fe7f4c;
+  fill: #fff1ed;
+}
+
+.arrowN--left {
+  position: absolute;
+  bottom: 0%;
+  transform: translate(-103%, 50%);
+  left: 0px;
+}
+
+.arrowN--right {
+  position: absolute;
+  bottom: 0%;
+  transform: translate(-120%, 50%);
+  right: 13px;
+}

@@ -1,9 +1,9 @@
 import { FaFacebookF, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-import volunteerImg from "/public/images/Componant2/volunteer/volunteer1.png";
-import volunteerImg2 from "/public/images/Componant2/volunteer/volunteer2.png";
-import volunteerImg3 from "/public/images/Componant2/volunteer/volunteer3.png";
-import volunteerImg4 from "/public/images/Componant2/volunteer/volunteer4.png";
+import volunteerImg from "/public/images/Componant1/volunteer/volunteer1.png";
+import volunteerImg2 from "/public/images/Componant1/volunteer/volunteer2.png";
+import volunteerImg3 from "/public/images/Componant1/volunteer/volunteer3.png";
+import volunteerImg4 from "/public/images/Componant1/volunteer/volunteer4.png";
 
 const AboutVolunteer = () => {
   return (

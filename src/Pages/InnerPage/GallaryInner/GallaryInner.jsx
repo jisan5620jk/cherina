@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import gallaryImg from "/public/images/Componant2/gallary/galary1.jpg";
-import gallaryImg2 from "/public/images/Componant2/gallary/galary2.jpg";
-import gallaryImg3 from "/public/images/Componant2/gallary/galary3.jpg";
-import gallaryImg4 from "/public/images/Componant2/gallary/galary4.jpg";
-import gallaryImg5 from "/public/images/Componant2/gallary/galary5.jpg";
-import gallaryImg6 from "/public/images/Componant2/gallary/galary6.jpg";
+import gallaryImg from "/public/images/Componant1/gallary/galary1.jpg";
+import gallaryImg2 from "/public/images/Componant1/gallary/galary2.jpg";
+import gallaryImg3 from "/public/images/Componant1/gallary/galary3.jpg";
+import gallaryImg4 from "/public/images/Componant1/gallary/galary4.jpg";
+import gallaryImg5 from "/public/images/Componant1/gallary/galary5.jpg";
+import gallaryImg6 from "/public/images/Componant1/gallary/galary6.jpg";
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
 
 const GallaryInner = () => {

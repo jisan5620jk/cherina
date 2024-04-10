@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa6";
 import { PiUserCircleFill } from "react-icons/pi";
 import { BiChevronDown } from "react-icons/bi";
-import Logo from "/public/images/Componant2/logo/logo.png";
+import Logo from "/public/images/Componant1/logo/logo.png";
 import { useState, useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
 import { VscHeart } from "react-icons/vsc";
@@ -25,7 +25,7 @@ const Navbar = () => {
   });
 
   /* Method that will fix header after a specific scrollable */
-  
+
   const isSticky = (e) => {
     const header = document.querySelector(".header-section");
     const scrollTop = window.scrollY;
@@ -172,29 +172,6 @@ const Navbar = () => {
                         <li className="hover:ml-3 duration-300">
                           <NavLink to="/home2" className="py-2 block">
                             Home Two
-                          </NavLink>
-                        </li>
-                      </div>
-                      <div className=" px-5 group hover:bg-SecondaryColor-0 ">
-                        <li className="hover:ml-3 duration-300">
-                          <NavLink to="/home3" className="py-2 block">
-                            Home Three
-                          </NavLink>
-                        </li>
-                      </div>
-
-                      <div className=" px-5 group hover:bg-SecondaryColor-0 ">
-                        <li className="hover:ml-3 duration-300">
-                          <NavLink to="/home4" className="py-2 block">
-                            Home Four
-                          </NavLink>
-                        </li>
-                      </div>
-
-                      <div className=" px-5 group hover:bg-SecondaryColor-0 ">
-                        <li className="hover:ml-3 duration-300">
-                          <NavLink to="/home5" className="py-2 block">
-                            Home Five
                           </NavLink>
                         </li>
                       </div>

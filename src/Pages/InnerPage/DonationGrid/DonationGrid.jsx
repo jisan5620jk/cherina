@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
 import { BsAlarmFill } from "react-icons/bs";
 import ProgressBar from "react-animated-progress-bar";
-import donateImg from "/public/images/Componant2/donate/donate1.jpg";
-import donateImg2 from "/public/images/Componant2/donate/donate2.png";
-import donateImg3 from "/public/images/Componant2/donate/donate3.png";
-import donateImg4 from "/public/images/Componant2/donate/donate4.png";
-import donateImg5 from "/public/images/Componant2/donate/donate5.png";
-import donateImg6 from "/public/images/Componant2/donate/donate6.png";
+import donateImg from "/public/images/Componant1/donate/donate1.jpg";
+import donateImg2 from "/public/images/Componant1/donate/donate2.png";
+import donateImg3 from "/public/images/Componant1/donate/donate3.png";
+import donateImg4 from "/public/images/Componant1/donate/donate4.png";
+import donateImg5 from "/public/images/Componant1/donate/donate5.png";
+import donateImg6 from "/public/images/Componant1/donate/donate6.png";
 
 const DonationGrid = () => {
   return (
@@ -28,7 +28,7 @@ const DonationGrid = () => {
                 </h6>
               </div>
               <div className="shadow-cases px-8 pb-9 pt-4">
-                <Link to={"/blogDetails"} >
+                <Link to={"/blogDetails"}>
                   <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0">
                     Raise fund for clean & healthy foods
                   </button>
@@ -87,7 +87,7 @@ const DonationGrid = () => {
                 </h6>
               </div>
               <div className="shadow-cases px-8 pb-9 pt-4">
-                <Link to={"/blogDetails"} >
+                <Link to={"/blogDetails"}>
                   <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-SecondaryColor-0">
                     Give a good education orphan childreen
                   </button>
@@ -146,7 +146,7 @@ const DonationGrid = () => {
                 </h6>
               </div>
               <div className="shadow-cases px-8 pb-9 pt-4">
-                <Link to={"/blogDetails"} >
+                <Link to={"/blogDetails"}>
                   <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-[#1cc6e9]">
                     Build home for African poor womens
                   </button>
@@ -205,7 +205,7 @@ const DonationGrid = () => {
                 </h6>
               </div>
               <div className="shadow-cases px-8 pb-9 pt-4">
-                <Link to={"/blogDetails"} >
+                <Link to={"/blogDetails"}>
                   <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0">
                     Raise fund for clean & healthy foods
                   </button>
@@ -264,7 +264,7 @@ const DonationGrid = () => {
                 </h6>
               </div>
               <div className="shadow-cases px-8 pb-9 pt-4">
-                <Link to={"/blogDetails"} >
+                <Link to={"/blogDetails"}>
                   <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-SecondaryColor-0">
                     Give a good education orphan childreen
                   </button>
@@ -323,7 +323,7 @@ const DonationGrid = () => {
                 </h6>
               </div>
               <div className="shadow-cases px-8 pb-9 pt-4">
-                <Link to={"/blogDetails"} >
+                <Link to={"/blogDetails"}>
                   <button className="text-left font-Manrope font-bold text-[19px] sm:text-[22px] lg:text-lg xl:text-[22px] text-HeadingColor-0 transition-all duration-500 hover:text-[#1cc6e9]">
                     Build home for African poor womens
                   </button>

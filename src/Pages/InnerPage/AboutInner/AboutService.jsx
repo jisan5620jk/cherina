@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import serviceIcon from "/public/images/Componant2/service/service1.png";
-import serviceIcon2 from "/public/images/Componant2/service/service2.png";
-import serviceIcon3 from "/public/images/Componant2/service/service3.png";
+import serviceIcon from "/public/images/Componant1/service/service1.png";
+import serviceIcon2 from "/public/images/Componant1/service/service2.png";
+import serviceIcon3 from "/public/images/Componant1/service/service3.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const AboutService = () => {
@@ -25,7 +25,7 @@ const AboutService = () => {
             <p className="font-Manrope text-TextColor-0 text-[15px] mb-9 md:px-10 lg:px-0 2xl:px-10">
               Phosfluorescently to cultivate distinctively empower
             </p>
-            <Link to={"/events"} >
+            <Link to={"/events"}>
               <button className="flex items-center justify-between w-full font-Manrope text-[14px] text-HeadingColor-0 font-medium py-4 px-6 border-t transition-all duration-500 hover:text-PrimaryColor-0">
                 Read More <FaArrowRightLong className="text-PrimaryColor-0" />
               </button>
@@ -39,7 +39,7 @@ const AboutService = () => {
             <p className="font-Manrope text-TextColor-0 text-[15px] mb-9 md:px-10 lg:px-0 2xl:px-10">
               Phosfluorescently to cultivate distinctively empower
             </p>
-            <Link to={"/events"} >
+            <Link to={"/events"}>
               <button className="flex items-center justify-between w-full font-Manrope text-[14px] text-HeadingColor-0 font-medium py-4 px-6 border-t transition-all duration-500 hover:text-SecondaryColor-0">
                 Read More <FaArrowRightLong className="text-SecondaryColor-0" />
               </button>
@@ -53,7 +53,7 @@ const AboutService = () => {
             <p className="font-Manrope text-TextColor-0 text-[15px] mb-9 md:px-10 lg:px-0 2xl:px-10">
               Phosfluorescently to cultivate distinctively empower
             </p>
-            <Link to={"/events"} >
+            <Link to={"/events"}>
               <button className="flex items-center justify-between w-full font-Manrope text-[14px] text-HeadingColor-0 font-medium py-4 px-6 border-t transition-all duration-500 hover:text-[#19c7eb]">
                 Read More <FaArrowRightLong className="text-[#19c7eb]" />
               </button>

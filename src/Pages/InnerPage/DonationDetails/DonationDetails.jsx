@@ -1,15 +1,15 @@
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
-import donateImg from "/public/images/Componant2/donate/donations2.png";
-import donateProfile from "/public/images/Componant2/donate/organiz.png";
-import itemthumb from "/public/images/Componant2/blog/post1.png";
-import itemthumb2 from "/public/images/Componant2/blog/post2.png";
-import itemthumb3 from "/public/images/Componant2/blog/post3.png";
-import logo from "/public/images/Componant2/logo/logo-icon.png";
-import donarImg from "/public/images/Componant2/donar/donar1.png";
-import donarImg2 from "/public/images/Componant2/donar/donar2.png";
-import donarImg3 from "/public/images/Componant2/donar/donar3.png";
-import donarImg4 from "/public/images/Componant2/donar/donar4.png";
-import donarImg5 from "/public/images/Componant2/donar/donar5.png";
+import donateImg from "/public/images/Componant1/donate/donations2.png";
+import donateProfile from "/public/images/Componant1/donate/organiz.png";
+import itemthumb from "/public/images/Componant1/blog/post1.png";
+import itemthumb2 from "/public/images/Componant1/blog/post2.png";
+import itemthumb3 from "/public/images/Componant1/blog/post3.png";
+import logo from "/public/images/Componant1/logo/logo-icon.png";
+import donarImg from "/public/images/Componant1/donar/donar1.png";
+import donarImg2 from "/public/images/Componant1/donar/donar2.png";
+import donarImg3 from "/public/images/Componant1/donar/donar3.png";
+import donarImg4 from "/public/images/Componant1/donar/donar4.png";
+import donarImg5 from "/public/images/Componant1/donar/donar5.png";
 import ProgressBar from "react-animated-progress-bar";
 import { VscHeart } from "react-icons/vsc";
 import { Link } from "react-router-dom";
@@ -38,7 +38,7 @@ const DonationDetails = () => {
                 className="border rounded-md
                pb-8"
               >
-                <img src={donateImg} className="w-full"/>
+                <img src={donateImg} className="w-full" />
                 <div className="grid grid-cols-2 md:grid-cols-3 items-center mt-8">
                   <div className="mt-8 p-5 sm:px-9 col-span-2">
                     <div className="px-[6px] py-1 rounded-2xl">
@@ -80,7 +80,10 @@ const DonationDetails = () => {
                       </h6>
                     </div>
                   </div>
-                  <Link to={"/"} className="col-span-2 md:col-span-1 p-5 sm:px-9 md:px-0">
+                  <Link
+                    to={"/"}
+                    className="col-span-2 md:col-span-1 p-5 sm:px-9 md:px-0"
+                  >
                     <button className="primary-btn">
                       Donate Now
                       <VscHeart />
@@ -360,7 +363,7 @@ const DonationDetails = () => {
                   </button>
                 </Link>
               </div>
-              <div className="bg-[url('/public/images/Componant2/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md mb-7">
+              <div className="bg-[url('/public/images/Componant1/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md mb-7">
                 <Link to={"/"}>
                   <img src={logo} className="m-auto" />
                 </Link>

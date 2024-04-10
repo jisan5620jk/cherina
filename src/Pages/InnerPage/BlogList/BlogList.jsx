@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
-import blogListImg from "/public/images/Componant2/blog/blog-1.jpg";
-import blogListImg2 from "/public/images/Componant2/blog/blog-2.jpg";
-import blogListImg3 from "/public/images/Componant2/blog/blog-3.jpg";
-import blogListImg4 from "/public/images/Componant2/blog/blog-4.jpg";
-import blogListImg5 from "/public/images/Componant2/blog/blog-5.jpg";
-import itemthumb from "/public/images/Componant2/blog/post4.jpg";
-import itemthumb2 from "/public/images/Componant2/blog/post5.jpg";
-import itemthumb3 from "/public/images/Componant2/blog/post6.jpg";
-import logo from "/public/images/Componant2/logo/logo-icon.png";
+import blogListImg from "/public/images/Componant1/blog/blog-1.jpg";
+import blogListImg2 from "/public/images/Componant1/blog/blog-2.jpg";
+import blogListImg3 from "/public/images/Componant1/blog/blog-3.jpg";
+import blogListImg4 from "/public/images/Componant1/blog/blog-4.jpg";
+import blogListImg5 from "/public/images/Componant1/blog/blog-5.jpg";
+import itemthumb from "/public/images/Componant1/blog/post4.jpg";
+import itemthumb2 from "/public/images/Componant1/blog/post5.jpg";
+import itemthumb3 from "/public/images/Componant1/blog/post6.jpg";
+import logo from "/public/images/Componant1/logo/logo-icon.png";
 import { VscHeart } from "react-icons/vsc";
 import { IoSearch } from "react-icons/io5";
 import { FaUserCircle } from "react-icons/fa";
@@ -435,7 +435,7 @@ const BlogList = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-[url('/public/images/Componant2/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md mb-7">
+              <div className="bg-[url('/public/images/Componant1/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md mb-7">
                 <Link to={"/"}>
                   <img src={logo} className="m-auto" />
                 </Link>

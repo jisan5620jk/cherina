@@ -2,7 +2,7 @@ import CountUp from "react-countup";
 
 const AboutSupport = () => {
   return (
-    <section className="py-28 bg-[url('/public/images/Componant2/counter/counter-bg.png')] bg-bottom bg-cover bg-no-repeat">
+    <section className="py-28 bg-[url('/public/images/Componant1/counter/counter-bg.png')] bg-bottom bg-cover bg-no-repeat">
       <div className="Container">
         <div className="flex flex-col lg:flex-row lg:items-center">
           <div className="flex-1">
@@ -20,7 +20,7 @@ const AboutSupport = () => {
           <div className="flex-1">
             <div className="flex flex-col sm:flex-row justify-between items-center mt-8 lg:mt-0">
               <div>
-                <div className="bg-[url('/public/images/Componant2/counter/counter1.png')] bg-no-repeat bg-cover w-[125px] h-[127px] flex flex-col justify-center items-center text-center">
+                <div className="bg-[url('/public/images/Componant1/counter/counter1.png')] bg-no-repeat bg-cover w-[125px] h-[127px] flex flex-col justify-center items-center text-center">
                   <CountUp
                     start={-9}
                     end={12}
@@ -33,7 +33,7 @@ const AboutSupport = () => {
                 </h6>
               </div>
               <div>
-                <div className="bg-[url('/public/images/Componant2/counter/counter2.png')] bg-no-repeat bg-cover w-[125px] h-[127px] flex flex-col justify-center items-center text-center">
+                <div className="bg-[url('/public/images/Componant1/counter/counter2.png')] bg-no-repeat bg-cover w-[125px] h-[127px] flex flex-col justify-center items-center text-center">
                   <CountUp
                     start={-9}
                     end={10}
@@ -46,7 +46,7 @@ const AboutSupport = () => {
                 </h6>
               </div>
               <div>
-                <div className="bg-[url('/public/images/Componant2/counter/counter3.png')] bg-no-repeat bg-cover w-[125px] h-[127px] flex flex-col justify-center items-center text-center">
+                <div className="bg-[url('/public/images/Componant1/counter/counter3.png')] bg-no-repeat bg-cover w-[125px] h-[127px] flex flex-col justify-center items-center text-center">
                   <CountUp
                     start={-9}
                     end={890}

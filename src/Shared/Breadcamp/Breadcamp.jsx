@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Breadcamp = ({ breadCampTitle, url, breadCampLink }) => {
   return (
-    <div className="bg-[url('/public/images/Componant2/breadcamp/breadcamp-bg.png')] bg-no-repeat bg-cover bg-center flex items-center h-[350px] sm:h-[500px] text-center">
+    <div className="bg-[url('/public/images/Componant1/breadcamp/breadcamp-bg.png')] bg-no-repeat bg-cover bg-center flex items-center h-[350px] sm:h-[500px] text-center">
       <div className="Container">
         <ul className="flex gap-5 items-center justify-center">
           <li>

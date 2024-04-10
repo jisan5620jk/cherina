@@ -1,19 +1,19 @@
 import { FaAnglesRight } from "react-icons/fa6";
 import { VscHeart } from "react-icons/vsc";
-import footerLogo from "/public/images/Componant2/logo/logo.png";
-import gallaryImg1 from "/public/images/Componant2/footer/footer1.png";
-import gallaryImg2 from "/public/images/Componant2/footer/footer2.png";
-import gallaryImg3 from "/public/images/Componant2/footer/footer3.png";
-import gallaryImg4 from "/public/images/Componant2/footer/footer4.png";
-import gallaryImg5 from "/public/images/Componant2/footer/footer5.png";
-import gallaryImg6 from "/public/images/Componant2/footer/footer6.png";
-import footerShape from "/public/images/Componant2/footer/footer-arrow.png";
+import footerLogo from "/public/images/Componant1/logo/logo.png";
+import gallaryImg1 from "/public/images/Componant1/footer/footer1.png";
+import gallaryImg2 from "/public/images/Componant1/footer/footer2.png";
+import gallaryImg3 from "/public/images/Componant1/footer/footer3.png";
+import gallaryImg4 from "/public/images/Componant1/footer/footer4.png";
+import gallaryImg5 from "/public/images/Componant1/footer/footer5.png";
+import gallaryImg6 from "/public/images/Componant1/footer/footer6.png";
+import footerShape from "/public/images/Componant1/footer/footer-arrow.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer>
-      <div className="bg-[url('/public/images/Componant2/footer/footer-bg.jpg')] bg-cover bg-bottom py-28 relative">
+      <div className="bg-[url('/public/images/Componant1/footer/footer-bg.jpg')] bg-cover bg-bottom py-28 relative">
         <img
           src={footerShape}
           className="absolute lg:bottom-20 xl:bottom-28 left-3 2xl:left-48 animate-swing hidden lg:block"
