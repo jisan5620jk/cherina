@@ -74,7 +74,7 @@ const VolunteerInner2 = () => {
           </div>
         </div>
       </section>
-      <section className="bg-white relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-1/2 before:bg-[url('../../../public/images/Componant1/contact/contact-inf.jpg')] before:-z-10 before:bg-cover before:bg-bottom py-28">
+      <section className="bg-white relative z-[1] before:absolute before:top-0 before:left-0 before:w-full before:h-1/2 before:bg-[url('../../../public/images/Componant1/contact/contact-inf.jpg')] before:-z-[1] before:bg-cover before:bg-bottom py-28">
         <div className="Container">
           <div className="text-center">
             <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">
@@ -144,7 +144,7 @@ const VolunteerInner2 = () => {
                 />
                 <button
                   type="submit"
-                  className="w-full h-[52px] border-2 font-Manrope font-semibold text-white px-6 py-2 rounded-md outline-none relative z-10 transition-all duration-500 before:absolute before:top-0 before:left-1/2 before:w-0 before:transition-all before:duration-500 before:h-full before:bg-white before:-z-10 hover:before:left-0 hover:before:w-full hover:text-HeadingColor-0"
+                  className="w-full h-[52px] border-2 font-Manrope font-semibold text-white px-6 py-2 rounded-md outline-none relative z-[1] transition-all duration-500 before:absolute before:top-0 before:left-1/2 before:w-0 before:transition-all before:duration-500 before:h-full before:bg-white before:-z-[1] hover:before:left-0 hover:before:w-full hover:text-HeadingColor-0"
                 >
                   Send Message
                 </button>

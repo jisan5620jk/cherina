@@ -8,6 +8,7 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { FaPlay } from "react-icons/fa";
 import videoLayer from "/public/images/Componant2/video-outline.png";
 import FsLightbox from "fslightbox-react";
+import { Link } from "react-router-dom";
 
 const BannerSection = () => {
   const [toggler, setToggler] = useState(false);
@@ -17,6 +18,7 @@ const BannerSection = () => {
   const [sliderRef, instanceRef] = useKeenSlider({
     initial: 0,
     loop: true,
+    speed: 5, 
     slideChanged(slider) {
       setCurrentSlide(slider.track.details.rel);
     },
@@ -42,12 +44,13 @@ const BannerSection = () => {
                   </span>{" "}
                   In Needs.
                 </h1>
-                <div className="flex items-center gap-x-10 mt-9">
-                  <Button bgColor="bg-aquamarine" hoverBgColor="bg-coral">
-                    Discover More{" "}
-                    <MdKeyboardDoubleArrowRight className="ml-2" size={16} />
-                  </Button>
-
+                <div className="flex flex-col sm:flex-row sm:items-center gap-10 mt-9">
+                  <Link to={"/"}>
+                    <Button bgColor="bg-aquamarine" hoverBgColor="bg-coral">
+                      Discover More{" "}
+                      <MdKeyboardDoubleArrowRight className="ml-2" size={16} />
+                    </Button>
+                  </Link>
                   <div className="relative w-[107px] h-[107px] ">
                     <figure className="relative">
                       <img
@@ -118,8 +121,7 @@ const BannerSection = () => {
             </div>
           </div>
         </div>
-
-        <div className="absolute space-y-6">
+        <div className="arrow-box">
           {loaded && instanceRef.current && (
             <>
               <Arrow

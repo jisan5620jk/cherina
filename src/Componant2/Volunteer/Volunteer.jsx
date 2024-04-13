@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Volunteer = () => {
   return (
-    <section className="py-28">
+    <section className="pb-28">
       <div className="Container">
         <div className="text-center">
           <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">

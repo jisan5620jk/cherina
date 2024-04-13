@@ -8,7 +8,7 @@ const ContactInner = () => {
         breadCampLink={"Contact Us"}
         url={"/contact"}
       />
-      <section className="bg-[#fff6f1] relative z-10 py-28">
+      <section className="bg-[#fff6f1] relative z-[1] py-28">
         <div className="Container">
           <div className="text-center">
             <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">
@@ -67,7 +67,7 @@ const ContactInner = () => {
               <div className="text-center mt-6">
                 <button
                   type="submit"
-                  className="w-[208px] h-[62px] overflow-hidden font-Manrope font-medium bg-PrimaryColor-0 text-white px-6 py-2 rounded-full outline-none relative z-10 before:absolute before:top-0 before:left-1/2 before:w-0 before:transition-all before:duration-500 before:h-full before:bg-SecondaryColor-0 before:-z-10 hover:before:left-0 hover:before:w-full"
+                  className="w-[208px] h-[62px] overflow-hidden font-Manrope font-medium bg-PrimaryColor-0 text-white px-6 py-2 rounded-full outline-none relative z-[1] before:absolute before:top-0 before:left-1/2 before:w-0 before:transition-all before:duration-500 before:h-full before:bg-SecondaryColor-0 before:-z-[1] hover:before:left-0 hover:before:w-full"
                 >
                   Submit Comment
                 </button>

@@ -16,7 +16,7 @@ const VolunteerAndDonate = () => {
         <div className=" xl:w-[475px]">
           <div className="flex items-center ">
             <img src={helpingHand} alt="" />
-            <h1 className="text-2xl sm:text-3xl md:text-[32px] leading-8 md:leading-10 text-white font-extrabold font-Manrope pl-[26px] lg:pr-[40px]">
+            <h1 className="text-[19px] sm:text-3xl md:text-[32px] leading-8 md:leading-10 text-white font-extrabold font-Manrope pl-[26px] lg:pr-[40px]">
               Join Us and Become A Volunteer
             </h1>
           </div>
@@ -40,7 +40,7 @@ const VolunteerAndDonate = () => {
         <div className=" xl:w-[475px]">
           <div className="flex items-center">
             <img src={donating} alt="" />
-            <h1 className="text-2xl sm:text-3xl md:text-[32px] leading-8 md:leading-10 text-white font-extrabold font-Manrope pl-[26px] lg:pr-[40px]">
+            <h1 className="text-[19px] sm:text-3xl md:text-[32px] leading-8 md:leading-10 text-white font-extrabold font-Manrope pl-[26px] lg:pr-[40px]">
               Start Donating For the Childreens
             </h1>
           </div>

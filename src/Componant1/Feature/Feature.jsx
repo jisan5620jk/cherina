@@ -5,7 +5,7 @@ import FeatureMain from "./FeatureMain";
 
 const Feature = () => {
   return (
-    <section className="relative -mt-14 z-10">
+    <section className="relative -mt-14 z-[1]">
       <div className="Container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
           <FeatureMain

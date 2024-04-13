@@ -31,3 +31,13 @@
   transform: translate(-120%, 50%);
   right: 13px;
 }
+
+@media (min-width: 320px) and (max-width: 1400px) {
+.arrowN--right{
+    transform: translate(-120%, 0);
+}
+
+.arrowN--left  {
+    transform: translate(-103%, 0);
+}
+}

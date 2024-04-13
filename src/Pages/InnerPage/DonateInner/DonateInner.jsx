@@ -269,7 +269,7 @@ const DonateInner = () => {
                   <li>
                     <Link to={"/"}>
                       <button
-                        className="text-white transition-all duration-500 border text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-10 h-10 rounded-full relative z-10 before:absolute before:top-0 before:left-0 before:-z-10 before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
+                        className="text-white transition-all duration-500 border text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-10 h-10 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:-z-[1] before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
                        before:duration-500 hover:before:scale-100"
                       >
                         <FaFacebookF />
@@ -279,7 +279,7 @@ const DonateInner = () => {
                   <li>
                     <Link to={"/"}>
                       <button
-                        className="text-white transition-all duration-500 border text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-10 h-10 rounded-full relative z-10 before:absolute before:top-0 before:left-0 before:-z-10 before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
+                        className="text-white transition-all duration-500 border text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-10 h-10 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:-z-[1] before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
                        before:duration-500 hover:before:scale-100"
                       >
                         <FaXTwitter />
@@ -289,7 +289,7 @@ const DonateInner = () => {
                   <li>
                     <Link to={"/"}>
                       <button
-                        className="text-white transition-all duration-500 border text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-10 h-10 rounded-full relative z-10 before:absolute before:top-0 before:left-0 before:-z-10 before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
+                        className="text-white transition-all duration-500 border text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-10 h-10 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:-z-[1] before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
                        before:duration-500 hover:before:scale-100"
                       >
                         <FaLinkedinIn />

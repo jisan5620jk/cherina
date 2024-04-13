@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { HiOutlineClock } from "react-icons/hi";
 import ProgressBar from "react-animated-progress-bar";
 import { Link } from "react-router-dom";
@@ -39,7 +40,7 @@ const CausesCard = ({
       </figure>
       <div className="p-7 font-Manrope  shadow-cases rounded-b-[4px]">
         <Link to="#">
-          <h3 className="text-[22px] leading-[30px] text-darkSlate font-bold hover:text-PrimaryColor-0 transition-all duration-300">
+          <h3 className="text-[22px] lg:text-xl xl:text-[22px] leading-[30px] text-darkSlate font-bold hover:text-PrimaryColor-0 transition-all duration-300">
             {title}
           </h3>
         </Link>

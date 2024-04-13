@@ -9,10 +9,10 @@ const Events = () => {
   return (
     <section className="py-28 border-b border-[#d8d8d8]">
       <div className="Container">
-        <div className="grid grid-cols-2 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:items-center gap-10 xl:gap-16">
           <div>
             <h5 className="sub-title">Upcoming Events</h5>
-            <h1 className="text-HeadingColor-0 text-[22px] sm:text-4xl leading-8 md:text-[39px] 2xl:text-[42px] font-Manrope font-extrabold sm:leading-[52px] mt-6">
+            <h1 className="text-HeadingColor-0 text-[22px] sm:text-4xl leading-8 md:text-[36px] 2xl:text-[42px] font-Manrope font-extrabold sm:leading-[52px] mt-6">
               Ready to Join our Latest
               <br /> Upcoming
               <span className="text-PrimaryColor-0"> Events</span>
@@ -31,9 +31,9 @@ const Events = () => {
             </Link>
           </div>
           <div>
-            <div className="shadow-shade rounded-md  bg-[#fff2ed] flex flex-col lg:flex-row gap-7 items-center relative mb-7">
-              <div>
-                <img src={eventImg} />
+            <div className="shadow-shade rounded-md  bg-[#fff2ed] flex flex-col sm:flex-row gap-7 items-center relative mb-7 pt-5 px-5 pb-20 sm:p-0">
+              <div className="flex-1 md:flex-none lg:flex-1">
+                <img src={eventImg} className="rounded sm:rounded-none" />
               </div>
               <div className="flex-1">
                 <div className="flex">
@@ -47,7 +47,7 @@ const Events = () => {
                   </h6>
                 </div>
                 <Link to={"/eventdetails"}>
-                  <h2 className="font-Manrope text-xl font-bold text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0">
+                  <h2 className="font-Manrope text-xl lg:text-lg xl:text-xl font-bold 2xl:w-9/12 text-HeadingColor-0 transition-all duration-500 hover:text-PrimaryColor-0">
                     Learn Exactly how we Arrange a Event
                   </h2>
                 </Link>
@@ -58,13 +58,13 @@ const Events = () => {
                   </button>
                 </Link>
               </div>
-              <h6 className="h-[38px] w-[116px] font-Manrope bg-PrimaryColor-0 text-sm flex justify-center items-center text-white rounded-full lg:-rotate-90 absolute bottom-5 left-6 lg:bottom-[inherit] lg:left-[inherit] lg:top-1/2 lg:-right-[59px] lg:-translate-y-1/2">
+              <h6 className="h-[38px] w-[116px] font-Manrope bg-PrimaryColor-0 text-sm flex justify-center items-center text-white rounded-full sm:-rotate-90 absolute bottom-5 left-6 sm:bottom-[inherit] sm:left-[inherit] sm:top-1/2 sm:-right-[59px] sm:-translate-y-1/2">
                 26 Jun 2022
               </h6>
             </div>
-            <div className="shadow-shade rounded-md  bg-[#edfaf5] flex flex-col lg:flex-row gap-7 items-center relative mb-7">
-              <div>
-                <img src={eventImg2} />
+            <div className="shadow-shade rounded-md  bg-[#edfaf5] flex flex-col sm:flex-row gap-7 items-center relative mb-7 pt-5 px-5 pb-20 sm:p-0">
+              <div className="flex-1 md:flex-none lg:flex-1">
+                <img src={eventImg2} className="rounded sm:rounded-none" />
               </div>
               <div className="flex-1">
                 <div className="flex">
@@ -78,7 +78,7 @@ const Events = () => {
                   </h6>
                 </div>
                 <Link to={"/eventdetails"}>
-                  <h2 className="font-Manrope text-xl font-bold text-HeadingColor-0 transition-all duration-500 hover:text-SecondaryColor-0">
+                  <h2 className="font-Manrope text-xl lg:text-lg xl:text-xl font-bold 2xl:w-9/12 text-HeadingColor-0 transition-all duration-500 hover:text-SecondaryColor-0">
                     100+ Orphan Children Bootcampings
                   </h2>
                 </Link>
@@ -89,7 +89,7 @@ const Events = () => {
                   </button>
                 </Link>
               </div>
-              <h6 className="h-[38px] w-[116px] font-Manrope bg-SecondaryColor-0 text-sm flex justify-center items-center text-white rounded-full lg:-rotate-90 absolute bottom-5 left-6 lg:bottom-[inherit] lg:left-[inherit] lg:top-1/2 lg:-right-[59px] lg:-translate-y-1/2">
+              <h6 className="h-[38px] w-[116px] font-Manrope bg-SecondaryColor-0 text-sm flex justify-center items-center text-white rounded-full sm:-rotate-90 absolute bottom-5 left-6 sm:bottom-[inherit] sm:left-[inherit] sm:top-1/2 sm:-right-[59px] sm:-translate-y-1/2">
                 26 Jun 2022
               </h6>
             </div>

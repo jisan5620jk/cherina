@@ -41,7 +41,7 @@ const Events = () => {
       <div className="xl:px-12">
         <Swiper {...settings}>
           <SwiperSlide>
-            <div className="bg-[url('/public/images/Componant1/event/events1.jpg')] rounded-md bg-center bg-cover mt-28 group relative z-10 before:absolute before:rounded-md before:w-full before:h-full before:bg-[#1cc5ee] before:opacity-80 before:-z-10">
+            <div className="bg-[url('/public/images/Componant1/event/events1.jpg')] rounded-md bg-center bg-cover mt-28 group relative z-[1] before:absolute before:rounded-md before:w-full before:h-full before:bg-[#1cc5ee] before:opacity-80 before:-z-[1]">
               <div className="px-[20px] 2xl:px-[42px] pt-[42px] pb-9">
                 <div className="flex gap-5 items-center">
                   <h3 className="w-[66px] h-[66px] font-Lobster text-[38px] font-normal bg-white rounded-md flex justify-center items-center text-[#1cc5ee]">
@@ -70,7 +70,7 @@ const Events = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[url('/public/images/Componant1/event/events2.png')] rounded-md bg-center bg-cover mt-28 group relative z-10 before:absolute before:rounded-md before:w-full before:h-full before:bg-PrimaryColor-0 before:opacity-80 before:-z-10">
+            <div className="bg-[url('/public/images/Componant1/event/events2.png')] rounded-md bg-center bg-cover mt-28 group relative z-[1] before:absolute before:rounded-md before:w-full before:h-full before:bg-PrimaryColor-0 before:opacity-80 before:-z-[1]">
               <div className="px-[20px] 2xl:px-[42px] pt-[42px] pb-9">
                 <div className="flex gap-5 items-center">
                   <h3 className="w-[66px] h-[66px] font-Lobster text-[38px] font-normal bg-white rounded-md flex justify-center items-center text-PrimaryColor-0">
@@ -99,7 +99,7 @@ const Events = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[url('/public/images/Componant1/event/events3.png')] rounded-md bg-center bg-cover mt-28 group relative z-10 before:absolute before:rounded-md before:w-full before:h-full before:bg-SecondaryColor-0 before:opacity-80 before:-z-10">
+            <div className="bg-[url('/public/images/Componant1/event/events3.png')] rounded-md bg-center bg-cover mt-28 group relative z-[1] before:absolute before:rounded-md before:w-full before:h-full before:bg-SecondaryColor-0 before:opacity-80 before:-z-[1]">
               <div className="px-[20px] 2xl:px-[42px] pt-[42px] pb-9">
                 <div className="flex gap-5 items-center">
                   <h3 className="w-[66px] h-[66px] font-Lobster text-[38px] font-normal bg-white rounded-md flex justify-center items-center text-SecondaryColor-0">
@@ -128,7 +128,7 @@ const Events = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[url('/public/images/Componant1/event/events1.jpg')] rounded-md bg-center bg-cover mt-28 group relative z-10 before:absolute before:rounded-md before:w-full before:h-full before:bg-[#1cc5ee] before:opacity-80 before:-z-10">
+            <div className="bg-[url('/public/images/Componant1/event/events1.jpg')] rounded-md bg-center bg-cover mt-28 group relative z-[1] before:absolute before:rounded-md before:w-full before:h-full before:bg-[#1cc5ee] before:opacity-80 before:-z-[1]">
               <div className="px-[20px] 2xl:px-[42px] pt-[42px] pb-9">
                 <div className="flex gap-5 items-center">
                   <h3 className="w-[66px] h-[66px] font-Lobster text-[38px] font-normal bg-white rounded-md flex justify-center items-center text-[#1cc5ee]">

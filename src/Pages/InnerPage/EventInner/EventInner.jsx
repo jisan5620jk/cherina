@@ -72,28 +72,28 @@ const EventInner = () => {
             <ul className="flex gap-3">
               <li>
                 <Link to={"/"}>
-                  <button className="text-[17px] font-Manrope h-12 w-12 flex justify-center items-center rounded-full border transition-all duration-500 z-10 relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:rounded-full before:scale-0 before:transition-all before:duration-500 hover:before:scale-100 hover:text-white">
+                  <button className="text-[17px] font-Manrope h-12 w-12 flex justify-center items-center rounded-full border transition-all duration-500 z-[1] relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-[1] before:bg-PrimaryColor-0 before:rounded-full before:scale-0 before:transition-all before:duration-500 hover:before:scale-100 hover:text-white">
                     01
                   </button>
                 </Link>
               </li>
               <li>
                 <Link to={"/"}>
-                  <button className="text-[17px] font-Manrope h-12 w-12 flex justify-center items-center rounded-full border transition-all duration-500 z-10 relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:rounded-full before:scale-0 before:transition-all before:duration-500 hover:before:scale-100 hover:text-white">
+                  <button className="text-[17px] font-Manrope h-12 w-12 flex justify-center items-center rounded-full border transition-all duration-500 z-[1] relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-[1] before:bg-PrimaryColor-0 before:rounded-full before:scale-0 before:transition-all before:duration-500 hover:before:scale-100 hover:text-white">
                     02
                   </button>
                 </Link>
               </li>
               <li>
                 <Link to={"/"}>
-                  <button className="text-[17px] font-Manrope h-12 w-12 flex justify-center items-center rounded-full border transition-all duration-500 z-10 relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:rounded-full before:scale-0 before:transition-all before:duration-500 hover:before:scale-100 hover:text-white">
+                  <button className="text-[17px] font-Manrope h-12 w-12 flex justify-center items-center rounded-full border transition-all duration-500 z-[1] relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-[1] before:bg-PrimaryColor-0 before:rounded-full before:scale-0 before:transition-all before:duration-500 hover:before:scale-100 hover:text-white">
                     03
                   </button>
                 </Link>
               </li>
               <li>
                 <Link to={"/"}>
-                  <button className="text-lg font-Manrope h-12 w-12 flex justify-center items-center rounded-full border transition-all duration-500 z-10 relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-10 before:bg-PrimaryColor-0 before:rounded-full before:scale-0 before:transition-all before:duration-500 hover:before:scale-100 hover:text-white">
+                  <button className="text-lg font-Manrope h-12 w-12 flex justify-center items-center rounded-full border transition-all duration-500 z-[1] relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:-z-[1] before:bg-PrimaryColor-0 before:rounded-full before:scale-0 before:transition-all before:duration-500 hover:before:scale-100 hover:text-white">
                     <RiArrowRightDoubleFill />
                   </button>
                 </Link>

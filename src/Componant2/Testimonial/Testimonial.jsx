@@ -19,19 +19,19 @@ const Testimonial = () => {
   };
 
   return (
-    <section className="py-28 bg-[url('/public/images/Componant2/testibg.jpg')] bg-center bg-cover relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#142121] before:opacity-90 before:-z-10">
+    <section className="py-28 bg-[url('/public/images/Componant2/testibg.jpg')] bg-center bg-cover relative z-[1] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#142121] before:opacity-90 before:-z-[1]">
       <div className="Container">
-        <div className="grid grid-cols-2 items-center gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:items-center gap-16">
           <div>
             <Swiper {...settings}>
               <SwiperSlide>
-                <div className="bg-[url('/public/images/Componant2/download.jpg')] bg-left bg-cover group p-10 rounded-md relative mb-7 mt-[50px]">
+                <div className="bg-[url('/public/images/Componant2/download.jpg')] bg-left bg-cover group p-5 md:p-10 rounded-md relative mb-7 mt-[50px]">
                   <div className="absolute -top-[50px]">
                     <img src={testiProfile} />
                   </div>
                   <div>
                     <div className="flex gap-1 mt-10 mb-8">
-                      <BsQuote className="text-PrimaryColor-0 text-5xl" />
+                      <BsQuote className="text-PrimaryColor-0 text-3xl md:text-5xl" />
                       <p className="font-Manrope text-TextColor-0 flex-1 mt-4">
                         Completely create leveraged best practices and B2B
                         interfaces events productivate cutting-edge solutions
@@ -67,13 +67,13 @@ const Testimonial = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="bg-[url('/public/images/Componant2/download.jpg')] bg-left bg-cover group p-10 rounded-md relative mb-7 mt-[50px]">
+                <div className="bg-[url('/public/images/Componant2/download.jpg')] bg-left bg-cover group p-5 md:p-10 rounded-md relative mb-7 mt-[50px]">
                   <div className="absolute -top-[50px]">
                     <img src={testiProfile2} />
                   </div>
                   <div>
                     <div className="flex gap-1 mt-10 mb-8">
-                      <BsQuote className="text-PrimaryColor-0 text-5xl" />
+                      <BsQuote className="text-PrimaryColor-0 text-3xl md:text-5xl" />
                       <p className="font-Manrope text-TextColor-0 flex-1 mt-4">
                         Completely create leveraged best practices and B2B
                         interfaces events productivate cutting-edge solutions

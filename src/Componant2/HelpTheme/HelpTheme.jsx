@@ -37,7 +37,7 @@ const HelpTheme = () => {
       <div className="Container grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-[30px] py-20 2xl:py-[120px]">
         <div className="">
           <SectionHeading title="Change Everything" />
-          <h1 className="heading-main lg:text-[38px] 2xl:text-[42px] text-white mt-5">
+          <h1 className="heading-main lg:text-[32px] lg:leading-9 2xl:text-[42px] text-white mt-5">
             We’re here to Help{" "}
             <span className="text-PrimaryColor-0">Theme</span>
           </h1>

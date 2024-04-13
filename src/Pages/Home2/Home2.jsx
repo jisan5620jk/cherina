@@ -1,4 +1,4 @@
-import Blog from "../../Componant1/Blog/Blog";
+import Blog from "../../Componant2/Blog/Blog";
 import BannerSection from "../../Componant2/BannerSection/BannerSection";
 import Brand from "../../Componant2/Brand/Brand";
 import Events from "../../Componant2/Events/Events";
@@ -23,11 +23,11 @@ const Home1 = () => {
         <Events />
         <Brand />
         <Testimonial />
-        <Gallary/>
+        <Gallary />
         <Volunteer />
-        <Support2/>
-        <Blog/>
-        <Help/>
+        <Support2 />
+          <Blog />
+        <Help />
       </>
     );
 };
