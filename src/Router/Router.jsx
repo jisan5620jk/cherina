@@ -14,10 +14,12 @@ import EventInner from "../Pages/InnerPage/EventInner/EventInner";
 import EventDetails from "../Pages/InnerPage/EventsDetails/EventDetails";
 import BlogList from "../Pages/InnerPage/BlogList/BlogList";
 import BlogDetails from "../Pages/InnerPage/BlogDetails/BlogDetails";
+import ErrorPage from "../Shared/ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
+    errorElement: <ErrorPage />,
     element: <Main />,
     children: [
       {
