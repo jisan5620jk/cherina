@@ -43,7 +43,8 @@ body {
 .donate .rect-progress-bar-percent {
   @apply !m-0 leading-[10px] absolute !text-[#1b3434] font-medium left-2/4 -translate-x-1/2 -top-[28px];
 }
-.rect-progress-bar-percent {
+
+.donate .rect-progress-bar-percent {
   margin: 0 !important;
   line-height: 10px;
 }

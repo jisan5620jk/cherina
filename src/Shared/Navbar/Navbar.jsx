@@ -43,7 +43,7 @@ const Navbar = () => {
   };
   return (
     <nav
-      className={`w-full transition-all duration-300 bg-transparent absolute z-[1] text-[#7d7f8c]`}
+      className={`w-full transition-all duration-300 bg-transparent absolute z-[1] text-[#7d7f8c] z-[99999]`}
     >
       {/* top Navbar */}
       <header className="border-b border-BorderColor-0 overflow-hidden hidden py-[14px] md:block">

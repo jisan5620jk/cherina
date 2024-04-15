@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { FaCircleCheck } from "react-icons/fa6";
 
 const Mission = () => (
-  <section className="bg-[#fff8f5] relative z-[1] before:absolute before:top-0 before:left-0 before:w-full before:h-1/2 before:bg-[url('../../../public/images/Componant1/mission/mission-bg.png')] before:-z-[1] before:bg-cover before:bg-bottom py-28">
+  <section className="bg-[#fff8f5] relative z-[1] before:absolute before:top-0 before:left-0 before:w-full before:h-1/2 before:bg-[url('/public/images/Componant1/mission/mission-bg.png')] before:-z-[1] before:bg-cover before:bg-bottom py-28">
     <img
       src={eventShape}
       className="absolute top-[5%] left-[10%] lg:top-32 lg:left-40 animate-zoomInOut"
