@@ -45,7 +45,7 @@ const BannerSection = () => {
                   In Needs.
                 </h1>
                 <div className="flex flex-col sm:flex-row sm:items-center gap-10 mt-9">
-                  <Link to={"/"}>
+                  <Link to={"/about"}>
                     <Button bgColor="bg-aquamarine" hoverBgColor="bg-coral">
                       Discover More{" "}
                       <MdKeyboardDoubleArrowRight className="ml-2" size={16} />
