@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import blogImg from "/public/images/Componant1/blog/blog1.jpg";
-import blogImg2 from "/public/images/Componant1/blog/blog2.jpg";
-import blogImg3 from "/public/images/Componant1/blog/blog3.jpg";
+import blogImg from "/public/images/Componant2/blog/blog1.jpg";
+import blogImg2 from "/public/images/Componant2/blog/blog2.jpg";
+import blogImg3 from "/public/images/Componant2/blog/blog3.jpg";
 import { FaComments, FaShareAlt, FaUser } from "react-icons/fa";
 import { LuMoveRight } from "react-icons/lu";
 
 const Blog = () => {
   return (
-    <section className="py-28 relative z-[1] ">
+    <section className="relative z-[1] before:absolute before:top-0 before:left-0 before:w-full before:h-2/3 before:bg-[#fff8f5] before:-z-[1]">
       <div className="Container">
         <div className="text-center">
           <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">
@@ -45,7 +45,7 @@ const Blog = () => {
               </div>
               <div className="flex justify-between items-center pt-5 pb-7 border-t border-[#1b34341a] px-8 mt-6">
                 <Link to={"/blogDetails"}>
-                  <button className="flex gap-1 items-center font-Manrope font-medium transition-all duration-500 hover:text-SecondaryColor-0">
+                  <button className="flex gap-[10px] items-center font-Manrope font-medium transition-all duration-500 hover:text-SecondaryColor-0">
                     Read More
                     <LuMoveRight />
                   </button>
@@ -80,9 +80,9 @@ const Blog = () => {
               </div>
               <div className="flex justify-between items-center pt-5 pb-7 border-t border-[#1b34341a] px-8 mt-6">
                 <Link to={"/blogDetails"}>
-                  <button className="flex gap-1 items-center font-Manrope font-medium transition-all duration-500 hover:text-PrimaryColor-0">
+                  <button className="flex gap-[10px] items-center font-Manrope font-medium transition-all duration-500 hover:text-PrimaryColor-0">
                     Read More
-                    <LuMoveRight />
+                    <LuMoveRight/>
                   </button>
                 </Link>
                 <FaShareAlt className="text-PrimaryColor-0 text-lg" />
@@ -115,7 +115,7 @@ const Blog = () => {
               </div>
               <div className="flex justify-between items-center pt-5 pb-7 border-t border-[#1b34341a] px-8 mt-6">
                 <Link to={"/blogDetails"}>
-                  <button className="flex gap-1 items-center font-Manrope font-medium transition-all duration-500 hover:text-[#1cc6e9]">
+                  <button className="flex gap-[10px] items-center font-Manrope font-medium transition-all duration-500 hover:text-[#1cc6e9]">
                     Read More
                     <LuMoveRight />
                   </button>

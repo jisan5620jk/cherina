@@ -1,12 +1,12 @@
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
-import donateImg from "/public/images/Componant1/event/event.png";
-import donateProfile from "/public/images/Componant1/event/organiz2.png";
-import itemthumb from "/public/images/Componant1/blog/post1.png";
-import itemthumb2 from "/public/images/Componant1/blog/post2.png";
-import itemthumb3 from "/public/images/Componant1/blog/post3.png";
-import logo from "/public/images/Componant1/logo/logo-icon.png";
-import eventImg from "/public/images/Componant1/event/1-event.png";
-import eventImg2 from "/public/images/Componant1/event/2-event.png";
+import donateImg from "/public/images/Componant2/event/event.png";
+import donateProfile from "/public/images/Componant2/event/organiz2.png";
+import itemthumb from "/public/images/Componant2/blog/post1.png";
+import itemthumb2 from "/public/images/Componant2/blog/post2.png";
+import itemthumb3 from "/public/images/Componant2/blog/post3.png";
+import logo from "/public/images/Componant2/logo/logo-icon.png";
+import eventImg from "/public/images/Componant2/event/1-event.png";
+import eventImg2 from "/public/images/Componant2/event/2-event.png";
 import { VscHeart } from "react-icons/vsc";
 import {
   FaCircleCheck,
@@ -102,7 +102,7 @@ const EventDetails = () => {
               </Link>
             </div>
             <div className="col-span-2 lg:col-span-1">
-              <div className="bg-[url('/public/images/Componant1/event/event_bg.png')] bg-center bg-cover bg-no-repeat px-9 border-t-[5px] border-PrimaryColor-0 rounded-md pt-11 pb-12 mb-7">
+              <div className="bg-[url('/public/images/Componant2/event/event_bg.png')] bg-center bg-cover bg-no-repeat px-9 border-t-[5px] border-PrimaryColor-0 rounded-md pt-11 pb-12 mb-7">
                 <h4 className="font-Manrope font-bold text-[22px] text-white ml-12 relative before:absolute before:top-1/2 before:-translate-y-1/2 before:-left-12 before:h-[2px] before:w-10 before:bg-PrimaryColor-0 mb-10">
                   Event Info
                 </h4>
@@ -195,7 +195,7 @@ const EventDetails = () => {
                     </div>
                   </button>
                 </Link>
-                <hr />
+                <hr className="text-BorderColor2-0" />
                 <Link to={"/blogDetails"}>
                   <button className="group flex gap-4 my-6">
                     <div>
@@ -211,7 +211,7 @@ const EventDetails = () => {
                     </div>
                   </button>
                 </Link>
-                <hr />
+                <hr className="text-BorderColor2-0" />
                 <Link to={"/blogDetails"}>
                   <button className="group flex gap-4 my-6">
                     <div>
@@ -228,7 +228,7 @@ const EventDetails = () => {
                   </button>
                 </Link>
               </div>
-              <div className="bg-[url('/public/images/Componant1/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md mb-7">
+              <div className="bg-[url('/public/images/Componant2/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md mb-7">
                 <Link to={"/"}>
                   <img src={logo} className="m-auto" />
                 </Link>

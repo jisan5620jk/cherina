@@ -1,10 +1,10 @@
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
-import donateImg from "/public/images/Componant1/donate/donations2.png";
-import donateProfile from "/public/images/Componant1/donate/organiz.png";
-import itemthumb from "/public/images/Componant1/blog/post1.png";
-import itemthumb2 from "/public/images/Componant1/blog/post2.png";
-import itemthumb3 from "/public/images/Componant1/blog/post3.png";
-import logo from "/public/images/Componant1/logo/logo-icon.png";
+import donateImg from "/public/images/Componant2/donate/donations2.png";
+import donateProfile from "/public/images/Componant2/donate/organiz.png";
+import itemthumb from "/public/images/Componant2/blog/post1.png";
+import itemthumb2 from "/public/images/Componant2/blog/post2.png";
+import itemthumb3 from "/public/images/Componant2/blog/post3.png";
+import logo from "/public/images/Componant2/logo/logo-icon.png";
 import ProgressBar from "react-animated-progress-bar";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { VscHeart } from "react-icons/vsc";
@@ -23,10 +23,7 @@ const DonateInner = () => {
         <div className="Container">
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-7">
             <div className="col-span-2">
-              <div
-                className="border rounded-md
-               pb-8"
-              >
+              <div className="border rounded-md border-BorderColor2-0 pb-7">
                 <img src={donateImg} className="w-full" />
                 <div className="mt-16 px-9">
                   <div className="px-[6px] py-1 rounded-2xl">
@@ -158,7 +155,7 @@ const DonateInner = () => {
                         id="name"
                         placeholder="Enter First Name*"
                         required
-                        className="border rounded-sm w-full h-[58px] px-6 py-2 mt-3"
+                        className="border rounded-sm border-BorderColor2-0 w-full h-[58px] px-6 py-2 mt-3"
                       />
                     </label>
                     <label htmlFor="lastname" className="font-Manrope ">
@@ -169,7 +166,7 @@ const DonateInner = () => {
                         id="lastname"
                         placeholder="Enter Last Name*"
                         required
-                        className="border rounded-sm w-full h-[58px] px-6 py-2 mt-3"
+                        className="border rounded-sm border-BorderColor2-0 w-full h-[58px] px-6 py-2 mt-3"
                       />
                     </label>
                   </div>
@@ -182,7 +179,7 @@ const DonateInner = () => {
                         id="email"
                         placeholder="Enter E-Mail*"
                         required
-                        className="border rounded-sm w-full h-[58px] px-6 py-2 mt-3"
+                        className="border rounded-sm border-BorderColor2-0 w-full h-[58px] px-6 py-2 mt-3"
                       />
                     </label>
                     <label htmlFor="phone" className="font-Manrope ">
@@ -193,7 +190,7 @@ const DonateInner = () => {
                         id="phone"
                         placeholder="Enter Phone No*"
                         required
-                        className="border rounded-sm w-full h-[58px] px-6 py-2 mt-3"
+                        className="border rounded-sm border-BorderColor2-0 w-full h-[58px] px-6 py-2 mt-3"
                       />
                     </label>
                   </div>
@@ -206,7 +203,7 @@ const DonateInner = () => {
                         id="address1"
                         placeholder="Enter Address One*"
                         required
-                        className="border rounded-sm w-full h-[58px] px-6 py-2 mt-3"
+                        className="border rounded-sm border-BorderColor2-0 w-full h-[58px] px-6 py-2 mt-3"
                       />
                     </label>
                     <label htmlFor="address2" className="font-Manrope ">
@@ -217,7 +214,7 @@ const DonateInner = () => {
                         id="address2"
                         placeholder="Enter Address Two*"
                         required
-                        className="border rounded-sm w-full h-[58px] px-6 py-2 mt-3"
+                        className="border rounded-sm border-BorderColor2-0 w-full h-[58px] px-6 py-2 mt-3"
                       />
                     </label>
                   </div>
@@ -230,7 +227,7 @@ const DonateInner = () => {
                         id="city"
                         placeholder="Enter Your City*"
                         required
-                        className="border rounded-sm w-full h-[58px] px-6 py-2 mt-3"
+                        className="border rounded-sm border-BorderColor2-0 w-full h-[58px] px-6 py-2 mt-3"
                       />
                     </label>
                     <label htmlFor="zipcode" className="font-Manrope ">
@@ -241,7 +238,7 @@ const DonateInner = () => {
                         id="zipcode"
                         placeholder="Enter Zipcode*"
                         required
-                        className="border rounded-sm w-full h-[58px] px-6 py-2 mt-3"
+                        className="border rounded-sm border-BorderColor2-0 w-full h-[58px] px-6 py-2 mt-3"
                       />
                     </label>
                   </div>
@@ -317,7 +314,7 @@ const DonateInner = () => {
                     </div>
                   </button>
                 </Link>
-                <hr />
+                <hr className="text-BorderColor2-0" />
                 <Link to={"/"}>
                   <button className="group flex gap-4 my-6">
                     <div>
@@ -333,7 +330,7 @@ const DonateInner = () => {
                     </div>
                   </button>
                 </Link>
-                <hr />
+                <hr className="text-BorderColor2-0" />
                 <Link to={"/"}>
                   <button className="group flex gap-4 my-6">
                     <div>
@@ -350,7 +347,7 @@ const DonateInner = () => {
                   </button>
                 </Link>
               </div>
-              <div className="bg-[url('/public/images/Componant1/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md">
+              <div className="bg-[url('/public/images/Componant2/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md">
                 <Link to={"/"}>
                   <img src={logo} className="m-auto" />
                 </Link>

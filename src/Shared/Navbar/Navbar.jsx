@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa6";
 import { PiUserCircleFill } from "react-icons/pi";
 import { BiChevronDown } from "react-icons/bi";
-import Logo from "/public/images/Componant1/logo/logo.png";
+import Logo from "/public/images/Componant2/logo/logo.png";
 import { useState, useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
 import { VscHeart } from "react-icons/vsc";
@@ -43,7 +43,7 @@ const Navbar = () => {
   };
   return (
     <nav
-      className={`w-full transition-all duration-300 bg-transparent absolute z-[1] text-[#7d7f8c] z-[99999]`}
+      className={`w-full transition-all duration-300 bg-transparent absolute text-[#7d7f8c] z-[99999]`}
     >
       {/* top Navbar */}
       <header className="border-b border-BorderColor-0 overflow-hidden hidden py-[14px] md:block">
@@ -148,7 +148,7 @@ const Navbar = () => {
                       ? "pending"
                       : isActive
                       ? "active"
-                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 2xl:px-3 py-2 w-full block transition-all duration-300 group relative`}
+                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative`}
                   to="/"
                 >
                   <span className="flex items-center">
@@ -170,7 +170,7 @@ const Navbar = () => {
                       </div>
                       <div className=" px-5 group hover:bg-SecondaryColor-0 ">
                         <li className="hover:ml-3 duration-300">
-                          <NavLink to="/home2" className="py-2 block">
+                          <NavLink to="/Home2" className="py-2 block">
                             Home Two
                           </NavLink>
                         </li>

@@ -1,15 +1,15 @@
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
-import donateImg from "/public/images/Componant1/donate/donations2.png";
-import donateProfile from "/public/images/Componant1/donate/organiz.png";
-import itemthumb from "/public/images/Componant1/blog/post1.png";
-import itemthumb2 from "/public/images/Componant1/blog/post2.png";
-import itemthumb3 from "/public/images/Componant1/blog/post3.png";
-import logo from "/public/images/Componant1/logo/logo-icon.png";
-import donarImg from "/public/images/Componant1/donar/donar1.png";
-import donarImg2 from "/public/images/Componant1/donar/donar2.png";
-import donarImg3 from "/public/images/Componant1/donar/donar3.png";
-import donarImg4 from "/public/images/Componant1/donar/donar4.png";
-import donarImg5 from "/public/images/Componant1/donar/donar5.png";
+import donateImg from "/public/images/Componant2/donate/donations2.png";
+import donateProfile from "/public/images/Componant2/donate/organiz.png";
+import itemthumb from "/public/images/Componant2/blog/post1.png";
+import itemthumb2 from "/public/images/Componant2/blog/post2.png";
+import itemthumb3 from "/public/images/Componant2/blog/post3.png";
+import logo from "/public/images/Componant2/logo/logo-icon.png";
+import donarImg from "/public/images/Componant2/donar/donar1.png";
+import donarImg2 from "/public/images/Componant2/donar/donar2.png";
+import donarImg3 from "/public/images/Componant2/donar/donar3.png";
+import donarImg4 from "/public/images/Componant2/donar/donar4.png";
+import donarImg5 from "/public/images/Componant2/donar/donar5.png";
 import ProgressBar from "react-animated-progress-bar";
 import { VscHeart } from "react-icons/vsc";
 import { Link } from "react-router-dom";
@@ -34,10 +34,7 @@ const DonationDetails = () => {
         <div className="Container">
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-7">
             <div className="col-span-2">
-              <div
-                className="border rounded-md
-               pb-8"
-              >
+              <div className="border border-BorderColor2-0 rounded-md pb-8">
                 <img src={donateImg} className="w-full" />
                 <div className="grid grid-cols-2 md:grid-cols-3 items-center mt-8">
                   <div className="mt-8 p-5 sm:px-9 col-span-2">
@@ -181,7 +178,7 @@ const DonationDetails = () => {
               <h3 className="font-Manrope font-bold text-[28px] mt-[72px] mb-10">
                 Comments (2)
               </h3>
-              <div className="flex flex-col sm:flex-row gap-6 border-b pb-8">
+              <div className="flex flex-col sm:flex-row gap-6 border-b border-BorderColor2-0 pb-8">
                 <div>
                   <FaUserCircle className="text-[#e0e0e0] text-7xl" />
                 </div>
@@ -282,7 +279,7 @@ const DonationDetails = () => {
                   <li>
                     <Link to={"/"}>
                       <button
-                        className="text-white transition-all duration-500 border text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-10 h-10 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:-z-[1] before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
+                        className="text-white transition-all duration-500 border border-BorderColor2-0 text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-10 h-10 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:-z-[1] before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
                        before:duration-500 hover:before:scale-100"
                       >
                         <FaFacebookF />
@@ -292,7 +289,7 @@ const DonationDetails = () => {
                   <li>
                     <Link to={"/"}>
                       <button
-                        className="text-white transition-all duration-500 border text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-10 h-10 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:-z-[1] before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
+                        className="text-white transition-all duration-500 border border-BorderColor2-0 text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-10 h-10 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:-z-[1] before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
                        before:duration-500 hover:before:scale-100"
                       >
                         <FaXTwitter />
@@ -302,7 +299,7 @@ const DonationDetails = () => {
                   <li>
                     <Link to={"/"}>
                       <button
-                        className="text-white transition-all duration-500 border text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-10 h-10 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:rounded-full before:-z-[1] before:w-full before:h-full before:bg-white before:scale-0 before:transition-all
+                        className="text-white transition-all duration-500 border border-BorderColor2-0 text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-10 h-10 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:rounded-full before:-z-[1] before:w-full before:h-full before:bg-white before:scale-0 before:transition-all
                        before:duration-500 hover:before:scale-100"
                       >
                         <FaLinkedinIn />
@@ -330,7 +327,7 @@ const DonationDetails = () => {
                     </div>
                   </button>
                 </Link>
-                <hr />
+                <hr className="text-BorderColor2-0" />
                 <Link to={"/"}>
                   <button className="group flex gap-4 my-6">
                     <div>
@@ -346,7 +343,7 @@ const DonationDetails = () => {
                     </div>
                   </button>
                 </Link>
-                <hr />
+                <hr className="text-BorderColor2-0" />
                 <Link to={"/"}>
                   <button className="group flex gap-4 my-6">
                     <div>
@@ -363,7 +360,7 @@ const DonationDetails = () => {
                   </button>
                 </Link>
               </div>
-              <div className="bg-[url('/public/images/Componant1/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md mb-7">
+              <div className="bg-[url('/public/images/Componant2/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md mb-7">
                 <Link to={"/"}>
                   <img src={logo} className="m-auto" />
                 </Link>

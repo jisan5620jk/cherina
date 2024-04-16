@@ -1,31 +1,35 @@
-import About from "../../Componant1/About/About";
-import Banner from "../../Componant1/Banner/Banner";
 import Blog from "../../Componant1/Blog/Blog";
-import Donate from "../../Componant1/Donate/Donate";
-import Events from "../../Componant1/Event/Events";
-import Feature from "../../Componant1/Feature/Feature";
+import BannerSection from "../../Componant1/BannerSection/BannerSection";
+import Brand from "../../Componant1/Brand/Brand";
+import Events from "../../Componant1/Events/Events";
 import Gallary from "../../Componant1/Gallary/Gallary";
-import Mission from "../../Componant1/Mission/Mission";
-import Project from "../../Componant1/Project/Project";
-import Support from "../../Componant1/Support/Support";
+import Help from "../../Componant1/Help/Help";
+import HelpTheme from "../../Componant1/HelpTheme/HelpTheme";
+import JoinUsSection from "../../Componant1/JoinUsSection/JoinUsSection";
+import PopularCases from "../../Componant1/PopularCases/PopularCases";
+import Support2 from "../../Componant1/Support2/Support2";
+import Testimonial from "../../Componant1/Testimonial/Testimonial";
 import Volunteer from "../../Componant1/Volunteer/Volunteer";
+import VolunteerAndDonate from "../../Componant1/VolunteerAndDonate/VolunteerAndDonate";
 
-const Home1 = () => {
+const Home2 = () => {
   return (
     <>
-      <Banner />
-      <Feature />
-      <About />
-      <Project />
-      <Donate />
-      <Volunteer />
-      <Support />
+      <BannerSection />
+      <JoinUsSection />
+      <PopularCases />
+      <VolunteerAndDonate />
+      <HelpTheme />
       <Events />
-      <Mission />
-      <Blog />
+      <Brand />
+      <Testimonial />
       <Gallary />
+      <Volunteer />
+      <Support2 />
+      <Blog />
+      <Help />
     </>
   );
 };
 
-export default Home1;
+export default Home2;

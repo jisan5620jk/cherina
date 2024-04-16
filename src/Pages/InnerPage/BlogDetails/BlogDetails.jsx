@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
-import blogListImg from "/public/images/Componant1/blog/blog-1.jpg";
-import blogDetailsImg from "/public/images/Componant1/blog/1-blog.jpg";
-import blogDetailsImg2 from "/public/images/Componant1/blog/2-blog.jpg";
-import itemthumb from "/public/images/Componant1/blog/post4.jpg";
-import itemthumb2 from "/public/images/Componant1/blog/post5.jpg";
-import itemthumb3 from "/public/images/Componant1/blog/post6.jpg";
-import logo from "/public/images/Componant1/logo/logo-icon.png";
+import blogListImg from "/public/images/Componant2/blog/blog-1.jpg";
+import blogDetailsImg from "/public/images/Componant2/blog/1-blog.jpg";
+import blogDetailsImg2 from "/public/images/Componant2/blog/2-blog.jpg";
+import itemthumb from "/public/images/Componant2/blog/post4.jpg";
+import itemthumb2 from "/public/images/Componant2/blog/post5.jpg";
+import itemthumb3 from "/public/images/Componant2/blog/post6.jpg";
+import logo from "/public/images/Componant2/logo/logo-icon.png";
 import { VscHeart } from "react-icons/vsc";
 import { IoSearch } from "react-icons/io5";
 import { IoIosSend } from "react-icons/io";
@@ -60,7 +60,7 @@ const BlogDetails = () => {
                     02 Comments
                   </h6>
                 </div>
-                <p className="font-Manrope text-TextColor-0 border-t pt-5">
+                <p className="font-Manrope text-TextColor-0 border-t border-BorderColor2-0 pt-5">
                   Dramatically matrix cross-media vortals wireless deliverables.
                   <span className="text-PrimaryColor-0">
                     {" "}
@@ -134,7 +134,7 @@ const BlogDetails = () => {
                   You should be a honest & powerful
                 </li>
               </ul>
-              <div className="flex flex-col sm:flex-row gap-5 sm:items-center justify-between border-t mt-9 pt-7">
+              <div className="flex flex-col sm:flex-row gap-5 sm:items-center justify-between border-t border-BorderColor2-0 mt-9 pt-7">
                 <div>
                   <h6 className="font-Manrope text-lg font-medium">
                     Tags :{" "}
@@ -156,7 +156,7 @@ const BlogDetails = () => {
                     <li>
                       <Link to={"/"}>
                         <button
-                          className=" text-[#5f6a6a] transition-all duration-500 border text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-8 h-8 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:-z-[1] before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
+                          className=" text-[#5f6a6a] transition-all duration-500  border-BorderColor2-0 text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-8 h-8 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:-z-[1] before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
                        before:duration-500 hover:before:scale-100"
                         >
                           <FaFacebookF />
@@ -166,7 +166,7 @@ const BlogDetails = () => {
                     <li>
                       <Link to={"/"}>
                         <button
-                          className=" text-[#5f6a6a] transition-all duration-500 border text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-8 h-8 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:-z-[1] before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
+                          className=" text-[#5f6a6a] transition-all duration-500 border border-BorderColor2-0 text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-8 h-8 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:-z-[1] before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
                        before:duration-500 hover:before:scale-100"
                         >
                           <FaXTwitter />
@@ -176,7 +176,7 @@ const BlogDetails = () => {
                     <li>
                       <Link to={"/"}>
                         <button
-                          className=" text-[#5f6a6a] transition-all duration-500 border text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-8 h-8 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:-z-[1] before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
+                          className=" text-[#5f6a6a] transition-all duration-500 border border-BorderColor2-0 text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-8 h-8 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:-z-[1] before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
                        before:duration-500 hover:before:scale-100"
                         >
                           <FaLinkedinIn />
@@ -186,7 +186,7 @@ const BlogDetails = () => {
                     <li>
                       <Link to={"/"}>
                         <button
-                          className=" text-[#5f6a6a] transition-all duration-500 border text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-8 h-8 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:-z-[1] before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
+                          className=" text-[#5f6a6a] transition-all duration-500 border border-BorderColor2-0 text-sm flex justify-center items-center hover:text-PrimaryColor-0 w-8 h-8 rounded-full relative z-[1] before:absolute before:top-0 before:left-0 before:-z-[1] before:w-full before:h-full before:bg-white before:rounded-full before:scale-0 before:transition-all
                        before:duration-500 hover:before:scale-100"
                         >
                           <FaPinterestP />
@@ -199,7 +199,7 @@ const BlogDetails = () => {
               <h3 className="font-Manrope font-bold text-[28px] mt-[72px] mb-10">
                 Comments (2)
               </h3>
-              <div className="flex flex-col sm:flex-row gap-6 border-b pb-8">
+              <div className="flex flex-col sm:flex-row gap-6 border-b border-BorderColor2-0 pb-8">
                 <div>
                   <FaUserCircle className="text-[#e0e0e0] text-7xl" />
                 </div>
@@ -322,7 +322,7 @@ const BlogDetails = () => {
                     </div>
                   </button>
                 </Link>
-                <hr />
+                <hr className="text-BorderColor2-0" />
                 <Link to={"/blogDetails"}>
                   <button className="group flex gap-4 my-6">
                     <div>
@@ -338,7 +338,7 @@ const BlogDetails = () => {
                     </div>
                   </button>
                 </Link>
-                <hr />
+                <hr className="text-BorderColor2-0" />
                 <Link to={"/blogDetails"}>
                   <button className="group flex gap-4 my-6">
                     <div>
@@ -460,7 +460,7 @@ const BlogDetails = () => {
                   </li>
                 </ul>
               </div>
-              <div className="bg-[url('/public/images/Componant1/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md mb-7">
+              <div className="bg-[url('/public/images/Componant2/others/a-1.png')] bg-right bg-cover bg-no-repeat text-center py-[75px] rounded-md mb-7">
                 <Link to={"/"}>
                   <img src={logo} className="m-auto" />
                 </Link>

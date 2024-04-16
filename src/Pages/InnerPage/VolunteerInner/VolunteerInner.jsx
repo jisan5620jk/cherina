@@ -1,14 +1,14 @@
 import { FaFacebookF, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
-import volunteerImg from "/public/images/Componant1/volunteer/volunteer1.png";
-import volunteerImg2 from "/public/images/Componant1/volunteer/volunteer2.png";
-import volunteerImg3 from "/public/images/Componant1/volunteer/volunteer3.png";
-import volunteerImg4 from "/public/images/Componant1/volunteer/volunteer4.png";
-import volunteerImg5 from "/public/images/Componant1/volunteer/volunteer5.png";
-import volunteerImg6 from "/public/images/Componant1/volunteer/volunteer6.png";
-import volunteerImg7 from "/public/images/Componant1/volunteer/volunteer7.png";
-import volunteerImg8 from "/public/images/Componant1/volunteer/volunteer8.png";
-import shape from "/public/images/Componant1/volunteer/heart.png";
+import volunteerImg from "/public/images/Componant2/volunteer/volunteer1.png";
+import volunteerImg2 from "/public/images/Componant2/volunteer/volunteer2.png";
+import volunteerImg3 from "/public/images/Componant2/volunteer/volunteer3.png";
+import volunteerImg4 from "/public/images/Componant2/volunteer/volunteer4.png";
+import volunteerImg5 from "/public/images/Componant2/volunteer/volunteer5.png";
+import volunteerImg6 from "/public/images/Componant2/volunteer/volunteer6.png";
+import volunteerImg7 from "/public/images/Componant2/volunteer/volunteer7.png";
+import volunteerImg8 from "/public/images/Componant2/volunteer/volunteer8.png";
+import shape from "/public/images/Componant2/volunteer/heart.png";
 import { Link } from "react-router-dom";
 import { RiArrowRightDoubleFill } from "react-icons/ri";
 
@@ -323,7 +323,7 @@ const VolunteerInner = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[url('/public/images/Componant1/counter/counter-bg.png')] bg-center bg-cover relative py-28">
+      <section className="bg-[url('/public/images/Componant2/counter/counter-bg.png')] bg-center bg-cover relative py-28">
         <div className="Container">
           <div className="flex flex-col lg:flex-row gap-7 lg:items-center">
             <div className="flex-1">
@@ -344,6 +344,7 @@ const VolunteerInner = () => {
           </div>
         </div>
         <img
+          draggable={false}
           src={shape}
           className="animate-zoomInOut absolute left-2/3 top-[10%] md:top-1/4"
         />

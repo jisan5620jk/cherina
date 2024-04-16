@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import serviceIcon from "/public/images/Componant1/service/service1.png";
-import serviceIcon2 from "/public/images/Componant1/service/service2.png";
-import serviceIcon3 from "/public/images/Componant1/service/service3.png";
+import serviceIcon from "/public/images/Componant2/service/service1.png";
+import serviceIcon2 from "/public/images/Componant2/service/service2.png";
+import serviceIcon3 from "/public/images/Componant2/service/service3.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const AboutService = () => {
@@ -26,7 +26,7 @@ const AboutService = () => {
               Phosfluorescently to cultivate distinctively empower
             </p>
             <Link to={"/events"}>
-              <button className="flex items-center justify-between w-full font-Manrope text-[14px] text-HeadingColor-0 font-medium py-4 px-6 border-t transition-all duration-500 hover:text-PrimaryColor-0">
+              <button className="flex items-center justify-between w-full font-Manrope text-[14px] text-HeadingColor-0 font-medium py-4 px-6 border-t border-BorderColor2-0 transition-all duration-500 hover:text-PrimaryColor-0">
                 Read More <FaArrowRightLong className="text-PrimaryColor-0" />
               </button>
             </Link>
@@ -40,13 +40,16 @@ const AboutService = () => {
               Phosfluorescently to cultivate distinctively empower
             </p>
             <Link to={"/events"}>
-              <button className="flex items-center justify-between w-full font-Manrope text-[14px] text-HeadingColor-0 font-medium py-4 px-6 border-t transition-all duration-500 hover:text-SecondaryColor-0">
+              <button className="flex items-center justify-between w-full font-Manrope text-[14px] text-HeadingColor-0 font-medium py-4 px-6 border-t border-BorderColor2-0 transition-all duration-500 hover:text-SecondaryColor-0">
                 Read More <FaArrowRightLong className="text-SecondaryColor-0" />
               </button>
             </Link>
           </div>
-          <div className="text-center bg-white pt-10">
-            <img src={serviceIcon3} className="m-auto" />
+          <div className="text-center bg-white pt-10 group">
+            <img
+              src={serviceIcon3}
+              className="m-auto transition-all duration-500 transform group-hover:rotate-x-360"
+            />
             <h6 className="font-Manrope font-bold text-xl text-HeadingColor-0 mt-6 mb-5">
               Healthy Food
             </h6>
@@ -54,7 +57,7 @@ const AboutService = () => {
               Phosfluorescently to cultivate distinctively empower
             </p>
             <Link to={"/events"}>
-              <button className="flex items-center justify-between w-full font-Manrope text-[14px] text-HeadingColor-0 font-medium py-4 px-6 border-t transition-all duration-500 hover:text-[#19c7eb]">
+              <button className="flex items-center justify-between w-full font-Manrope text-[14px] text-HeadingColor-0 font-medium py-4 px-6 border-t border-BorderColor2-0 transition-all duration-500 hover:text-[#19c7eb]">
                 Read More <FaArrowRightLong className="text-[#19c7eb]" />
               </button>
             </Link>

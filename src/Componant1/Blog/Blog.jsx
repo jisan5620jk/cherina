@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
-import blogImg from "/public/images/Componant1/blog/blog1.jpg";
-import blogImg2 from "/public/images/Componant1/blog/blog2.jpg";
-import blogImg3 from "/public/images/Componant1/blog/blog3.jpg";
+import blogImg from "/public/images/Componant2/blog/blog1.jpg";
+import blogImg2 from "/public/images/Componant2/blog/blog2.jpg";
+import blogImg3 from "/public/images/Componant2/blog/blog3.jpg";
 import { FaComments, FaShareAlt, FaUser } from "react-icons/fa";
 import { LuMoveRight } from "react-icons/lu";
 
 const Blog = () => {
   return (
-    <section className="relative z-[1] before:absolute before:top-0 before:left-0 before:w-full before:h-2/3 before:bg-[#fff8f5] before:-z-[1]">
+    <section className="py-28 relative z-[1] ">
       <div className="Container">
         <div className="text-center">
           <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">

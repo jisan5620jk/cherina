@@ -1,7 +1,7 @@
 import { FaCircleCheck } from "react-icons/fa6";
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
-import volunteerImg from "/public/images/Componant1/about/about3.png";
-import contactImg from "/public/images/Componant1/contact/contact.png";
+import volunteerImg from "/public/images/Componant2/about/about3.png";
+import contactImg from "/public/images/Componant2/contact/contact.png";
 import CountUp from "react-countup";
 import { HiOutlinePhone } from "react-icons/hi2";
 
@@ -18,7 +18,7 @@ const VolunteerInner2 = () => {
           <div className="flex gap-20 flex-col lg:flex-row">
             <div className="flex-1 relative">
               <img src={volunteerImg} />
-              <div className="bg-[url('/public/images/Componant1/about/about-cuntr.png')] h-[176px] w-[176px] flex flex-col justify-center items-center text-center absolute top-9 left-9">
+              <div className="bg-[url('/public/images/Componant2/about/about-cuntr.png')] h-[176px] w-[176px] flex flex-col justify-center items-center text-center absolute top-9 left-9">
                 <CountUp
                   start={-9}
                   end={10}
@@ -43,7 +43,7 @@ const VolunteerInner2 = () => {
                 processes. Rapidiously provide access holistic results with user
                 friendly.
               </p>
-              <ul className="border-b mt-8 pb-8">
+              <ul className="border-b border-BorderColor2-0 mt-8 pb-8">
                 <li className="text-HeadingColor-0 font-medium flex items-center gap-2 font-Manrope">
                   <FaCircleCheck className="text-PrimaryColor-0 text-xl" />{" "}
                   Completely architect competitive information
@@ -74,7 +74,7 @@ const VolunteerInner2 = () => {
           </div>
         </div>
       </section>
-      <section className="bg-white relative z-[1] before:absolute before:top-0 before:left-0 before:w-full before:h-1/2 before:bg-[url('../../../public/images/Componant1/contact/contact-inf.jpg')] before:-z-[1] before:bg-cover before:bg-bottom py-28">
+      <section className="bg-white relative z-[1] before:absolute before:top-0 before:left-0 before:w-full before:h-1/2 before:bg-[url('../../../public/images/Componant2/contact/contact-inf.jpg')] before:-z-[1] before:bg-cover before:bg-bottom py-28">
         <div className="Container">
           <div className="text-center">
             <h5 className="sub-title before:left-1/2 before:-translate-x-1/2">
@@ -144,7 +144,7 @@ const VolunteerInner2 = () => {
                 />
                 <button
                   type="submit"
-                  className="w-full h-[52px] border-2 font-Manrope font-semibold text-white px-6 py-2 rounded-md outline-none relative z-[1] transition-all duration-500 before:absolute before:top-0 before:left-1/2 before:w-0 before:transition-all before:duration-500 before:h-full before:bg-white before:-z-[1] hover:before:left-0 hover:before:w-full hover:text-HeadingColor-0"
+                  className="w-full h-[52px] border-2 border-white font-Manrope font-semibold text-white px-6 py-2 rounded-md outline-none relative z-[1] transition-all duration-500 before:absolute before:top-0 before:left-1/2 before:w-0 before:transition-all before:duration-500 before:h-full before:bg-white before:-z-[1] hover:before:left-0 hover:before:w-full hover:text-HeadingColor-0"
                 >
                   Send Message
                 </button>

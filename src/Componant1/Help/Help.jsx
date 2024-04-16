@@ -1,6 +1,6 @@
 import CountUp from "react-countup";
 
-const AboutSupport = () => {
+const Help = () => {
   return (
     <section className="py-28 bg-[url('/public/images/Componant2/counter/counter-bg.png')] bg-bottom bg-cover bg-no-repeat">
       <div className="Container">
@@ -66,4 +66,4 @@ const AboutSupport = () => {
   );
 };
 
-export default AboutSupport;
+export default Help;
