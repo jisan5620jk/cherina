@@ -11,7 +11,7 @@ import donarImg3 from "/public/images/Componant2/donar/donar3.png";
 import donarImg4 from "/public/images/Componant2/donar/donar4.png";
 import donarImg5 from "/public/images/Componant2/donar/donar5.png";
 import ProgressBar from "react-animated-progress-bar";
-import { VscHeart } from "react-icons/vsc";
+import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import {
   FaCircleCheck,
@@ -83,7 +83,7 @@ const DonationDetails = () => {
                   >
                     <button className="primary-btn">
                       Donate Now
-                      <VscHeart />
+                      <FaHeart />
                     </button>
                   </Link>
                 </div>
@@ -372,7 +372,7 @@ const DonationDetails = () => {
                 <Link to={"/donate"} className="flex justify-center">
                   <button type="submit" className="primary-btn">
                     Donate Now
-                    <VscHeart />
+                    <FaHeart />
                   </button>
                 </Link>
               </div>

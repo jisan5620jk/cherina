@@ -9,7 +9,7 @@ import itemthumb from "/public/images/Componant2/blog/post4.jpg";
 import itemthumb2 from "/public/images/Componant2/blog/post5.jpg";
 import itemthumb3 from "/public/images/Componant2/blog/post6.jpg";
 import logo from "/public/images/Componant2/logo/logo-icon.png";
-import { VscHeart } from "react-icons/vsc";
+import { FaHeart } from "react-icons/fa";
 import { IoSearch } from "react-icons/io5";
 import { FaUserCircle } from "react-icons/fa";
 import { FaCommentsDollar, FaRegCalendarCheck } from "react-icons/fa6";
@@ -447,7 +447,7 @@ const BlogList = () => {
                 <Link to={"/donate"} className="flex justify-center">
                   <button type="submit" className="primary-btn">
                     Donate Now
-                    <VscHeart />
+                    <FaHeart />
                   </button>
                 </Link>
               </div>

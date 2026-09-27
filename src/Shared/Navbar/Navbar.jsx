@@ -12,7 +12,7 @@ import { BiChevronDown } from "react-icons/bi";
 import Logo from "/public/images/Componant2/logo/logo.png";
 import { useState, useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
-import { VscHeart } from "react-icons/vsc";
+import { FaHeart } from "react-icons/fa";
 
 const Navbar = () => {
   //sticky
@@ -147,8 +147,8 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "active"
-                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative`}
+                        ? "active"
+                        : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative`}
                   to="/"
                 >
                   <span className="flex items-center">
@@ -183,8 +183,8 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "active"
-                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
+                        ? "active"
+                        : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
                   to="#"
                 >
                   <span className="flex items-center">
@@ -237,8 +237,8 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "active"
-                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
+                        ? "active"
+                        : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
                   to="#"
                 >
                   <span className="flex items-center">
@@ -276,8 +276,8 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "active"
-                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
+                        ? "active"
+                        : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
                   to="#"
                 >
                   <span className="flex items-center">
@@ -309,8 +309,8 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "active"
-                      : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
+                        ? "active"
+                        : ""} text-white hover:text-PrimaryColor-0 lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300 group relative `}
                   to="#"
                 >
                   <span className="flex items-center">
@@ -341,8 +341,8 @@ const Navbar = () => {
                     isPending
                       ? "pending"
                       : isActive
-                      ? "active"
-                      : ""} lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300`}
+                        ? "active"
+                        : ""} lg:border-b-0 px-3 lg:px-1 2xl:px-3 py-2 w-full block transition-all duration-300`}
                   to="/contact"
                 >
                   Contact
@@ -352,7 +352,7 @@ const Navbar = () => {
                 <Link to={"/donate"} className="primary-btn">
                   <button className="flex gap-2 items-center">
                     Donate Now
-                    <VscHeart />
+                    <FaHeart />
                   </button>
                 </Link>
               </div>

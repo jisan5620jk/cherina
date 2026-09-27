@@ -1,5 +1,5 @@
 import { FaAnglesRight } from "react-icons/fa6";
-import { VscHeart } from "react-icons/vsc";
+import { FaHeart } from "react-icons/fa";
 import footerLogo from "/public/images/Componant2/logo/logo.png";
 import gallaryImg1 from "/public/images/Componant2/footer/footer1.png";
 import gallaryImg2 from "/public/images/Componant2/footer/footer2.png";
@@ -29,7 +29,7 @@ const Footer = () => {
               <Link to={"/donate"}>
                 <button className="primary-btn mt-11">
                   Donate Now
-                  <VscHeart />
+                  <FaHeart />
                 </button>
               </Link>
             </div>
@@ -177,7 +177,8 @@ const Footer = () => {
             <p className="text-[15px] text-[#ffffff86] font-Manrope mb-5 lg:mb-0">
               &copy; 2024, Cherina. All Rights Reserved. Developed By
               <span className="text-PrimaryColor-0 font-semibold">
-                {' '}DreamIT
+                {" "}
+                DreamIT
               </span>
             </p>
           </div>

@@ -7,7 +7,7 @@ import itemthumb3 from "/public/images/Componant2/blog/post3.png";
 import logo from "/public/images/Componant2/logo/logo-icon.png";
 import eventImg from "/public/images/Componant2/event/1-event.png";
 import eventImg2 from "/public/images/Componant2/event/2-event.png";
-import { VscHeart } from "react-icons/vsc";
+import { FaHeart } from "react-icons/fa";
 import {
   FaCircleCheck,
   FaFacebookF,
@@ -97,7 +97,7 @@ const EventDetails = () => {
               <Link to={"/donate"}>
                 <button className="primary-btn">
                   Donate Now
-                  <VscHeart />
+                  <FaHeart />
                 </button>
               </Link>
             </div>
@@ -240,7 +240,7 @@ const EventDetails = () => {
                 <Link to={"/donate"} className="flex justify-center">
                   <button type="submit" className="primary-btn">
                     Donate Now
-                    <VscHeart />
+                    <FaHeart />
                   </button>
                 </Link>
               </div>
