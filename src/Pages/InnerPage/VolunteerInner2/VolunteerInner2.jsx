@@ -1,4 +1,4 @@
-import { FaCircleCheck } from "react-icons/fa6";
+import { GoCheckCircleFill } from "react-icons/go";
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
 import volunteerImg from "/public/images/Componant2/about/about3.png";
 import contactImg from "/public/images/Componant2/contact/contact.png";
@@ -45,15 +45,15 @@ const VolunteerInner2 = () => {
               </p>
               <ul className="border-b border-BorderColor2-0 mt-8 pb-8">
                 <li className="text-HeadingColor-0 font-medium flex items-center gap-2 font-Manrope">
-                  <FaCircleCheck className="text-PrimaryColor-0 text-xl" />{" "}
+                  <GoCheckCircleFill className="text-PrimaryColor-0 text-xl" />{" "}
                   Completely architect competitive information
                 </li>
                 <li className="text-HeadingColor-0 font-medium flex items-center gap-2 font-Manrope my-4">
-                  <FaCircleCheck className="text-PrimaryColor-0 text-xl" /> Must
+                  <GoCheckCircleFill className="text-PrimaryColor-0 text-xl" /> Must
                   be Maintain Every Rules & Regulations
                 </li>
                 <li className="text-HeadingColor-0 font-medium flex items-center gap-2 font-Manrope">
-                  <FaCircleCheck className="text-PrimaryColor-0 text-xl" /> You
+                  <GoCheckCircleFill className="text-PrimaryColor-0 text-xl" /> You
                   should be a honest & powerful
                 </li>
               </ul>
