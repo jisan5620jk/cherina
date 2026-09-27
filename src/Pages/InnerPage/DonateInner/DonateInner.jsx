@@ -7,7 +7,7 @@ import itemthumb3 from "/public/images/Componant2/blog/post3.png";
 import logo from "/public/images/Componant2/logo/logo-icon.png";
 import ProgressBar from "react-animated-progress-bar";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { VscHeart } from "react-icons/vsc";
+import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FaFacebookF, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 
@@ -247,7 +247,7 @@ const DonateInner = () => {
                   </h4>
                   <button type="submit" className="primary-btn">
                     Donate Now
-                    <VscHeart />
+                    <FaHeart />
                   </button>
                 </form>
               </div>
@@ -359,7 +359,7 @@ const DonateInner = () => {
                 <Link to={"/"} className="flex justify-center">
                   <button type="submit" className="primary-btn">
                     Donate Now
-                    <VscHeart />
+                    <FaHeart />
                   </button>
                 </Link>
               </div>
